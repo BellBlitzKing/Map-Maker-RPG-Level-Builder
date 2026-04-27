@@ -289,7 +289,7 @@
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label for="tool0" title="draw tiles" data-value="0" class="menu">
-                              <div style="text-decoration-color: gold !important; text-decoration: underline; text-underline-offset: 7px;" id="flipBrushIndicator">✏️</div>
+                              <div style="text-decoration-color: gold !important; text-decoration: underline; text-underline-offset: 7px;" id="flipBrushIndicator">✏️ Draw Tiles</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
                                 <div style="display: none; visibility: hidden;" class="item nohover">Pencil draw tool options</div>
@@ -303,21 +303,21 @@
                           </label>
                       <br>
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="font-size: large; text-decoration-color: red !important; text-decoration: underline; text-underline-offset: 7px;" for="tool1" title="erase tiles" data-value="1">❌</label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid red; outline-offset: 4px; font-size: large;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
                       <br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="font-size: large;cursor: move; text-decoration-color: lightskyblue !important; text-decoration: underline; text-underline-offset: 7px;" for="tool2" title="move and scroll around the map ⊞" data-value="2"> ◀🌐▶ </label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid lightskyblue; outline-offset: 4px; font-size: large;" for="tool2" title="move and scroll around the map ⊞" data-value="2"> ◀🌐▶ Move Map</label>
                       <br>
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="font-size: large;text-decoration-color: mistyrose !important; text-decoration: underline; text-underline-offset: 7px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 </label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid mistyrose; outline-offset: 4px; font-size: large;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample</label>
                       <br>
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="font-size: large;text-decoration-color: palegreen !important; text-decoration: underline; text-underline-offset: 7px;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 </label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid palegreen; outline-offset: 4px; font-size: large;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random</label>
                       <br>
                       <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="font-size: large;text-decoration-color: deepskyblue !important; text-decoration: underline; text-underline-offset: 7px;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 </label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid deepskyblue; outline-offset: 4px; font-size: large;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 Replace All</label>
                       <br>
-                      <button style="font-size: large; cursor: pointer; text-decoration-color: #FF5C5C !important; text-decoration: underline; text-underline-offset: 7px; border: none; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️</button>
+                      <button style="border-radius: 4px; font-size: large; cursor: pointer; outline: 2px solid #FF5C5C; outline-offset: 4px; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
                         <br>
                         <label style="font-size: large;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="font-size: large;" id="redoBtn" title="Redo action">↪️ Redo</label>
@@ -348,7 +348,7 @@
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
                         <br>
-                        <span class="flex">Show grid above: </span> <input checked="checked" type="checkbox" id="showGrid" checked>
+                        <span class="flex">Show grid above: </span> <input value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
 
