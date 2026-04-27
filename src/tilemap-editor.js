@@ -347,6 +347,7 @@
                         <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+                        <br>
                         <span class="flex">Show grid above: </span> <input checked="checked" type="checkbox" id="showGrid" checked>
                 </div>
 
