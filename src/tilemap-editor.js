@@ -343,7 +343,7 @@
                 <br/><br/>
                 <span class="flex">Grid tile size: </span><input type="number" id="gridCropSize" name="crop" placeholder="32" min="1" max="128">
                 <span class="flex">Grid color: </span><input type="color" value="#ff0000" id="gridColorSel">
-                <span class="flex">Show grid above: </span> <input type="checkbox" id="showGrid">
+                <span class="flex">Show grid above: </span> <input type="checkbox" id="showGrid" checked>
                 <br/><br/>
                 <div class="tileset_opt_field">
                     
