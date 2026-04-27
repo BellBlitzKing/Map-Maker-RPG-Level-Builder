@@ -311,21 +311,21 @@
                       <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid red; outline-offset: 4px; font-size: medium;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
                       <br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid lightskyblue; outline-offset: 4px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2"> ◀🌐▶ Move Map</label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid lightskyblue; outline-offset: 4px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
                       <br>
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid mistyrose; outline-offset: 4px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample</label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid mistyrose; outline-offset: 4px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
                       <br>
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid palegreen; outline-offset: 4px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random</label>
+                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid palegreen; outline-offset: 4px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲 Random Tile</label>
                       <br>
-                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="border-radius: 4px; display: block; width: 150px; outline: 2px solid deepskyblue; outline-offset: 4px; font-size: medium;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 Replace All</label>
+                      <input style="display: done; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
+                      <label style="display: done; visibility: hidden; border-radius: 4px; display: block; width: 150px; outline: 2px solid deepskyblue; outline-offset: 4px; font-size: medium;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 Replace All</label>
                       <br>
-                      <button style="border: none; font-size: medium; cursor: pointer; outline: 2px solid #FF5C5C; outline-offset: 4px; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
+                      <button style="width: 150px; border: none; font-size: medium; cursor: pointer; outline: 2px solid #FF5C5C; outline-offset: 4px; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
                         <br>
-                        <label style="font-size: large;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="font-size: large;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
             </div>
 
