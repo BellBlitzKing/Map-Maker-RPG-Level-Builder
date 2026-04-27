@@ -321,9 +321,9 @@
                       <label style="margin-bottom: 10px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="margin-bottom: 10px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲 Random Tile</label>
+                      <label style="margin-bottom: 10px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
 
-                      <button style="color: black; background: MistyRose; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
+                      <button style="border-radius: 4px; color: black; background: MistyRose; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️⚠️ Clear All Tiles</button>
                       
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -350,18 +350,17 @@
             <br>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 55px;" id="addMapBtn" title="Add New Map"><small>✚</small> map</button>
+                        <button style="font-size: small; cursor: cell; width: 55px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
                         <button style="cursor: cell; width: 30px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉</b></button>
                         <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
-                        <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         
-                        <br>
-                        <input title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
+                        <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
+                        <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
 
             
-            <br><br>
+            <br>
             
             <div style="display: none; visibility: hidden;" id="popup1" class="overlay">
             <div class="popup">
