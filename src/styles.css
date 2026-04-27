@@ -457,9 +457,9 @@ cursor: pointer;
 }
 .tilemaps_selector{
   /* display: flex; */
-  display: inline-flex;
-  flex-direction: row;
-  /* gap: 3px; */
+  display: inline;
+  /* flex-direction: row;
+   gap: 3px; */
   background-color: #00000094;
   /* padding: 2px; */
   /* added below for Map selector */
