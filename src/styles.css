@@ -521,7 +521,7 @@ input[name='tool']:checked+label{
   padding: 2px;
 }
 .tool_wrapper{
-  display: flex;
+  display: flow;
   gap: 7px;
 }
 .tool_wrapper >label {
