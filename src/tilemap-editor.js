@@ -146,10 +146,10 @@
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
 
-        <div class="tool_wrapper">
-            <label style="cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
-            <label style="cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label id="zoomLabel">️</label>
+        <div style="display: none; visibility: hidden;" class="tool_wrapper">
+            <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
+            <label style="display: none; visibility: hidden; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="display: none; visibility: hidden;" id="zoomLabel">️</label>
         </div>
             
         <div style="display: none; visibility: hidden;">
