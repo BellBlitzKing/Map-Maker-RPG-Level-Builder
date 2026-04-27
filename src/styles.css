@@ -468,13 +468,13 @@ cursor: pointer;
  }
 
 #tilemapjs_root button {
-  background-color: #6b6b6b;
+  background-color: #283442;
   color: white;
   border: 1px solid #757575;
   margin: 2px;
 }
 #tilemapjs_root button:hover{
-  background-color: #858585;
+  background-color: PowderBlue;
 }
 .add_layer button,
 .tilemaps_selector button {
