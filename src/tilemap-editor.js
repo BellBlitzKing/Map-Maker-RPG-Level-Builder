@@ -306,13 +306,13 @@
                                 </div>
                               </div>
                           </label>
-                      <br>
+
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="margin-bottom: 15px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="margin-bottom: 15px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
-<br><br>
+
                         <label style="font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br>
@@ -323,27 +323,29 @@
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="margin-bottom: 15px; color: black; background: GhostWhite; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲 Random Tile</label>
 
+                      <button style="margin-bottom: 15px; color: black; background: MistyRose; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
+                      
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 Replace All</label>
-                      <br>
-                      <button style="margin-bottom: 15px; color: black; background: MistyRose; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️ Clear Map</button>
-
+                      
 
 
             </div>
 
-        <br><br>
+        <br>
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
-            <text title="Press the Arrow ▶ to show / hide the tools">🌐  </text>
-            <select style="width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+            <text title="">🌐 MAPS</text><br><br>
             
+            <div style="align-items: right; display: inline-flex;">
+                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select><button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+            </div>
             
             <br><br>
 
-            <div class="tileset_opt_field">
-                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">🌐  h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+            <div style="justify-content: right !important;" class="tileset_opt_field">
+                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
 
@@ -354,7 +356,7 @@
                         <button style="cursor: cell; width: 30px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉</b></button>
                         <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
-                        <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+                        
                         <br>
                         <input title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
