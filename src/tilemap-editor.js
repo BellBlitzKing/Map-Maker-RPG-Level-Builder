@@ -280,7 +280,12 @@
     </div>
         
       <details style="margin-right: 20px; margin-top: 5px;" class="card_right-column layers" open>
-<label style="color: gold !important;" title="Use Tools to build your Map"><small>Layer Tools:</small></label>
+      
+<label style="color: gold !important;" title="Use Layer Tools to build your Map"><small>Layers:</small></label><button style="font-size: small; cursor: cell; width: 95px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small> Add Layer</button>
+<br>
+<div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">       
+</div>
+
 <summary title="Press the ▶ Arrow to show / hide the tools" style="color: gold !important; margin-top: 10px; text-align: center;">
       <label style="color: gold !important;" title="Use Tools to build your Map"><small>   Tools B:</small></label>
         <br><br>
@@ -374,9 +379,7 @@
         
 </summary>
 
-<div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-            <button style="font-size: small; cursor: cell; width: 95px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small> Add Layer</button>
-</div>
+
 
         <label style="display: none; visibility: hidden;" class="sticky add_layer">
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
