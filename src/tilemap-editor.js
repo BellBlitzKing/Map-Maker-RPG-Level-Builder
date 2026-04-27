@@ -353,7 +353,7 @@
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
                         <br>
-                        <span class="flex">Show grid above: </span> <input value="true" checked="checked" type="checkbox" id="showGrid" checked />
+                        <input title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
 
@@ -2159,6 +2159,7 @@
             draw();
         })
         document.getElementById("showGrid").addEventListener("click", e => {
+            draw();
             SHOW_GRID = e.target.checked;
             draw();
         })
