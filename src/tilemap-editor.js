@@ -2155,7 +2155,7 @@
             maps[ACTIVE_MAP].gridColor = e.target.value;
             draw();
         })
-        document.getElementById("showGrid").addEventListener("change", e => {
+        document.getElementById("showGrid").addEventListener("click", e => {
             SHOW_GRID = e.target.checked;
             draw();
         })
