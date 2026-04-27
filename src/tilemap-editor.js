@@ -112,10 +112,7 @@
 
         </div>
 
-            <div class="tileset_opt_field">
-                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
-            </div>
+
 
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
@@ -296,12 +293,14 @@
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label for="tool0" title="draw tiles" data-value="0" class="menu">
                               <div style="text-decoration-color: gold !important; text-decoration: underline; text-underline-offset: 7px;" id="flipBrushIndicator">✏️</div>
-                              <div class="dropdown">
-                                <div class="item nohover">Pencil draw tool options</div>
-                                <div class="item">
-                                    <label for="toggleFlipX" class="">Flip tile 🔄 | reverse ↳↰</label>
-                                    <input type="checkbox" id="toggleFlipX" style="display: none"> 
-                                    <label class="toggleFlipX"></label>
+                              
+                              <div style="display: none; visibility: hidden;" class="dropdown">
+                                <div style="display: none; visibility: hidden;" class="item nohover">Pencil draw tool options</div>
+                                <div style="display: none; visibility: hidden;" class="item">
+                                    <label style="display: none; visibility: hidden;" for="toggleFlipX" class="">Flip tile 🔄 | reverse ↳↰</label>
+                                    <input style="display: none; visibility: hidden;" type="checkbox" id="toggleFlipX"> 
+                                    <label style="display: none; visibility: hidden;" class="toggleFlipX"></label>
+                                    
                                 </div>
                               </div>
                           </label><br>
@@ -329,6 +328,15 @@
             <text title="Press the Arrow ▶ to show / hide the tools">🌐  </text>
             <select style="width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
             <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+            
+            <br><br>
+
+            <div class="tileset_opt_field">
+                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+            </div>
+
+            <br><br>
             
             <div style="display: none; visibility: hidden;" id="popup1" class="overlay">
             <div class="popup">
