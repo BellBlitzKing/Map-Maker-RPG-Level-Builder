@@ -319,8 +319,8 @@
                       <br>
                       <button style="font-size: large; cursor: pointer; text-decoration-color: #FF5C5C !important; text-decoration: underline; text-underline-offset: 7px; border: none; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️</button>
                         <br>
-                        <label style="font-size: medium;" id="undoBtn" title="Undo action">↩️️</label>
-                        <label style="font-size: medium;" id="redoBtn" title="Redo action">↪️</label>
+                        <label style="font-size: large;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="font-size: large;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
             </div>
 
@@ -330,15 +330,23 @@
 
             <text title="Press the Arrow ▶ to show / hide the tools">🌐  </text>
             <select style="width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-            <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+            
             
             <br><br>
 
             <div class="tileset_opt_field">
-                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">🌐  h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
 
+            <br><br>
+
+            <button style="font-size: small; cursor: cell; width: 55px;" id="addMapBtn" title="Add New Map"><small>✚</small> map</button>
+            <button style="cursor: cell; width: 30px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉</b></button>
+            <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
+            <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
+            <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+            
             <br><br>
             
             <div style="display: none; visibility: hidden;" id="popup1" class="overlay">
@@ -365,10 +373,7 @@
 
             
             <button style="font-size: small; cursor: cell; width: 55px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small> layer</button>
-            <button style="font-size: small; cursor: cell; width: 55px;" id="addMapBtn" title="Add New Map"><small>✚</small> map</button>
-            <button style="cursor: cell; width: 30px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉</b></button>
-            <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
-            <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
+
 </div>
 
         <label style="display: none; visibility: hidden;" class="sticky add_layer">
