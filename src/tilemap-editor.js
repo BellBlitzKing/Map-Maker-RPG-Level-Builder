@@ -1215,14 +1215,14 @@
     }
 
     const renameCurrentTileSymbol = ()=>{
-            const {x, y, tileSymbol} = selection[0];
-            const newSymbol = window.prompt("Enter tile symbol", tileSymbol || "*");
-            if(newSymbol !== null) {
-                setTileData(x,y,newSymbol, "tileSymbol");
-                updateSelection();
-                updateTilesetGridContainer();
-                addToUndoStack();
-            }
+            //const {x, y, tileSymbol} = selection[0];
+            //const newSymbol = window.prompt("Enter tile symbol", tileSymbol || "*");
+            //if(newSymbol !== null) {
+            //    setTileData(x,y,newSymbol, "tileSymbol");
+            //    updateSelection();
+             //   updateTilesetGridContainer();
+             //   addToUndoStack();
+           // }
     }
 
     const getFlattenedData = () => {
