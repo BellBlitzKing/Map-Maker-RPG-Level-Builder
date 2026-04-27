@@ -109,10 +109,7 @@
         </div>
         
         <div>
-            <div style="font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
-        
 
-            </div>
         </div>
 
             <div class="tileset_opt_field">
@@ -292,9 +289,11 @@
 <label style="color: gold !important;" title="Use Tools to build your Map"><small>Tools:</small></label>
 <summary title="Press the ▶ Arrow to show / hide the tools" style="color: gold !important; margin-top: 10px; text-align: center;">
       <label style="color: gold !important;" title="Use Tools to build your Map"><small>   Tools B:</small></label>
-        <br>
+        <br><br>
 
-              <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
+            <div style="font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+
+                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label for="tool0" title="draw tiles" data-value="0" class="menu">
                               <div style="text-decoration-color: gold !important; text-decoration: underline; text-underline-offset: 7px;" id="flipBrushIndicator">✏️</div>
                               <div class="dropdown">
@@ -305,24 +304,25 @@
                                     <label class="toggleFlipX"></label>
                                 </div>
                               </div>
-                          </label>
+                          </label><br>
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="text-decoration-color: red !important; text-decoration: underline; text-underline-offset: 7px;" for="tool1" title="erase tiles" data-value="1">❌</label>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="cursor: move; text-decoration-color: lightskyblue !important; text-decoration: underline; text-underline-offset: 7px;" for="tool2" title="move and scroll around the map ⊞" data-value="2"> ◀🌐▶ </label>
-                      <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
+                      <br><input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="text-decoration-color: mistyrose !important; text-decoration: underline; text-underline-offset: 7px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 </label>
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="text-decoration-color: palegreen !important; text-decoration: underline; text-underline-offset: 7px;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 </label>
-                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-        
+                      <br><input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="text-decoration-color: deepskyblue !important; text-decoration: underline; text-underline-offset: 7px;" for="tool5" title="fill in tile on selected layer" data-value="5"> 🪣🧱 </label>
                       <button style="cursor: pointer; text-decoration-color: #FF5C5C !important; text-decoration: underline; text-underline-offset: 7px; border: none; background-color: inherit; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️</button>
-                        <label></label>
+                        <br>
                         <label style="font-size: medium;" id="undoBtn" title="Undo action">↩️️</label>
                         <label style="font-size: medium;" id="redoBtn" title="Redo action">↪️</label>
 
-        <br>
+            </div>
+
+        <br><br>
       
       <div style="width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
