@@ -474,7 +474,7 @@ cursor: pointer;
   margin: 2px;
 }
 #tilemapjs_root button:hover{
-  background-color: PowderBlue;
+  background-color: dodgerblue;
 }
 .add_layer button,
 .tilemaps_selector button {
@@ -516,7 +516,7 @@ input[name='tool']+label{
 }
 .tool_wrapper>*:hover,
 input[name='tool']:checked+label{
-  background-color: powderblue;
+  background-color: dodgerblue;
   border-radius: 3px;
   padding: 2px;
 }
