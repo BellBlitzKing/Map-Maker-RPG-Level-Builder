@@ -109,7 +109,7 @@
         </div>
         
         <div>
-            <div style="font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> <label style="color: gold !important;" title="Use Tools to build your Map"><small>Tools:</small></label>
+            <div style="font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
               <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
               <label for="tool0" title="draw tiles" data-value="0" class="menu">
                   <div style="text-decoration-color: gold !important; text-decoration: underline; text-underline-offset: 7px;" id="flipBrushIndicator">✏️</div>
@@ -181,8 +181,8 @@
 
 <details open>
 <summary style="color: gold !important; margin-bottom: 5px;">           
-            <label style="cursor: default; title="Pick Tilesets from the dropdown list">👉</label>
-            <select title="Pick Tilesets from the dropdown list" style="max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
+            <label style="cursor: default; title="">Pick through Tile Groups:</label>
+            <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
 
                 <span title="Change Grid ⊞ Tile Size" style="display: none; visibility: hidden; cursor: default;" >⊞</span>
                 <input title="Change Grid ⊞ Tile Size" style="display: none; visibility: hidden; width: 45px;" type="number" id="cropSize" name="crop" placeholder="32" min="1" max="128">
@@ -315,9 +315,9 @@
     </div>
         
       <details style="margin-right: 20px; margin-top: 5px;" class="card_right-column layers" open>
-
+<label style="color: gold !important;" title="Use Tools to build your Map"><small>Tools:</small></label>
 <summary title="Press the ▶ Arrow to show / hide the tools" style="color: gold !important; margin-top: 10px; text-align: center;">
-      
+      <label style="color: gold !important;" title="Use Tools to build your Map"><small>Tools B:</small></label>
       <div style="width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
             <text title="Press the Arrow ▶ to show / hide the tools">🌐  </text>
