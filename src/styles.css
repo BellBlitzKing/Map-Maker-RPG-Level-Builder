@@ -516,7 +516,7 @@ input[name='tool']+label{
 }
 .tool_wrapper>*:hover,
 input[name='tool']:checked+label{
-  background-color: #2d2906;
+  background-color: powderblue;
   border-radius: 3px;
   padding: 2px;
 }
