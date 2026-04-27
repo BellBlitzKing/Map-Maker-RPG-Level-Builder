@@ -147,9 +147,7 @@
 
         <div style="min-width: 330px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
-<details open>
-<summary style="color: gold !important; margin-bottom: 5px;">           
-            <label style="cursor: default; title="">Pick through Tile Groups:</label>
+            <label style="color: gold !important; margin-bottom: 5px; cursor: default; title="">Pick through Tile Groups:</label>
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
 
                 <span title="Change Grid ⊞ Tile Size" style="display: none; visibility: hidden; cursor: default;" >⊞</span>
@@ -157,8 +155,7 @@
            
             <button style="display: none; visibility: hidden; font-size: small; cursor: cell; border-color: #283442; border-radius: 3px; background-color: #283442;" id="addTilesetBtn" title="add a new tileset (upload)">➕</button>
             <button style="display: none; visibility: hidden; font-size: small; cursor: pointer; border-color: #283442; border-radius: 3px; background-color: #283442;" id="removeTilesetBtn" title="⚠️ delete this tileset ⚠️">🗑️</button>
-                  
-   </summary>         
+
             
             
             <input id="tilesetReadInput" type="file" style="display: none; visibility: hidden;"></input>
@@ -194,7 +191,7 @@
                   <button style="font-size: medium; cursor: pointer; border-color: #283442; border-radius: 3px; background-color: MistyRose;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6885, behavior: 'smooth'});">🔥</button>
 
                 </div> 
-</details>
+
             </div>
 
 
