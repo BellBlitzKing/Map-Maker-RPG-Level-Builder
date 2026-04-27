@@ -360,7 +360,7 @@
         
         <div style="font-size: small;" class="layers" id="layers">
       </div>
-             <small><label id="activeLayerOpacity"></label></small>
+             <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
       </details>
       </div>
     </div>
@@ -450,11 +450,11 @@
         /*Opacity Alt drop-down menu 2026 change split menu */
         document.getElementById("activeLayerOpacity").innerHTML = `
             <div class="dropdown left">
-                <div title="slider-wrapper" class="item">
+                <div title="slider-wrapper" class="item" style="display: none; visibility: hidden;">
                     <small><br>
-                    <div style="font-size: small;" class="slider-wrapper">
-                      <text title="Glass See-through transparent opacity">   🪟👁️</text>
-                      <input title="Glass See-through transparent opacity" style="width: 120px; height: 5px;" type="range" min="0" max="1" value="1" id="layerOpacitySlider" step="0.01">
+                    <div style="display: none; visibility: hidden; font-size: small;" class="slider-wrapper">
+                      <text style="display: none; visibility: hidden;" title="Glass See-through transparent opacity">   🪟👁️</text>
+                      <input title="Glass See-through transparent opacity" style="display: none; visibility: hidden; width: 120px; height: 5px;" type="range" min="0" max="1" value="1" id="layerOpacitySlider" step="0.01">
                       <output for="layerOpacitySlider" id="layerOpacitySliderValue">${maps[ACTIVE_MAP].layers[newLayer]?.opacity}</output>
                     </div>
                     </small>
