@@ -251,7 +251,7 @@
                 <span title="animation speed">⏱</span>
                 <input id="animSpeed" value="1" type="number" min="1" title="animation speed" class="two-digit-width">
                 <span class="item" title="loop animation">
-                    <input type="checkbox" id="animLoop" style="display: none" checked>
+                    <input type="checkbox" id="animLoop" style="display: none">
                     <label for="animLoop" class="animLoop">️</label>
                 </span>
 <!--                <button id="renameTileAnimBtn" title="rename animation">r</button>-->
@@ -285,7 +285,7 @@
       <label style="color: gold !important;" title="Use Tools to build your Map"><small>   Tools B:</small></label>
         <br><br>
 
-            <div style="font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+            <div style="padding-left: 10px; text-align: left; font-size: large;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label for="tool0" title="draw tiles" data-value="0" class="menu">
@@ -347,6 +347,7 @@
                         <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+                        <span class="flex">Show grid above: </span> <input checked="checked" type="checkbox" id="showGrid" checked>
                 </div>
 
 
@@ -361,7 +362,6 @@
                 <br/><br/>
                 <span class="flex">Grid tile size: </span><input type="number" id="gridCropSize" name="crop" placeholder="32" min="1" max="128">
                 <span class="flex">Grid color: </span><input type="color" value="#ff0000" id="gridColorSel">
-                <span class="flex">Show grid above: </span> <input type="checkbox" id="showGrid" checked>
                 <br/><br/>
                 <div class="tileset_opt_field">
                     
