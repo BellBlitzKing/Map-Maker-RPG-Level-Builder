@@ -112,25 +112,27 @@
 
             <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
             
-            <div style="margin-bottom: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; align-items: center; display: inline-flex;">
-                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-            </div>
+            <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+
+            <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+            <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+
+                        <button style="font-size: small; cursor: cell; width: 110px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+
+                        <button style="font-size: small; width: 110px;" id="renameMapBtn" title="Rename this Map">rename map</button>
+                        <button style="cursor: cell; width: 110px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
+
+                        <button style="display: block; color: white; cursor: pointer; width: 110px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
+                        <button style="width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
             
-            <div style="margin-left: 0px; justify-content: left !important;" class="tileset_opt_field">
-                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
-            </div>
-
-                <div style="display: flex !important; margin-bottom: 0px; margin-top: 0px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+                        <div style="margin-bottom: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; align-items: center; display: inline-flex;">
+                        </div>
                         
-
-                        <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
-
-                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
-                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-                </div>
+                        <div style="margin-left: 0px; justify-content: left !important;" class="tileset_opt_field">
+                        </div>
+            
+                        <div style="display: flex !important; margin-bottom: 0px; margin-top: 0px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
+                        </div>
 
         </div>
 
@@ -373,7 +375,9 @@
         
 </div>
 
-        <button style="font-size: medium; cursor: cell; width: 180px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer ☰</button>
+      <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
+        <button style="font-size: medium; cursor: cell; width: 180px;" id="addLayerBtn" title="Add New Layer to Map">✚ ☰ Add New Layer</button>
+      </div>
         
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
