@@ -343,15 +343,17 @@
             <br>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 55px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
-                        <button style="cursor: cell; width: 30px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉</b></button>
-                        <button style="width: 30px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️</button>
-                        
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
+
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
-
+                <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ clone map</b></button>
+                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️ delete map</button>
+                </div>
             
             <br>
             
@@ -380,8 +382,7 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <label style="color: gold !important;" title="Use Layer Tools to build your Map"><small>Layers:</small></label><button style="font-size: small; cursor: cell; width: 120px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small> Add Layer</button>
-        <br>
+        
         <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">       
         </div> <br>
         
