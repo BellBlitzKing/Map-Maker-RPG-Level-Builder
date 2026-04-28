@@ -335,7 +335,7 @@
             
             <br><br>
 
-            <div style="justify-content: left !important;" class="tileset_opt_field">
+            <div style="margin-left: 10px; justify-content: left !important;" class="tileset_opt_field">
                 <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
