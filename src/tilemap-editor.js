@@ -86,25 +86,25 @@
                 <a style="display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
                 <a style="display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tilesets ⤵️</a>
                 </div>
-                <div id="popup2" class="overlay">
-                <div class="popup">
-                <h4>Tilemap editor</h4>
-                <a class="close" href="#">&times;</a>
-                <div class="content"> 
-                    <div>Created by Todor Imreorov (blurymind@gmail.com)</div>
-                    <br/>
-                    <div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
-                    <div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
-                    <br/>
-                    <div>Instructions:</div>
-                    <div>right click on map - picks tile</div>
-                    <div>mid-click - erases tile</div>
-                    <div>left-click adds tile</div> 
-                    <div>right-click on tileset - lets you change tile symbol or metadata</div>
-                    <div>left-click - selects tile </div>
-                </div>
-                </div>
-                </div>
+                            <div id="popup2" class="overlay">
+                                        <div class="popup">
+                                        <h4>Tilemap editor</h4>
+                                        <a class="close" href="#">&times;</a>
+                                                        <div class="content"> 
+                                                            <div>Created by Todor Imreorov (blurymind@gmail.com)</div>
+                                                            <br/>
+                                                            <div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
+                                                            <div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
+                                                            <br/>
+                                                            <div>Instructions:</div>
+                                                            <div>right click on map - picks tile</div>
+                                                            <div>mid-click - erases tile</div>
+                                                            <div>left-click adds tile</div> 
+                                                            <div>right-click on tileset - lets you change tile symbol or metadata</div>
+                                                            <div>left-click - selects tile </div>
+                                                        </div>
+                                        </div>
+                            </div>
             </div>
         </div>
         
@@ -2098,7 +2098,7 @@
 
         const fileMenuDropDown = document.getElementById("fileMenuDropDown");
         const makeMenuItem = (name, value, description) =>{
-            const menuItem = document.createElement("span");
+            const menuItem = document.createElement("button");
             menuItem.className = "item";
             menuItem.innerText = name;
             menuItem.title = description || name;
