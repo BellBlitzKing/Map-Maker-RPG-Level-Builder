@@ -309,7 +309,7 @@
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
-<button style="background: unset; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map">➕🆕 Add Layer</button>
+
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
@@ -326,11 +326,11 @@
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
-            <text title="">🌐 Pick Map:</text><br>
+            <text title="">🌐 Pick Map & Layers:</text><br>
             
             <div style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
                     
-                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select><button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
             </div>
             
             <div style="margin-left: 10px; justify-content: left !important;" class="tileset_opt_field">
@@ -342,11 +342,15 @@
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
                         <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
+
+                </div>
+
+                <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
+
+                        <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
                         <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ </b>clone map</button>
                         
-
-                        <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
-                        <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
@@ -380,6 +384,10 @@
     color: white;
     width: 90px;" 
     id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
+
+                        <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
+                        <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
+    
                 </div>
             
             <br>
