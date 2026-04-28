@@ -112,11 +112,11 @@
 
         </div>
 
-
+        <div class="tool_wrapper">
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add Map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
-                        <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 102px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-
+                        <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
+        </div>
 
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
@@ -315,8 +315,8 @@
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
-                        <label style="color: white; font-size: 15px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 15px;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
@@ -369,9 +369,11 @@
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
 
-      <button style="text-align: center; height: 25px; border-radius: 6px; cursor: pointer; width: 175px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️"><small>⚠️❌</small>Erase all layers</button>
+      <button style="font-size: small; margin-top: 15px; text-align: center; height: 25px; border-radius: 6px; cursor: pointer; width: 175px;" id="clearCanvasBtn" title="⚠️ erase all tiles on all layers ⚠️"><small>⚠︎ ✖  Erase tiles on all layers</small></button>
       
-             <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
+             <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
+             
+             
       </div>
       </div>
     </div>
