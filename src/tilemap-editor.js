@@ -122,11 +122,6 @@
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
         </div>
 
-        <div class="tool_wrapper">
-                        <label style="color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
-        </div>
-
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="display: none; visibility: hidden; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
@@ -323,6 +318,9 @@
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
+
+                        <label style="color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
 <br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
