@@ -148,14 +148,12 @@
         <div style="min-width: 330px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
 
-            <div style="margin-left: 15px; align-items: center; display: inline-flex;">
-                    <text style="font-size: medium;" title="">🌐 M:</text><br>
-                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+            <div style="margin-bottom: 15px; align-items: center; display: inline-flex;">
+                    <text style="font-size: medium;" title="">  🌐  </text><br>
+                    <select style="height: 24px; width: 135px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h    </label><input style="width: 50px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w    </label><input style="width: 50px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
-
-            <hr style="margin-top: 20px; margin-bottom: 20px;">
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
 
