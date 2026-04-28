@@ -1619,11 +1619,11 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "Save Map as image 🖼️",
+            name: "save map Image 🖼️",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "Save as Json file 📜",
+            name: "save Map Json 📜",
             transformer: exportJson
         }
         // apiTileMapExporters.analizeTilemap = {
@@ -1636,7 +1636,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "Open/Upload Json file ⤴️",
+            name: "open json map ⤴️",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
                 readFile.onload = (e) => {
@@ -2110,6 +2110,7 @@
             menuItem.innerText = name;
             menuItem.title = description || name;
             menuItem.value = value;
+            menuItem.style = "border-radius: 6px;"
             fileMenuDropDown.appendChild(menuItem);
             return menuItem;
         }
