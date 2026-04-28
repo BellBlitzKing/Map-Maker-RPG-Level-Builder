@@ -309,7 +309,7 @@
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
-<button style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map">➕☰ Add Layer</button>
+<button style="background: unset; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map">➕🆕 Add Layer</button>
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
@@ -342,7 +342,7 @@
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
                         <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ clone map</b></button>
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ </b>clone map</button>
                         
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
@@ -351,7 +351,7 @@
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
 
-                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️ delete map</button>
+                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
                         
 <button style="user-select: none;
     box-sizing: border-box;
@@ -364,14 +364,22 @@
     cursor: pointer;
     min-width: 20px;
     text-align: -webkit-center;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: #283442;
     color: white;
     border: 1px solid #757575;
     margin: 2px;
     width: 90px;" 
-    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑️⚠️ Clear All Layers</button>
-                        
+    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
+<br>
+<button style="
+    background: unset;
+    display: block;
+    cursor: pointer;
+    background-color: unset;
+    color: white;
+    width: 90px;" 
+    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
                 </div>
             
             <br>
@@ -401,9 +409,7 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        
-        <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">       
-        </div> <br>
+
         
         <div style="font-size: small;" class="layers" id="layers">
       </div>
