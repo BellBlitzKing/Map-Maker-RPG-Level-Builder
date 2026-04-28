@@ -116,7 +116,7 @@
 
         </div>
 
-        <div id="toolButtonsWrapper" class="tool_wrapper">
+        <div class="tool_wrapper">
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
