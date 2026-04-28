@@ -464,7 +464,7 @@ cursor: pointer;
   /* padding: 2px; */
   /* added below for Map selector */
   width: 85%;
-  margin-bottom: 6px;
+  /* margin-bottom: 6px; */
  }
 
 #tilemapjs_root button {
