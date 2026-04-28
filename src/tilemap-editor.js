@@ -385,6 +385,10 @@
         
 </div>
 
+        <label style="display: none; visibility: hidden;" class="sticky add_layer">
+            <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
+        </label>
+
         <text style="font-size: medium;" title="">☰ Pick Layers:</text>
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
