@@ -77,7 +77,6 @@
     const getHtml = (width, height) =>{
         return `
        <div id="tilemapjs_root" class="card tilemapjs_root">
-        
        <div class="tileset_opt_field header">
        <div style="cursor: default;" class="menu file">
             <span>File Save 💾</span>
@@ -108,12 +107,13 @@
             </div>
         </div>
 
-            <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
+        <div class="tool_wrapper">
+            <text style="font-size: medium;" title="">Maps:</text>
             
             <select style="height: 24px; width: 125px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
 
-            <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-            <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+            <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1"></input>
+            <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1"></input>
 
                         <button style="border-radius: 6px; height: 22px; font-size: small; cursor: cell; width: 95px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
 
@@ -122,7 +122,7 @@
 
                         <button style="border-radius: 6px; height: 22px; display: block; color: white; cursor: pointer; width: 95px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
                         <button style="border-radius: 6px; height: 22px; width: 95px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-
+        </div>
      
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
