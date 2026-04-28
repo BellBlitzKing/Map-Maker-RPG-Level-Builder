@@ -316,23 +316,21 @@
                               </div>
                           </label>
 
+
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
-                        <label style="margin-left: 20px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
-
-<br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
-
-
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
+<br>
+                        <label style="margin-left: 20px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -1617,12 +1615,12 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `save map image <small>🖼️</small>`,
+            name: "save map image 🖼️",
             description: "save map as an image png",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save as json",
+            name: "save as json 📃",
             description: "save map as a json file",
             transformer: exportJson
         }
@@ -1636,7 +1634,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "upload json map ⤴️",
+            name: "upload json file ⤴️",
             description: "upload / open map json file",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
