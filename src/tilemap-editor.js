@@ -113,9 +113,8 @@
         </div>
 
 
-                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
-                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
-                        <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add Map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 102px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
 
 
@@ -155,8 +154,8 @@
 
             <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <label title="Pick Map from the list" style="font-size: small;"> 🌐  </label><br>
-                    <select style="height: 24px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="font-size: small; margin-left: 5px; cursor: pointer; border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">.✍️.</button>
+                    <select style="height: 22px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <button style="border-radius: 4px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">  ✍️</button>
                     <label title="How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h    </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
@@ -175,7 +174,7 @@
             <button style="display: none; visibility: hidden; font-size: 15px;" id="replaceTilesetBtn" title="replace this tileset (upload)"><b>⇄</b></button>
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
-                <div style="margin-top: 5px; margin-bottom: 10px;">
+                <div style="cursor: default; margin-top: 5px; margin-bottom: 10px;">
                                   
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌴</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 290, behavior: 'smooth'});">🏔️</button>
@@ -365,10 +364,13 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 170px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 175px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
         
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
+
+      <button style="text-align: center; height: 25px; border-radius: 6px; cursor: pointer; width: 175px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️"><small>⚠️❌</small>Erase all layers</button>
+      
              <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
       </div>
       </div>
