@@ -283,7 +283,7 @@
       
 <div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
 
-            <div style="padding-left: 10px; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+            <div style="margin-left: 12px; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; display: block; border-radius: 4px; width: 150px; font-size: medium;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
@@ -306,8 +306,8 @@
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
-                        <label style="font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="color: white; font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br><br>
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
@@ -316,7 +316,7 @@
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
 
-                      <button style="outline: 2px solid dodgerblue; border-radius: 4px; color: white; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles ⚠️">🗑️⚠️ Clear All Tiles</button>
+                      <button style="outline: 2px solid dodgerblue; border-radius: 4px; color: white; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑️⚠️ Clear All Tiles</button>
                       
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -327,15 +327,15 @@
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
-            <text title="">🌐 MAPS</text><br><br>
+            <text title="">🌐 Pick Map:</text><br>
             
-            <div style="align-items: right; display: inline-flex;">
+            <div style="margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
                     <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select><button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
             </div>
             
             <br><br>
 
-            <div style="justify-content: right !important;" class="tileset_opt_field">
+            <div style="justify-content: left !important;" class="tileset_opt_field">
                 <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
