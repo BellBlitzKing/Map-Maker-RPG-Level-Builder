@@ -107,7 +107,7 @@
             </div>
         </div>
 
-<div style="display: flex !important;" class="tool_wrapper">
+      <div style="display: flex !important; width: 800px; background-color: unset;" id="mapSelectContainer" class="tilemaps_selector">
             <text style="font-size: medium;">M:</text>
             
             <select style="width: 125px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
@@ -122,7 +122,7 @@
 
                         <button style="border-radius: 6px; height: 22px; display: block; color: white; cursor: pointer; width: 95px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
                         <button style="border-radius: 6px; height: 22px; width: 95px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-</div>
+        </div>
      
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
