@@ -113,10 +113,10 @@
         </div>
 
 
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
-                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear map</button>
-                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 102px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
 
 
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
