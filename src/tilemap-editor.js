@@ -77,7 +77,7 @@
     const getHtml = (width, height) =>{
         return `
        <div id="tilemapjs_root" class="card tilemapjs_root">
-        <a id="downloadAnchorElem" style="display:none"></a>
+        
        <div class="tileset_opt_field header">
        <div style="cursor: default;" class="menu file">
             <span>File Save 💾</span>
@@ -107,8 +107,6 @@
                                         </div>
             </div>
         </div>
-        
-        <div title="placements">
 
             <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
             
@@ -125,6 +123,9 @@
                         <button style="display: block; color: white; cursor: pointer; width: 110px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
                         <button style="width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
             
+        
+        <div title="placements">
+
                         <div style="margin-bottom: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; align-items: center; display: inline-flex;">
                         </div>
                         
