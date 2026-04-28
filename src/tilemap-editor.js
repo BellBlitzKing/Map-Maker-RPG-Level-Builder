@@ -149,10 +149,10 @@
 
 
             <div style="margin-bottom: 15px; align-items: center; display: inline-flex;">
-                    <text style="font-size: medium;" title="">  🌐  </text><br>
+                    <text title="Pick Map from the list" style="font-size: medium;">  🌐  </text><br>
                     <select style="height: 24px; width: 135px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h    </label><input style="width: 50px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w    </label><input style="width: 50px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+                    <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h    </label><input style="width: 45px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="How Wide / Change Width of Map ⊞" style="color: gold;">   w    </label><input style="width: 45px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -340,7 +340,7 @@
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
                         <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚ </small>Add Layer</button>
+                        
 
                 </div>
 
@@ -387,7 +387,8 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <text style="font-size: medium;" title="">☰ Pick Layers:</text>
+        <button style="margin-bottom: 10px; font-size: 14px; cursor: cell; width: 160px;" id="addLayerBtn" title="Add New Layer to Map">✚ ☰ Add New Layer</button>
+        
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
              <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
