@@ -81,7 +81,7 @@
        <div class="tileset_opt_field header">
        <div style="cursor: default;" class="menu file">
             <span>File Save 💾</span>
-            <div class="dropdown" id="fileMenuDropDown">
+            <div id="fileMenuDropDown">
                 <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
                 <a style="display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
                 <a style="display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tilesets ⤵️</a>
@@ -116,9 +116,6 @@
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add Map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
-
-                         <div title="testing dropdown off" id="fileMenuDropDown"></div>
-
         </div>
 
         <div class="tool_wrapper">
@@ -1625,14 +1622,14 @@
             name: "Save as Json file 📜",
             transformer: exportJson
         }
-        apiTileMapExporters.analizeTilemap = {
-            name: "Analize tilemap 📈",
-            transformer: drawAnaliticsReport
-        }
-        apiTileMapExporters.exportTilesFromMap = {
-            name: "Save used Tiles as image 📚",
-            transformer: exportUniqueTiles
-        }
+        // apiTileMapExporters.analizeTilemap = {
+           // name: "Analize tilemap 📈",
+           // transformer: drawAnaliticsReport
+       // }
+       // apiTileMapExporters.exportTilesFromMap = {
+         //   name: "Save used Tiles as image 📚",
+         //   transformer: exportUniqueTiles
+        //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
             name: "Open/Upload Json file ⤴️",
