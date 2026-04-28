@@ -117,6 +117,8 @@
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
 
+                         <div title="testing dropdown off" id="fileMenuDropDown"></div>
+
         </div>
 
         <div class="tool_wrapper">
@@ -2102,7 +2104,7 @@
 
         const fileMenuDropDown = document.getElementById("fileMenuDropDown");
         const makeMenuItem = (name, value, description) =>{
-            const menuItem = document.createElement("button");
+            const menuItem = document.createElement("button"); //span
             menuItem.className = "item";
             menuItem.innerText = name;
             menuItem.title = description || name;
