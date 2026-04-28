@@ -148,7 +148,7 @@
         <div style="min-width: 330px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
 
-            <div style="margin-bottom: 15px; align-items: center; display: inline-flex;">
+            <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <text title="Pick Map from the list" style="font-size: medium;">  🌐  </text><br>
                     <select style="height: 24px; width: 135px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h    </label><input style="width: 45px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
@@ -329,14 +329,9 @@
 
             </div>
 
-        <br><hr>
+        <br>
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
-
-            <div style="margin-left: 10px; justify-content: left !important;" class="tileset_opt_field">
-             </div>
-
-            <br>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
                         <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
