@@ -341,49 +341,23 @@
             <br>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚ </small>Add Layer</button>
 
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
 
                         <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ </b>clone map</button>
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
                         
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
 
+                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
+                            
                         <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-                        
-<button style="user-select: none;
-    box-sizing: border-box;
-    appearance: none;
-    font-family: inherit;
-    outline: 0;
-    background: transparent;
-    padding: 2px 0;
-    display: block;
-    cursor: pointer;
-    min-width: 20px;
-    text-align: -webkit-center;
-    border-radius: 6px;
-    background-color: #283442;
-    color: white;
-    border: 1px solid #757575;
-    margin: 2px;
-    width: 90px;" 
-    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
-<br>
-<button style="
-    background: unset;
-    display: block;
-    cursor: pointer;
-    background-color: unset;
-    color: white;
-    width: 90px;" 
-    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
