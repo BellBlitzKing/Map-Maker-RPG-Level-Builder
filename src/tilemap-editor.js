@@ -301,10 +301,10 @@
       
 <div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
 
-            <div style="margin-left: 12px; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+            <div style="justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; display: block; border-radius: 4px; width: 150px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
+                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; display: block; border-radius: 4px; width: 140px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
                               <div id="flipBrushIndicator">✏️ Draw Tiles</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
@@ -319,19 +319,19 @@
                           </label>
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
 <br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
 
 
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨 Sample Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
 
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -370,7 +370,7 @@
 
         <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 165px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
         
-        <div style="max-width: 165px; max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
+        <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
 
       <button style="font-size: small; margin-top: 15px; text-align: center; height: 25px; border-radius: 6px; cursor: pointer; width: 165px;" id="clearCanvasBtn" title="⚠️ erase all tiles on all layers ⚠️"><small>⚠︎ ✖  Erase tiles on all layers</small></button>
