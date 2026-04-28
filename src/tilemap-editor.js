@@ -117,7 +117,7 @@
         </div>
 
         <div id="toolButtonsWrapper" class="tool_wrapper">
-                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add Map</button>
+                        <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>add map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ </small>clone map</button>
                         <button style="height: 22px; border-radius: 6px; cursor: pointer; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">⚠︎ 🗑 delete map</button>
         </div>
@@ -318,7 +318,7 @@
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
-
+<br>
                         <label style="color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
@@ -1617,11 +1617,13 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map Image 🖼️",
+            name: "save map image <small>🖼️</small>",
+            description: "save map as an image png",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save Map Json 📜",
+            name: "save as json <small>📜</small>",
+            description: "save map as a json file",
             transformer: exportJson
         }
         // apiTileMapExporters.analizeTilemap = {
@@ -1635,6 +1637,7 @@
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
             name: "open json map ⤴️",
+            description: "open map json file",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
                 readFile.onload = (e) => {
@@ -2106,9 +2109,9 @@
             const menuItem = document.createElement("button"); //span dropdowns
             menuItem.className = "item";
             menuItem.innerText = name;
-            menuItem.title = description || name;
+            menuItem.title = description;
             menuItem.value = value;
-            menuItem.style = "border-radius: 6px;"
+            menuItem.style = "border-radius: 4px;"
             fileMenuDropDown.appendChild(menuItem);
             return menuItem;
         }
