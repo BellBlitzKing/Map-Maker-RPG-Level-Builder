@@ -113,6 +113,11 @@
         </div>
 
 
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
+                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear map</button>
+                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
+
 
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
@@ -149,10 +154,11 @@
 
 
             <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <text title="Pick Map from the list" style="font-size: medium;">  🌐  </text><br>
-                    <select style="height: 24px; width: 135px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h    </label><input style="width: 45px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="How Wide / Change Width of Map ⊞" style="color: gold;">   w    </label><input style="width: 45px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+                    <text title="Pick Map from the list" style="font-size: small;">  🌐  </text><br>
+                    <select style="height: 24px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">.✍️.</button>
+                    <label title="How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h    </label><input style="width: 45px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 45px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -334,23 +340,17 @@
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
-                        
 
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
 
-                        <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
-                        
+
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
 
-                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
-                            
-                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
+
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
@@ -382,7 +382,7 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <button style="margin-bottom: 10px; font-size: 14px; cursor: cell; width: 160px;" id="addLayerBtn" title="Add New Layer to Map">✚ ☰ Add New Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 170px;" id="addLayerBtn" title="Add New Layer to Map">✚ ☰ Add New Layer</button>
         
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
