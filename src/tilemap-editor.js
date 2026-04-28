@@ -79,9 +79,13 @@
        <div id="tilemapjs_root" class="card tilemapjs_root">
         <a id="downloadAnchorElem" style="display:none"></a>
        <div class="tileset_opt_field header">
-       <div style="cursor: default;" class="menu file">
-            <span>File Save 💾</span>
-            <div id="fileMenuDropDown">
+
+<div style="display: flex;" id="fileMenuDropDown">
+</div>
+       
+       <div style="display: none; visibility: hidden; cursor: default;" class="menu file">
+            
+            <div>
                 <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
                 <a style="display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
                 <a style="display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tilesets ⤵️</a>
@@ -2101,7 +2105,7 @@
 
         const fileMenuDropDown = document.getElementById("fileMenuDropDown");
         const makeMenuItem = (name, value, description) =>{
-            const menuItem = document.createElement("button"); //span
+            const menuItem = document.createElement("button"); //span dropdowns
             menuItem.className = "item";
             menuItem.innerText = name;
             menuItem.title = description || name;
