@@ -85,30 +85,52 @@
                 <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
                 <a style="display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
                 <a style="display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tilesets ⤵️</a>
-                </div>
-                <div id="popup2" class="overlay">
-                <div class="popup">
-                <h4>Tilemap editor</h4>
-                <a class="close" href="#">&times;</a>
-                <div class="content"> 
-                    <div>Created by Todor Imreorov (blurymind@gmail.com)</div>
-                    <br/>
-                    <div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
-                    <div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
-                    <br/>
-                    <div>Instructions:</div>
-                    <div>right click on map - picks tile</div>
-                    <div>mid-click - erases tile</div>
-                    <div>left-click adds tile</div> 
-                    <div>right-click on tileset - lets you change tile symbol or metadata</div>
-                    <div>left-click - selects tile </div>
-                </div>
-                </div>
-                </div>
+                                        </div>
+                                        <div id="popup2" class="overlay">
+                                        <div class="popup">
+                                        <h4>Tilemap editor</h4>
+                                        <a class="close" href="#">&times;</a>
+                                        <div class="content"> 
+                                            <div>Created by Todor Imreorov (blurymind@gmail.com)</div>
+                                            <br/>
+                                            <div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
+                                            <div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
+                                            <br/>
+                                            <div>Instructions:</div>
+                                            <div>right click on map - picks tile</div>
+                                            <div>mid-click - erases tile</div>
+                                            <div>left-click adds tile</div> 
+                                            <div>right-click on tileset - lets you change tile symbol or metadata</div>
+                                            <div>left-click - selects tile </div>
+                                        </div>
+                                        </div>
+                                        </div>
             </div>
         </div>
         
-        <div>
+        <div title="placements">
+
+            <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
+            
+            <div style="margin-bottom: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; align-items: center; display: inline-flex;">
+                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+            </div>
+            
+            <div style="margin-left: 0px; justify-content: left !important;" class="tileset_opt_field">
+                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+            </div>
+
+                <div style="display: flex !important; margin-bottom: 0px; margin-top: 0px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
+                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
+                        
+
+                        <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
+
+                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
+                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
+                </div>
 
         </div>
 
@@ -326,44 +348,6 @@
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
-            <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
-            
-            <div style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
-                    
-                    <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-            </div>
-            
-            <div style="margin-left: 10px; justify-content: left !important;" class="tileset_opt_field">
-                <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
-            </div>
-
-            <br>
-
-                <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚ </small>Add Map</button>
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚ </small>Add Layer</button>
-
-                </div>
-
-                <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-
-                        <button style="font-size: small; width: 90px;" id="renameMapBtn" title="Rename this Map">rename map</button>
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="⧉ Clone Copy Map">clone map</button>
-                        
-                </div>
-
-                <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-
-                        <button style="display: block; color: white; cursor: pointer; width: 90px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
-                            
-                        <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-
-                        <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
-                        <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
-    
-                </div>
-            
             <br>
             
             <div style="display: none; visibility: hidden;" id="popup1" class="overlay">
@@ -372,6 +356,10 @@
             <a class="close" href="#">&times;</a>
             <div class="content">
                 <br/><br/>
+
+                <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
+                <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
+    
                 <span class="flex">Grid tile size: </span><input type="number" id="gridCropSize" name="crop" placeholder="32" min="1" max="128">
                 <span class="flex">Grid color: </span><input type="color" value="#ff0000" id="gridColorSel">
                 <br/><br/>
@@ -385,7 +373,8 @@
         
 </div>
 
-        <text style="font-size: medium;" title="">☰ Pick Layers:</text>
+        <button style="font-size: medium; cursor: cell; width: 180px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer ☰</button>
+        
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
              <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
