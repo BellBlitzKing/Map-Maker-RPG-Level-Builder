@@ -309,7 +309,7 @@
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
-<button style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
+<button style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map">➕☰ Add Layer</button>
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
@@ -328,13 +328,11 @@
 
             <text title="">🌐 Pick Map:</text><br>
             
-            <div style="margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
+            <div style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
+                    
                     <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select><button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
-
             </div>
             
-            <br><br>
-
             <div style="margin-left: 10px; justify-content: left !important;" class="tileset_opt_field">
                 <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                 <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
