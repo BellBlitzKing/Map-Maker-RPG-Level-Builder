@@ -303,12 +303,13 @@
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
-                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
-
                         <label style="color: white; font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br><br>
+                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
+
+<button style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium; cursor: cell;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
@@ -316,8 +317,6 @@
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
 
-                      <button style="outline: 2px solid dodgerblue; border-radius: 4px; color: white; height: 28px; width: 150px; border: none; font-size: medium; cursor: pointer; margin: 0px; padding: 0px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑️⚠️ Clear All Tiles</button>
-                      
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
 
@@ -331,6 +330,7 @@
             
             <div style="margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
                     <select style="height: 24px; width: 145px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select><button style="border: none; background-color: transparent;" id="renameMapBtn" title="Rename this Map">✍️</button>
+
             </div>
             
             <br><br>
@@ -344,15 +344,36 @@
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
                         <button style="font-size: small; cursor: cell; width: 90px;" id="addMapBtn" title="Add New Map"><small>✚</small>Add Map</button>
-                        <button style="font-size: small; cursor: cell; width: 90px;" id="addLayerBtn" title="Add New Layer to Map"><small>✚</small>Add Layer</button>
+                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ clone map</b></button>
+                        
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
                         <input style="display: none; visibility: hidden;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
                 </div>
 
                 <div style="display: flex !important; margin-bottom: 8px; margin-top: 8px; width: 195px; background-color: transparent; justify-content: center;" id="mapSelectContainer" class="tilemaps_selector">
-                        <button style="cursor: cell; width: 90px;" id="duplicateMapBtn" title="Clone Copy Map"><b>⧉ clone map</b></button>
+
                         <button style="width: 90px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑️ delete map</button>
+                        
+<button style="user-select: none;
+    box-sizing: border-box;
+    appearance: none;
+    font-family: inherit;
+    outline: 0;
+    background: transparent;
+    padding: 2px 0;
+    display: block;
+    cursor: pointer;
+    min-width: 20px;
+    text-align: -webkit-center;
+    border-radius: 3px;
+    background-color: #283442;
+    color: white;
+    border: 1px solid #757575;
+    margin: 2px;
+    width: 90px;" 
+    id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑️⚠️ Clear All Layers</button>
+                        
                 </div>
             
             <br>
