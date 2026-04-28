@@ -107,10 +107,10 @@
             </div>
         </div>
 
-        <div class="tool_wrapper">
-            <text style="font-size: medium;" title="">Maps:</text>
+<div style="display: flex !important;" class="tool_wrapper">
+            <text style="font-size: medium;">M:</text>
             
-            <select style="height: 24px; width: 125px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+            <select style="width: 125px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
 
             <label title="How Tall / Change Height of Map ⊞" style="color: gold;">   h </label><input type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1"></input>
             <label title="How Wide / Change Width of Map ⊞" style="color: gold;">  w </label><input type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1"></input>
@@ -122,7 +122,7 @@
 
                         <button style="border-radius: 6px; height: 22px; display: block; color: white; cursor: pointer; width: 95px;" id="clearCanvasBtn" title="⚠️ clear map of all tiles on all layers ⚠️">🗑 clear layers</button>
                         <button style="border-radius: 6px; height: 22px; width: 95px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️">🗑 delete map</button>
-        </div>
+</div>
      
         <div style="display: none; visibility: hidden;" class="tool_wrapper">
             <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
@@ -296,7 +296,7 @@
             <div style="margin-left: 12px; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; display: block; border-radius: 4px; width: 150px; font-size: 15px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
+                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; display: block; border-radius: 4px; width: 150px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
                               <div id="flipBrushIndicator">✏️ Draw Tiles</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
@@ -311,21 +311,21 @@
                           </label>
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
                         <label style="color: white; font-size: 15px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 15px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
 
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 14px;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
 
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -360,7 +360,7 @@
 </div>
 
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
-        <button style="margin-bottom: 10px; font-size: medium; cursor: cell; width: 180px;" id="addLayerBtn" title="Add New Layer to Map">✚ ☰ Add New Layer</button>
+        <button style="margin-bottom: 10px; font-size: 14px; cursor: cell; width: 170px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
       </div>
         
         <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
