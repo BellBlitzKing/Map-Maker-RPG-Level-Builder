@@ -286,7 +286,7 @@
             <div style="margin-left: 12px; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; display: block; border-radius: 4px; width: 150px; font-size: medium;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
+                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; display: block; border-radius: 4px; width: 150px; font-size: 15px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
                               <div id="flipBrushIndicator">✏️ Draw Tiles</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
@@ -301,21 +301,21 @@
                           </label>
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
-                        <label style="color: white; font-size: medium;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: medium;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="color: white; font-size: 15px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 15px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br><br><br>
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool2" title="move and scroll around the map ⊞" data-value="2">🌐↔️ Move Map</label>
 
 
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool3" title="pick tile to copy" data-value="3"> 🎨👆 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 28px; border-radius: 4px; display: block; width: 150px; font-size: medium;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 25px; border-radius: 4px; display: block; width: 150px; font-size: 15px;" for="tool4" title="draw/pick random tile from selected tiles" data-value="4"> 🎲📚 Random Tile</label>
 
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
@@ -326,7 +326,7 @@
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
-            <text title="">🌐 Pick Map & Layers:</text><br>
+            <text style="font-size: medium;" title="">🌐 Pick Map:</text><br>
             
             <div style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px; margin-bottom: 5px; align-items: center; display: inline-flex;">
                     
@@ -385,15 +385,8 @@
         
 </div>
 
-
-
-        <label style="display: none; visibility: hidden;" class="sticky add_layer">
-            <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
-        </label>
-
-
-        
-        <div style="font-size: small;" class="layers" id="layers">
+        <text style="font-size: medium;" title="">☰ Pick Layers:</text>
+        <div style="max-height: 175px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
              <small><label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label></small>
       </div>
