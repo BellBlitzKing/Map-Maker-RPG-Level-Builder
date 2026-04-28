@@ -1,5 +1,5 @@
 const importTiledJson = ()=>{
-    console.log("TEST ======================")
+    console.log("DONE Json Tiled imported")
 }
 
 export default importTiledJson;
