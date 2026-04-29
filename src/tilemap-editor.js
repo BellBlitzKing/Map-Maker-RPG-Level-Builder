@@ -174,7 +174,7 @@
 
 <div style="display: flex;" id="fileMenuDropDown"> </div>
 
-                <div style="cursor: default; margin-top: 15px; margin-bottom: 15px;">
+                <div style="cursor: default; margin-top: 20px; margin-bottom: 15px;">
                                   
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌴</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 290, behavior: 'smooth'});">🏔️</button>
@@ -1625,7 +1625,7 @@
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save as json 📃",
+            name: "save json 📃",
             description: "save map as a json file",
             transformer: exportJson
         }
