@@ -1639,7 +1639,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "upload json file ⤴️",
+            name: "upload json ⤴️",
             description: "upload / open map json file",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
