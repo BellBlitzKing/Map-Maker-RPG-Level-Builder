@@ -160,8 +160,8 @@
                     <label title="Pick Map from the list" style="font-size: small;"> 🌐  </label><br>
                     <select style="height: 22px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 4px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">  ✍️</button>
-                    <label title="How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h    </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h    </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -288,9 +288,9 @@
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
           <canvas id="mapCanvas" width="${width}" height="${height}"></canvas>
-          <div style="display: none; visibility: hidden; width: fit-content;" title="How Tall / Change Height of Map ⊞" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden; opacity: 1;" value="1" type="number" min="1" resizerdir="y"><br><span style="display: none; visibility: hidden;" title="How Tall / Change Height of Map ⊞">   ⬆ h ⬇</span>
+          <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
-          <div style="display: none; visibility: hidden; width: fit-content !important; " title="How Wide / Change Width of Map ⊞" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden; opacity: 1;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"><span style="display: none; visibility: hidden;" title="How Wide / Change Width of Map ⊞">⬅ w ➡</span>
+          <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
           </div>
         </div>
     </div>
