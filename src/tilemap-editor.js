@@ -153,7 +153,7 @@
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
 
-            <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
+            <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <label title="Pick Map from the list" style="font-size: small;"> 🌐  </label><br>
                     <select style="height: 22px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">✍️</button>
@@ -296,7 +296,7 @@
       
 <div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
 
-            <div style="justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+            <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; display: block; border-radius: 4px; width: 135px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
@@ -326,7 +326,7 @@
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 24px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
 
-                        <label style="margin-left: 20px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br>
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
@@ -365,9 +365,9 @@
         </label>
 
 <div style="justify-items: center !important;">
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 145px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 145px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add New Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add Layer</button>
 </div>
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
