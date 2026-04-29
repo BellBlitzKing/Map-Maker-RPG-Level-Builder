@@ -151,7 +151,6 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <label title="Pick Map from the list" style="font-size: small;"> 🌐  </label><br>
                     <select style="height: 22px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">✍️</button>
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h   </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
@@ -172,7 +171,8 @@
             <button style="display: none; visibility: hidden; font-size: 15px;" id="replaceTilesetBtn" title="replace this tileset (upload)"><b>⇄</b></button>
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
-<div style="display: flex;" id="fileMenuDropDown"> </div>
+<div style="justify-content: center; display: flex;" id="fileMenuDropDown">
+</div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 15px;">
                                   
@@ -1620,12 +1620,12 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map 🖼️",
+            name: "🌐 save map",
             description: "save map as an image png",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save json 📃",
+            name: "save json",
             description: "save map as a json file",
             transformer: exportJson
         }
@@ -1639,7 +1639,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "upload json ⤴️",
+            name: "upload json",
             description: "upload / open map json file",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
