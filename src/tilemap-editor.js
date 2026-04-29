@@ -364,19 +364,20 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
+<div style="justify-items: center !important;">
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 145px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add New Layer</button>
-        
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 145px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add New Layer</button>
+</div>
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
 <div style="justify-items: center !important;">
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 140px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 140px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 140px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑 Delete map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑 Delete map</small></button>
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
