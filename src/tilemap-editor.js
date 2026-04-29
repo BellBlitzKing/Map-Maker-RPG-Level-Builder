@@ -131,7 +131,7 @@
 
       </div>
       <div class="card_body">
-        <div id="card_left_column_alt" class="card_left_column" style="margin-right: 15px;">
+        <div id="card_left_column_alt" class="card_left_column" style="margin-right: 10px;">
         
         <details style="display: none; visibility: hidden;" class="details_container sticky_left" id="tilesetDataDetails" open="true">
           <summary >
@@ -156,7 +156,7 @@
             <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <label title="Pick Map from the list" style="font-size: small;"> 🌐  </label><br>
                     <select style="height: 22px; width: 128px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 2px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">✍️</button>
+                    <button style="border-radius: 3px; font-size: small; margin-left: 5px; cursor: pointer; border: none;" id="renameMapBtn" title="Rename this Map">✍️</button>
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h   </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
@@ -275,7 +275,7 @@
            </div>     
         </div>
 
-      <div style="border-color: #058d93; border-radius: 6px; border-style: outset; border-width: 5px;" class="tileset-container">
+      <div class="tileset-container">
         <div class="tileset-container-selection"></div>
         <canvas id="tilesetCanvas" />
 <!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
@@ -364,9 +364,9 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addMapBtn" title="Add New Map">✚ Add Map</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add New Layer</button>
         
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
