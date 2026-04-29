@@ -288,9 +288,9 @@
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
           <canvas id="mapCanvas" width="${width}" height="${height}"></canvas>
-          <div style="width: fit-content;" title="How Tall / Change Height of Map ⊞" class="canvas_resizer" resizerdir="y"><input style="opacity: 1;" value="1" type="number" min="1" resizerdir="y"><small><br><span title="How Tall / Change Height of Map ⊞">   ⬆ h ⬇</span></small>
+          <div style="display: none; visibility: hidden; width: fit-content;" title="How Tall / Change Height of Map ⊞" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden; opacity: 1;" value="1" type="number" min="1" resizerdir="y"><br><span style="display: none; visibility: hidden;" title="How Tall / Change Height of Map ⊞">   ⬆ h ⬇</span>
           </div>
-          <div style=" width: fit-content !important; " title="How Wide / Change Width of Map ⊞" class="canvas_resizer vertical" resizerdir="x"><input style="opacity: 1;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"><small><span title="How Wide / Change Width of Map ⊞">⬅ w ➡</span></small>
+          <div style="display: none; visibility: hidden; width: fit-content !important; " title="How Wide / Change Width of Map ⊞" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden; opacity: 1;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"><span style="display: none; visibility: hidden;" title="How Wide / Change Width of Map ⊞">⬅ w ➡</span>
           </div>
         </div>
     </div>
