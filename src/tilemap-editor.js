@@ -371,11 +371,11 @@
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
 
-      <button style="font-size: small; height: 25px; border-radius: 6px; cursor: cell;    text-align: center; width: 165px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map"><small>✚ clone map</small></button>
+      <button style="font-size: small; height: 23px; border-radius: 6px; cursor: cell;    text-align: center; width: 165px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
       
-      <button style="font-size: small; height: 25px; border-radius: 6px; cursor: pointer; text-align: center; width: 165px;" id="clearCanvasBtn" title="⚠️ erase all tiles on all layers ⚠️"><small>⚠︎ ✖  Erase tiles on all layers</small></button>
+      <button style="font-size: small; height: 23px; border-radius: 6px; cursor: pointer; text-align: center; width: 165px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers ⚠️"><small>⚠︎ ✖ Erase clear layers</small></button>
       
-      <button style="font-size: small; height: 25px; border-radius: 6px; cursor: pointer; text-align: center; width: 110px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>⚠︎ 🗑 delete map</small></button>
+      <button style="font-size: small; height: 23px; border-radius: 6px; cursor: pointer; text-align: center; width: 165px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑 Delete map</small></button>
              
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
              
