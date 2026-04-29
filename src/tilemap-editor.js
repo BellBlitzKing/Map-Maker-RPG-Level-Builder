@@ -716,7 +716,7 @@
         ctx.drawImage(img,0,0,canvas.width ,canvas.height);
         // console.log("WIDTH EXCEEDS?", canvas.width % SIZE_OF_CROP)
         const tileSizeSeemsIncorrect = canvas.width % SIZE_OF_CROP !== 0;
-        drawGrid(ctx.canvas.width, ctx.canvas.height, ctx,SIZE_OF_CROP * ZOOM, tileSizeSeemsIncorrect ? "DarkSeaGreen":"cyan");
+        drawGrid(ctx.canvas.width, ctx.canvas.height, ctx,SIZE_OF_CROP * ZOOM, tileSizeSeemsIncorrect ? "red":"cyan");
         Array.from({length: tileCount}, (x, i) => i).map(tile=>{
             if (viewMode === "frames") {
                 const frameData = getCurrentFrames();
@@ -725,7 +725,7 @@
                 const {width, height, start, tiles,frameCount} = frameData;
                 selection = [...tiles];
                 ctx.lineWidth = 0.5;
-                ctx.strokeStyle = "DarkSeaGreen";
+                ctx.strokeStyle = "red";
                 ctx.strokeRect(SIZE_OF_CROP * ZOOM * (start.x + width), SIZE_OF_CROP * ZOOM * start.y, SIZE_OF_CROP * ZOOM * (width * (frameCount - 1)), SIZE_OF_CROP * ZOOM * height);
             } else if (!hideSymbols) {
                 const x = tile % gridWidth;
@@ -1150,7 +1150,7 @@
         Object.values(analizedTiles).map((t) => {
             // Fill the heatmap
             t.coords.forEach((c, i) => {
-                const fillStyle = `rgba(255, 0, 0, ${(1/t.times) - 0.35})`;
+                const fillStyle = `rgba(139, 145, 80, ${(1/t.times) - 0.35})`; //this was red, rgb 255, 0 ,0 starter fill color
                 ctx.fillStyle = fillStyle;
                 ctx.fillRect(c.x  * ZOOM, c.y  * ZOOM, SIZE_OF_CROP * ZOOM, SIZE_OF_CROP * ZOOM);
             });
