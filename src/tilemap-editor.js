@@ -77,8 +77,8 @@
     const getHtml = (width, height) =>{
         return `
        <div id="tilemapjs_root" class="card tilemapjs_root">
-        <a id="downloadAnchorElem" style="display:none"></a>
-       <div display: none; visibility: hidden; class="tileset_opt_field header" hidden>
+        
+       <div style="display: none; visibility: hidden;" class="tileset_opt_field header">
      
        <div style="display: none; visibility: hidden; cursor: default;" class="menu file">
             
