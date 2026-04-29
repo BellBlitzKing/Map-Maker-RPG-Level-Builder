@@ -163,6 +163,8 @@
   padding: 3px;
   border-radius: 3px;
   width: 50px;
+  display: none; 
+  visibility: hidden;
 }
 
 .tileset_opt_field input,
