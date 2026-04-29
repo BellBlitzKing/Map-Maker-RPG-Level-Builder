@@ -364,9 +364,9 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 165px;" id="addMapBtn" title="Add New Map">✚ Add Map</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addMapBtn" title="Add New Map">✚ Add Map</button>
 
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 165px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 155px;" id="addLayerBtn" title="Add New Layer to Map">✚ Add New Layer</button>
         
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
