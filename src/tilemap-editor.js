@@ -328,10 +328,10 @@
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; border-radius: 4px; display: block; width: 140px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
-<br>
-                        <label style="margin-left: 20px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
+                        <label style="margin-top: 5px; margin-left: 20px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
+<br>
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
 
@@ -1615,7 +1615,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map image 🖼️",
+            name: "save map 🖼️",
             description: "save map as an image png",
             transformer: exportImage
         }
