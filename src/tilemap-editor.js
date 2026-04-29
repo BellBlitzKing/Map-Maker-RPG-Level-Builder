@@ -78,11 +78,8 @@
         return `
        <div id="tilemapjs_root" class="card tilemapjs_root">
         <a id="downloadAnchorElem" style="display:none"></a>
-       <div class="tileset_opt_field header">
-
-<div style="display: flex;" id="fileMenuDropDown">
-</div>
-       
+       <div display: none; visibility: hidden; class="tileset_opt_field header" hidden>
+     
        <div style="display: none; visibility: hidden; cursor: default;" class="menu file">
             
             <div>
@@ -175,7 +172,9 @@
             <button style="display: none; visibility: hidden; font-size: 15px;" id="replaceTilesetBtn" title="replace this tileset (upload)"><b>⇄</b></button>
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
-                <div style="cursor: default; margin-bottom: 15px;">
+<div style="display: flex;" id="fileMenuDropDown"> </div>
+
+                <div style="cursor: default; margin-top: 5px; margin-bottom: 15px;">
                                   
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌴</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 290, behavior: 'smooth'});">🏔️</button>
