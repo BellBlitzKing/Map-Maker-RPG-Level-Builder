@@ -152,7 +152,7 @@
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">📝</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊</button>
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h   </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
             </div>
@@ -1625,7 +1625,7 @@
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save json 📄",
+            name: "save json ◢",
             description: "save map as a json file",
             transformer: exportJson
         }
