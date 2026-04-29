@@ -150,7 +150,7 @@
         </details>
 
 
-        <div style="min-width: 330px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
+        <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background-color: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
 
             <div style="margin-bottom: 10px; align-items: center; display: inline-flex;">
