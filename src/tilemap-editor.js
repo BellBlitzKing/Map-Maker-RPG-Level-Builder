@@ -521,7 +521,7 @@
         maps[ACTIVE_MAP].layers[layerNumber].visible = override ?? !maps[ACTIVE_MAP].layers[layerNumber].visible;
         document
             .getElementById(`setLayerVisBtn-${layer}`)
-            .innerHTML = maps[ACTIVE_MAP].layers[layerNumber].visible ? "👁️": "🔘";
+            .innerHTML = maps[ACTIVE_MAP].layers[layerNumber].visible ? "👁️": "🧿";
         draw();
     }
 
@@ -1391,7 +1391,7 @@
 
     const toggleSymbolsVisible = (override=null) => {
         if(override === null) DISPLAY_SYMBOLS = !DISPLAY_SYMBOLS;
-        document.getElementById("setSymbolsVisBtn").innerHTML = DISPLAY_SYMBOLS ? "👁️": "🔘";
+        document.getElementById("setSymbolsVisBtn").innerHTML = DISPLAY_SYMBOLS ? "👁️": "🧿";
         updateTilesetGridContainer();
     }
 
