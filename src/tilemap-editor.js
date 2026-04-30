@@ -373,11 +373,11 @@
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
-<div style="justify-items: center !important;">
-
-                <a style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
+<div style="text-align: center; justify-items: center !important;">
+<br>
+                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
                 <br>
-                <a style="font-size: small; display:inline; color: orangered;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tool + Tiles ⤵️</a>
+                <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tool + Tiles ⤵️</a>
 <br>
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
       
