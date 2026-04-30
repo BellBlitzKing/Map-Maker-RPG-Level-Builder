@@ -371,7 +371,7 @@
 
 
 const mapsList = ['./maps/ioStartData.json', './maps/ioEmptyData.json', './maps/ioDesertData.json', './maps/ioPinkData.json'];
-const randomIndex = Math.floor(Math.random() * fruits.length);
+const randomIndex = Math.floor(Math.random() * mapsList.length);
 console.log(mapsList[randomIndex]);
 
                   fetch(mapsList[randomIndex]).then(r => r.json()).then(data => {
