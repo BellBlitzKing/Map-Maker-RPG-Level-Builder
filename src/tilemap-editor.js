@@ -171,6 +171,9 @@
             <button style="display: none; visibility: hidden; font-size: 15px;" id="replaceTilesetBtn" title="replace this tileset (upload)"><b>⇄</b></button>
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
+
+<a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
+
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
 </div>
 
