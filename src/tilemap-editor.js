@@ -330,9 +330,6 @@
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br>
-                <a style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
-                <a style="font-size: small; display:inline; color: dodgerblue;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tileset ⤵️</a>
-<br>
                       <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
                       <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
 
@@ -377,6 +374,11 @@
       </div>
       
 <div style="justify-items: center !important;">
+
+                <a style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Give Review 🤩</a>
+                <br>
+                <a style="font-size: small; display:inline; color: orangered;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase">Get Tool + Tiles ⤵️</a>
+<br>
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
