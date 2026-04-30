@@ -373,22 +373,22 @@
             const tracker = Math.floor(Math.random() * 4);
             
             if (tracker == 0){
-                  fetch("ioJsonData.json").then(r => r.json()).then(data => {
+                  fetch('./maps/ioDesertData.json').then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
             }else if(tracker == 1){
-                  fetch("ioMapData.json").then(r => r.json()).then(data => {
+                  fetch('./maps/ioEmptyData.json').then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
             }else if(tracker == 2){
-                  fetch('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/ioDesertData.json').then(r => r.json()).then(data => {
+                  fetch('./maps/ioPinkData.json').then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
             }else if(tracker == 3){
-                  fetch('./maps/ioPinkData.json').then(r => r.json()).then(data => {
+                  fetch('./maps/ioStartData.json').then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
