@@ -370,7 +370,7 @@
     } else {
       
             // Return a random integer from 0 to 1 (both included):
-            const tracker = Math.floor(Math.random() * 2);
+            const tracker = Math.floor(Math.random() * 3);
             
             if (tracker == 0){
                   fetch("ioJsonData.json").then(r => r.json()).then(data => {
@@ -379,6 +379,11 @@
                   }).catch(() => initTilemapEditor())
             }else if(tracker == 1){
                   fetch("ioMapData.json").then(r => r.json()).then(data => {
+                    tileMapData = data;
+                    initTilemapEditor();
+                  }).catch(() => initTilemapEditor())
+            }else if(tracker == 2){
+                  fetch('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/ioDesertData.json').then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
