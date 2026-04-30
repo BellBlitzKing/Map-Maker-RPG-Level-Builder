@@ -368,74 +368,29 @@
         tileSize = parseInt(tileSizeParam, 10)
       }
     } else {
-      fetch("ioJsonData.json").then(r => r.json()).then(data => {
-        tileMapData = data;
-        initTilemapEditor();
-      }).catch(() => initTilemapEditor())
-    }
-    // Pwa stuff
-    /*
-    let newWorker;
-    function showUpdateBar() {
-      let snackbar = document.getElementById('snackbar');
-      snackbar.className = 'show';
-    }
-    // The click event on the pop up notification
-    document.getElementById('reload').addEventListener('click', function(){
-      newWorker.postMessage({ action: 'skipWaiting' });
-    });
-
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/tilemap-editor/sw.js').then(reg => {
-        console.log('Service Worker Registered');
-        reg.addEventListener('updatefound', () => {
-          // A wild service worker has appeared in reg.installing!
-          newWorker = reg.installing;
-
-          newWorker.addEventListener('statechange', () => {
-            // Has network.state changed?
-            switch (newWorker.state) {
-              case 'installed':
-                if (navigator.serviceWorker.controller) {
-                  showUpdateBar();
-                }
-                break;
+      
+            // Return a random integer from 0 to 1 (both included):
+            const tracker = Math.floor(Math.random() * 2);
+            
+            if (tracker == 0){
+                  fetch("ioJsonData.json").then(r => r.json()).then(data => {
+                    tileMapData = data;
+                    initTilemapEditor();
+                  }).catch(() => initTilemapEditor())
+            }else if(tracker == 1){
+                  fetch("ioMapData.json").then(r => r.json()).then(data => {
+                    tileMapData = data;
+                    initTilemapEditor();
+                  }).catch(() => initTilemapEditor())
+            }else{
+                  fetch("ioJsonData.json").then(r => r.json()).then(data => {
+                    tileMapData = data;
+                    initTilemapEditor();
+                  }).catch(() => initTilemapEditor())
             }
-          });
-        });
-      });
-    }
-    let refreshing;
-    navigator.serviceWorker.addEventListener('controllerchange', function () {
-      if (refreshing) return;
-      window.location.reload();
-      refreshing = true;
-    });
 
-    let deferredPrompt;
-    const addBtn = document.getElementById("addPwaBtn");
-    addBtn.style.display = 'none';
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      addBtn.style.display = 'block';
-      addBtn.addEventListener('click', () => {
-        addBtn.style.display = 'none';
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the A2HS prompt');
-          }
-          deferredPrompt = null;
-        });
-      });
-    });
-    window.addEventListener('appinstalled', () => {
-      addBtn.style.display = 'none';
-      deferredPrompt = null;
-      console.log('PWA was installed');
-    });
-*/
+    }
+
     
   </script>
 
