@@ -368,9 +368,19 @@
         tileSize = parseInt(tileSizeParam, 10)
       }
     } else {
+
+
+const mapsList = ['./maps/ioStartData.json', './maps/ioEmptyData.json', './maps/ioDesertData.json', './maps/ioPinkData.json'];
+const randomIndex = Math.floor(Math.random() * fruits.length);
+console.log(mapsList[randomIndex]);
+
+                  fetch(mapsList[randomIndex]).then(r => r.json()).then(data => {
+                    tileMapData = data;
+                    initTilemapEditor();
+                  }).catch(() => initTilemapEditor())
       
             // Return a random integer from 0 to 1 (both included):
-            const tracker = Math.floor(Math.random() * 4);
+            /* const tracker = Math.floor(Math.random() * 4);
             
             if (tracker == 0){
                   fetch('./maps/ioDesertData.json').then(r => r.json()).then(data => {
@@ -397,7 +407,7 @@
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
-            }
+            } */
 
     }
 
