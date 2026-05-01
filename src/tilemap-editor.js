@@ -2195,6 +2195,15 @@
             SHOW_GRID = appState.SHOW_GRID;
         }
 
+window.onload = function() {
+    const dropdown = document.getElementById('mapsDataSel');
+    const options = dropdown.options;
+    // Generate a random number between 0 and the number of options
+    const randomIndex = Math.floor(Math.random() * options.length);
+    // Set the dropdown to that random index
+    dropdown.selectedIndex = randomIndex;
+  };
+        
         // Animated tiles when on frames mode
         const animateTiles = () => {
             if (tileDataSel.value === "frames") draw();
@@ -2203,6 +2212,8 @@
         requestAnimationFrame(animateTiles);
     };
 
+
+    
     exports.getState = () => {
         return getAppState();
     }
