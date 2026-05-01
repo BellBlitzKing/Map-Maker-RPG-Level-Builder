@@ -369,7 +369,15 @@
       }
     } else {
 
-
+window.onload = function() {
+    const dropdown = document.getElementById('mapsDataSel');
+    const options = dropdown.options;
+    // Generate a random number between 0 and the number of options
+    const randomIndex = Math.floor(Math.random() * options.length);
+    // Set the dropdown to that random index
+    dropdown.selectedIndex = randomIndex;
+  };
+      
 const mapsList = ['./maps/ioPinkData.json', './maps/ioPinkData.json', './maps/ioPinkData.json', './maps/ioPinkData.json'];
 const randomIndex = Math.floor(Math.random() * mapsList.length);
 console.log(mapsList[randomIndex]);
