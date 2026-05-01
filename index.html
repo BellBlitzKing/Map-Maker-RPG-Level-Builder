@@ -370,7 +370,7 @@
     } else {
 
 
-const mapsList = ['./maps/ioStartData.json', './maps/ioEmptyData.json', './maps/ioDesertData.json', './maps/ioPinkData.json'];
+const mapsList = ['./maps/ioPinkData.json', './maps/ioPinkData.json', './maps/ioPinkData.json', './maps/ioPinkData.json'];
 const randomIndex = Math.floor(Math.random() * mapsList.length);
 console.log(mapsList[randomIndex]);
 
@@ -379,7 +379,7 @@ console.log(mapsList[randomIndex]);
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
       
-            // Return a random integer from 0 to 1 (both included):
+            // FIRST METHOD Return a random integer from 0 to 1 (both included):
             /* const tracker = Math.floor(Math.random() * 4);
             
             if (tracker == 0){
