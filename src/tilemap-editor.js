@@ -151,8 +151,8 @@
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊</button>
-                    <button style="font-size: 15px;" id="replaceTilesetBtn" title="replace this tileset (upload)"><b>⇄</b> replace tileset</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊 rename</button>
+                    <button style="border-radius: 6px; font-size: small; cursor: cell; text-align: center;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ copy</small></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -384,7 +384,7 @@
                 <br>
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Free Tiles + Tool! ❤︎</a>
 <br>
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ Clone map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><b>⇄</b> Replace tileset</button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
       
