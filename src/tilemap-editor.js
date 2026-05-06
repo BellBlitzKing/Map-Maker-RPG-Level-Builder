@@ -150,9 +150,10 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <select style="height: 22px; width: 140px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊</button>
-                    <button style="border-radius: 3px; font-size: small; cursor: cell;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers">⧉ clone</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: cell;     height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers">⧉ clone</button>
+                    <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addMapBtn" title="🌐 Add New Map"><small>✚ </small>new</button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -371,8 +372,8 @@
         </label>
 
 <div style="justify-items: center !important;">
-        <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addMapBtn" title="🌐 Add New Map">✚ Add Map</button>
-
+        
+<br>
         <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add Layer</button>
 </div>
         <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
