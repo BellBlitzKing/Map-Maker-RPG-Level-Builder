@@ -150,9 +150,9 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊 rename</button>
-                    <button style="border-radius: 6px; font-size: small; cursor: cell; text-align: center;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>✚ copy</small></button>
+                    <select style="height: 22px; width: 140px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="Rename this Map">🖊</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: cell;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers">⧉ clone</button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -299,10 +299,10 @@
 
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">   h   </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">   w    </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">      h   </label><input style="width: 44px;" type="number" title="How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w   </label><input style="width: 44px;" type="number" title="How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
                     
-                    <br>
+                    <hr style="border-color: transparent;">
 
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 24px; display: block; border-radius: 4px; width: 135px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
@@ -384,7 +384,7 @@
                 <br>
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Free Tiles + Tool! ❤︎</a>
 <br>
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><b>⇄</b> Replace tileset</button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>⇄</b> Replace tileset</small></button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
       
