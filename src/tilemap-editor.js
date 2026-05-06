@@ -371,12 +371,12 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-<div style="justify-items: center !important;">
-        
+<div style="background: #28423af0; justify-items: center !important;">
+
 <br>
         <button style="border-radius: 6px; text-align: center; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 140px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add Layer</button>
 </div>
-        <div style="max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
+        <div style="background: #28423af0; max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
@@ -385,7 +385,7 @@
                 <br>
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Free Tiles + Tool! ❤︎</a>
 <br>
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>⇄</b> Replace tileset</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>⇄ 🗎</b> Replace tileset</small></button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
       
