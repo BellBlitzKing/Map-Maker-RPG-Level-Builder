@@ -303,7 +303,7 @@
 
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-<label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
+<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 10px; color: gold; height: 24px; border-radius: 6px; width: 135px; font-size: 14px;"><label for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">◀  Move Map  ▶</label></button>
                     
                     <hr style="border-color: transparent;">
                     
