@@ -309,7 +309,7 @@
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 135px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
-                              <div id="flipBrushIndicator">✏️ Draw Tiles</div>
+                              <div id="flipBrushIndicator">✏️ Draw tiles</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
                                 <div style="display: none; visibility: hidden;" class="item nohover">Pencil draw tool options</div>
@@ -324,19 +324,19 @@
 
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase tiles</label>
 
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 
                       <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔄 🔃 Replace Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
