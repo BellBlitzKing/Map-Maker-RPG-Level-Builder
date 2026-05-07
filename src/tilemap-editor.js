@@ -299,7 +299,7 @@
 <div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
 
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="width: 44px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w   </label><input style="width: 44px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="width: 44px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
                     
                     <hr style="border-color: transparent;">
 
@@ -374,7 +374,7 @@
         </label>
 
 <div style="max-width: 165px; background: #28423af0; justify-items: center !important;">
-        <button style="border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ Add Layer</button>
+        <button style="border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
         <div style="background: #28423af0; max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
@@ -1633,7 +1633,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map 🌐",
+            name: "save map 🌐🏞️",
             description: "save map as an image png",
             transformer: exportImage
         }
@@ -1653,7 +1653,7 @@
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
             name: "upload json",
-            description: "upload / open map json file",
+            description: "upload / open map json file to continue editing a map",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
                 readFile.onload = (e) => {
