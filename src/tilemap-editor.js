@@ -151,7 +151,7 @@
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
                     <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖊</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px; " id="addMapBtn" title="🌐 Add New Map"><small>✚ </small>new</button>
             </div>
@@ -193,7 +193,7 @@
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3264, behavior: 'smooth'});">🏠</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5088, behavior: 'smooth'});">🛖</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 10464, behavior: 'smooth'});">🧙‍♂️</button>
-                  <button style="margin-bottom: 4px; font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11261, behavior: 'smooth'});">🔠</button>
+                  <button style="margin-bottom: 4px; font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11232, behavior: 'smooth'});">🔠</button>
 
                   <br>
                   <button style="padding: 2px; font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px; background-color: Beige;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6207, behavior: 'smooth'});">🌴</button>
@@ -385,11 +385,11 @@
                 <br>
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Free Tiles + Tool! ❤︎</a>
 <br>
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>⇄ 🗎</b> Replace tileset</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Replace tileset</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖ Erase all layers</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑 Delete map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
@@ -1638,7 +1638,7 @@
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save json ◢",
+            name: "save json",
             description: "save map as a json file",
             transformer: exportJson
         }
@@ -1652,7 +1652,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "upload json ▲",
+            name: "upload json",
             description: "upload / open map json file",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
