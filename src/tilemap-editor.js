@@ -375,7 +375,7 @@
         </label>
 
 <div style="box-shadow: 0 6px 2px -2px grey; max-width: 165px; background: #28423af0; justify-items: center !important;">
-        <button style="outline: 2px solid skyblue; color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+        <button style="color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 14px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
         <div style="background: #28423af0; max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
