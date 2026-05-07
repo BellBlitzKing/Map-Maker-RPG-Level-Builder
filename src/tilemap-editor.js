@@ -303,7 +303,7 @@
 
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 10px; color: gold; height: 24px; border-radius: 6px; width: 135px; font-size: 14px;"><label for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">◀  Move Map  ▶</label></button>
+<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 24px; border-radius: 6px; width: 136px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">◀  Move Map  ▶</label></button>
                     
                     <hr style="border-color: transparent;">
                     
@@ -333,13 +333,15 @@
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample Tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random Tile</label>
+
+                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔄 🔃 Replace Tile</label>
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 <br>
-                      <input style="display: none; visibility: hidden;" id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="display: none; visibility: hidden;" for="tool5" title="replace and fill in tile on selected layer" data-value="5"> 🪣🧱</label>
+
 
             </div>
 
