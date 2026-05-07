@@ -373,7 +373,7 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-<div style="max-width: 165px; background: #28423af0; justify-items: center !important;">
+<div style="box-shadow: 0 6px 2px -2px yellow; max-width: 165px; background: #28423af0; justify-items: center !important;">
         <button style="outline: 2px solid skyblue; color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 15px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
         <div style="background: #28423af0; max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
