@@ -304,8 +304,7 @@
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
 <button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 24px; border-radius: 6px; width: 136px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">◀  Move Map  ▶</label></button>
-                    
-                    <hr style="border-color: transparent;">
+
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
                           <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 135px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
@@ -336,7 +335,7 @@
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 
                       <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 20px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
@@ -376,7 +375,7 @@
         </label>
 
 <div style="box-shadow: 0 6px 2px -2px grey; max-width: 165px; background: #28423af0; justify-items: center !important;">
-        <button style="outline: 2px solid skyblue; color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 15px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+        <button style="outline: 2px solid skyblue; color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
         <div style="background: #28423af0; max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
