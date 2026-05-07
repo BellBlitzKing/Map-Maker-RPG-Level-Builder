@@ -374,7 +374,7 @@
         </label>
 
 <div style="max-width: 165px; background: #28423af0; justify-items: center !important;">
-        <button style="border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+        <button style="outline: 2px solid skyblue; color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
         <div style="background: #28423af0; max-width: 165px; max-height: 165px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
@@ -1633,13 +1633,13 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map 🌐🏞️",
-            description: "save map as an image png",
+            name: "save map 🌐⬇️",
+            description: "save map as an image png (download)",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
             name: "save json",
-            description: "save map as a json file",
+            description: "save map as a json file to edit later",
             transformer: exportJson
         }
         // apiTileMapExporters.analizeTilemap = {
