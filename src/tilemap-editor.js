@@ -303,10 +303,7 @@
 
 <hr style="border-color: transparent;">
 
-            <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" class="tool_wrapper"> 
-                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
-            </div>
+          <small><label style="cursor: move;" for="tool2" title="move and scroll around map" data-value="2">◀🌐▶</label></small>
                     
                     <hr style="border-color: transparent;">
 
@@ -331,7 +328,8 @@
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase Tiles</label>
 
-
+                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2">🌐 Move Map</label>
 
                       <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample Tile</label>
