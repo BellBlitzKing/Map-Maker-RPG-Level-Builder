@@ -1634,12 +1634,12 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<b>save map 🌐⬇️</b>`,
+            name: "<b> save map 🌐⬇️ </b>",
             description: "save map as an image png (download)",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save json",
+            name: "<small> save json </small>",
             description: "save map as a json file to edit later",
             transformer: exportJson
         }
@@ -2125,7 +2125,7 @@
         const makeMenuItem = (name, value, description) =>{
             const menuItem = document.createElement("button"); //span save as button dropdowns
             menuItem.className = "item";
-            menuItem.innerText = name;
+            menuItem.innerHTML = name;
             menuItem.title = description;
             menuItem.value = value;
             menuItem.style = "border-radius: 4px; font-size: small;"
