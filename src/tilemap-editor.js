@@ -150,7 +150,7 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <select style="height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px; " id="addMapBtn" title="🌐 Add New Map"><small>✚ </small>new</button>
@@ -1634,7 +1634,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: "save map 🌐⬇️",
+            name: `<b>save map 🌐⬇️</b>`,
             description: "save map as an image png (download)",
             transformer: exportImage
         }
