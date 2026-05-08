@@ -173,7 +173,8 @@
 
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
-<div style="justify-content: center; display: flex;" id="fileMenuDropDown">              
+<div style="justify-content: center; display: flex;" id="fileMenuDropDown">
+<text>ℹ️</text>
 </div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
@@ -2129,7 +2130,7 @@
             menuItem.title = description;
             menuItem.value = value;
             menuItem.style = "border-radius: 4px; font-size: small;"
-            fileMenuDropDown.appendChild(menuItem);
+            fileMenuDropDown.prepend(menuItem); //fileMenuDropDown.appendChild(menuItem);
             return menuItem;
         }
         Object.entries(tileMapExporters).forEach(([key, exporter])=>{
