@@ -1634,7 +1634,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<b style="color: gold;">save map</b> 🌐⬇️`,
+            name: `<text style="color: gold;">save map</text> ⬇️`,
             description: "save map as an image png (download)",
             transformer: exportImage
         }
