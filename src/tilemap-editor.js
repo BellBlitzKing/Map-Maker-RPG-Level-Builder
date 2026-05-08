@@ -2130,7 +2130,7 @@
             menuItem.title = description;
             menuItem.value = value;
             menuItem.style = "border-radius: 4px; font-size: small;"
-            fileMenuDropDown.prepend(menuItem); //fileMenuDropDown.appendChild(menuItem);
+            fileMenuDropDown.appendChild(menuItem); // fileMenuDropDown.prepend(menuItem); 
             return menuItem;
         }
         Object.entries(tileMapExporters).forEach(([key, exporter])=>{
