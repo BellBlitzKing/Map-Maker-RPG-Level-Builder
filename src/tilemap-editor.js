@@ -174,7 +174,6 @@
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
-<text>ℹ️</text>
 </div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
@@ -383,7 +382,7 @@
       
 <div style="text-align: center; justify-items: center !important;">
 <br>
-                <a title="Give a Review and Rating! Share ideas & feedback" style="margin-bottom: 10px; font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
+                <a title="Give a Review and Rating! Share ideas & feedback" style="margin-bottom: 10px; font-size: small; display:inline; color: gold;" class="button item button-as-link" href="./rate" target="_blank">Give Review 🤩⭐</a>
                 <br>
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display:inline; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
 <br>
