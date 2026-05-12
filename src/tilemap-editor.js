@@ -1102,7 +1102,7 @@
     }
 
     const downloadAsTextFile = (input, fileName = "tilemap-editor.json") =>{
-        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(typeof input === "string" ? input : JSON.stringify(input));
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(typeof input === "string" ? input : JSON.stringify(input, null, '\t'));
         const dlAnchorElem = document.getElementById('downloadAnchorElem');
         dlAnchorElem.setAttribute("href",     dataStr     );
         dlAnchorElem.setAttribute("download", fileName);
