@@ -174,6 +174,7 @@
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
+<input style="font-size: small;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked>  ⊞ grid</input>
 </div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
@@ -303,7 +304,7 @@
 
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 24px; border-radius: 6px; width: 110px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button> <input title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked />
+<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 24px; border-radius: 6px; width: 110px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
