@@ -156,7 +156,7 @@
 
 
                     
-                    <button style="border-radius: 3px; font-size: small;" title="⊞ Grid On or Off"><input style="font-size: small;" title="⊞ Grid On or Off" value="true" checked="checked" type="checkbox" id="showGrid" checked><text title="⊞ Grid On or Off" style="font-size: small;">⊞ grid</text></input></button>
+                    <button style="border-radius: 3px; font-size: small;" title="⊞ Grid On or Off"><input style="font-size: small;" title="⊞ Grid On or Off" value="true" checked="checked" type="checkbox" id="showGrid" checked></input><sup style="font-size: 12px;">⊞ grid</sup></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -177,7 +177,7 @@
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
-<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new 🌐</button>
+<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new<small> 🌐</small></button>
 </div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
