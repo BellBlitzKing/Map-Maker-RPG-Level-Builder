@@ -307,7 +307,7 @@
 
             <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 24px; border-radius: 6px; width: 136px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
+<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 26px; border-radius: 6px; width: 120px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
@@ -343,7 +343,7 @@
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
-<br>
+<br><br>
 
 
             </div>
