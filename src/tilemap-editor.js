@@ -153,7 +153,8 @@
                     <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
-                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px; " id="addMapBtn" title="🌐 Add New Map"><small>✚ </small>new</button>
+                    
+                    <button style="font-size: small;" title="Grid On or Off"><input style="font-size: small;" title="Grid On or Off" value="true" checked="checked" type="checkbox" id="showGrid" checked><text title="Grid On or Off" style="font-size: small;">⊞ grid</text></input></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -174,7 +175,7 @@
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
-<input style="font-size: small;" title="Show grid above" value="true" checked="checked" type="checkbox" id="showGrid" checked>  ⊞ grid</input>
+<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; " id="addMapBtn" title="🌐 Add New Map"><small>🌐 </small>new</button>
 </div>
 
                 <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
