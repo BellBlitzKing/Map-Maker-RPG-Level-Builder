@@ -23796,17 +23796,17 @@
 							"isFlippedX": false
 						},
 						"1-0": {
-							"x": 6,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ñ",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"10-0": {
-							"x": 6,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ñ",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"10-2": {
@@ -23887,10 +23887,10 @@
 							"isFlippedX": false
 						},
 						"0-3": {
-							"x": 6,
+							"x": 0,
 							"y": 33,
 							"tilesetIdx": "0",
-							"tileSymbol": "ǵ",
+							"tileSymbol": "ǯ",
 							"isFlippedX": false
 						},
 						"10-5": {
@@ -23901,10 +23901,10 @@
 							"isFlippedX": false
 						},
 						"11-7": {
-							"x": 6,
+							"x": 0,
 							"y": 33,
 							"tilesetIdx": "0",
-							"tileSymbol": "ǵ",
+							"tileSymbol": "ǯ",
 							"isFlippedX": false
 						},
 						"4-9": {
@@ -23922,17 +23922,17 @@
 							"isFlippedX": false
 						},
 						"1-9": {
-							"x": 9,
+							"x": 3,
 							"y": 19,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ŭ",
+							"tileSymbol": "Ŧ",
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 8,
+							"x": 2,
 							"y": 19,
 							"tilesetIdx": "0",
-							"tileSymbol": "ū",
+							"tileSymbol": "ť",
 							"isFlippedX": false
 						},
 						"0-6": {
@@ -23978,10 +23978,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 3,
+							"x": 2,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ð",
+							"tileSymbol": "Ï",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -24041,10 +24041,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 3,
+							"x": 2,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Æ",
+							"tileSymbol": "Å",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -24132,10 +24132,10 @@
 							"isFlippedX": false
 						},
 						"1-13": {
-							"x": 8,
-							"y": 20,
+							"x": 0,
+							"y": 21,
 							"tilesetIdx": "0",
-							"tileSymbol": "ŵ",
+							"tileSymbol": "ŷ",
 							"isFlippedX": false
 						},
 						"3-14": {
@@ -24174,31 +24174,45 @@
 							"isFlippedX": false
 						},
 						"1-1": {
-							"x": 6,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "û",
+							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
 						"10-1": {
-							"x": 6,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "û",
+							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
 						"2-0": {
-							"x": 6,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "û",
+							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
 						"9-0": {
-							"x": 6,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "û",
+							"tileSymbol": "œ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 3,
+							"y": 16,
+							"tilesetIdx": "0",
+							"tileSymbol": "ň",
+							"isFlippedX": false
+						},
+						"2-5": {
+							"x": 3,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Œ",
 							"isFlippedX": false
 						}
 					},
@@ -25861,10 +25875,10 @@
 							"isFlippedX": false
 						},
 						"1-0": {
-							"x": 7,
-							"y": 7,
+							"x": 8,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ò",
+							"tileSymbol": "ō",
 							"isFlippedX": false
 						},
 						"10-2": {
@@ -25945,10 +25959,10 @@
 							"isFlippedX": false
 						},
 						"0-3": {
-							"x": 0,
+							"x": 2,
 							"y": 33,
 							"tilesetIdx": "0",
-							"tileSymbol": "ǯ",
+							"tileSymbol": "Ǳ",
 							"isFlippedX": false
 						},
 						"10-5": {
@@ -25959,10 +25973,10 @@
 							"isFlippedX": false
 						},
 						"11-7": {
-							"x": 0,
+							"x": 2,
 							"y": 33,
 							"tilesetIdx": "0",
-							"tileSymbol": "ǯ",
+							"tileSymbol": "Ǳ",
 							"isFlippedX": false
 						},
 						"4-9": {
@@ -25980,17 +25994,17 @@
 							"isFlippedX": false
 						},
 						"1-9": {
-							"x": 8,
-							"y": 16,
+							"x": 4,
+							"y": 20,
 							"tilesetIdx": "0",
-							"tileSymbol": "ō",
+							"tileSymbol": "ű",
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 9,
-							"y": 17,
+							"x": 7,
+							"y": 6,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ř",
+							"tileSymbol": "è",
 							"isFlippedX": false
 						},
 						"0-6": {
@@ -26036,10 +26050,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 1,
-							"y": 4,
+							"x": 6,
+							"y": 2,
 							"tilesetIdx": "0",
-							"tileSymbol": "Î",
+							"tileSymbol": "¿",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -26099,10 +26113,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 1,
-							"y": 3,
+							"x": 6,
+							"y": 1,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ä",
+							"tileSymbol": "µ",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -26169,24 +26183,24 @@
 							"isFlippedX": false
 						},
 						"7-14": {
-							"x": 4,
-							"y": 7,
+							"x": 7,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ï",
+							"tileSymbol": "Ō",
 							"isFlippedX": false
 						},
 						"7-15": {
-							"x": 4,
-							"y": 8,
+							"x": 7,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ù",
+							"tileSymbol": "Ŗ",
 							"isFlippedX": false
 						},
 						"10-15": {
-							"x": 4,
-							"y": 7,
+							"x": 7,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ï",
+							"tileSymbol": "Ō",
 							"isFlippedX": false
 						},
 						"1-13": {
@@ -26197,10 +26211,10 @@
 							"isFlippedX": false
 						},
 						"1-1": {
-							"x": 7,
-							"y": 8,
+							"x": 8,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ü",
+							"tileSymbol": "ŗ",
 							"isFlippedX": false
 						},
 						"0-0": {
@@ -26218,17 +26232,17 @@
 							"isFlippedX": false
 						},
 						"10-0": {
-							"x": 7,
-							"y": 7,
+							"x": 8,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ò",
+							"tileSymbol": "ō",
 							"isFlippedX": false
 						},
 						"10-1": {
-							"x": 7,
-							"y": 8,
+							"x": 8,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ü",
+							"tileSymbol": "ŗ",
 							"isFlippedX": false
 						},
 						"11-13": {
@@ -26264,6 +26278,27 @@
 							"y": 0,
 							"tilesetIdx": "0",
 							"tileSymbol": "®",
+							"isFlippedX": false
+						},
+						"2-0": {
+							"x": 8,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŗ",
+							"isFlippedX": false
+						},
+						"9-0": {
+							"x": 8,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŗ",
+							"isFlippedX": false
+						},
+						"0-9": {
+							"x": 7,
+							"y": 5,
+							"tilesetIdx": "0",
+							"tileSymbol": "Þ",
 							"isFlippedX": false
 						}
 					},
@@ -27921,31 +27956,17 @@
 							"isFlippedX": false
 						},
 						"1-0": {
-							"x": 4,
-							"y": 8,
+							"x": 6,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ù",
-							"isFlippedX": false
-						},
-						"0-1": {
-							"x": 4,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ù",
+							"tileSymbol": "ŋ",
 							"isFlippedX": false
 						},
 						"10-0": {
-							"x": 4,
-							"y": 8,
+							"x": 6,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ù",
-							"isFlippedX": false
-						},
-						"11-1": {
-							"x": 4,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ù",
+							"tileSymbol": "ŋ",
 							"isFlippedX": false
 						},
 						"6-1": {
@@ -28166,45 +28187,31 @@
 							"isFlippedX": false
 						},
 						"7-14": {
-							"x": 5,
-							"y": 7,
+							"x": 6,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ð",
+							"tileSymbol": "ŋ",
 							"isFlippedX": false
 						},
 						"7-15": {
-							"x": 5,
-							"y": 8,
+							"x": 6,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ú",
-							"isFlippedX": false
-						},
-						"0-0": {
-							"x": 4,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ï",
-							"isFlippedX": false
-						},
-						"11-0": {
-							"x": 4,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ï",
+							"tileSymbol": "ŕ",
 							"isFlippedX": false
 						},
 						"1-13": {
-							"x": 8,
-							"y": 20,
+							"x": 7,
+							"y": 9,
 							"tilesetIdx": "0",
-							"tileSymbol": "ŵ",
+							"tileSymbol": "Ć",
 							"isFlippedX": false
 						},
 						"10-15": {
-							"x": 5,
-							"y": 7,
+							"x": 6,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ð",
+							"tileSymbol": "ŋ",
 							"isFlippedX": false
 						},
 						"7-16": {
@@ -28264,10 +28271,10 @@
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 8,
-							"y": 21,
+							"x": 0,
+							"y": 11,
 							"tilesetIdx": "0",
-							"tileSymbol": "ſ",
+							"tileSymbol": "ē",
 							"isFlippedX": false
 						},
 						"1-9": {
@@ -28285,10 +28292,10 @@
 							"isFlippedX": false
 						},
 						"2-5": {
-							"x": 8,
-							"y": 21,
+							"x": 1,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ſ",
+							"tileSymbol": "Ő",
 							"isFlippedX": false
 						},
 						"9-5": {
@@ -28313,10 +28320,45 @@
 							"isFlippedX": false
 						},
 						"11-11": {
-							"x": 1,
-							"y": 21,
+							"x": 6,
+							"y": 11,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ÿ",
+							"tileSymbol": "ę",
+							"isFlippedX": false
+						},
+						"1-1": {
+							"x": 6,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŕ",
+							"isFlippedX": false
+						},
+						"10-1": {
+							"x": 6,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŕ",
+							"isFlippedX": false
+						},
+						"2-0": {
+							"x": 6,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŕ",
+							"isFlippedX": false
+						},
+						"9-0": {
+							"x": 6,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŕ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 1,
+							"y": 16,
+							"tilesetIdx": "0",
+							"tileSymbol": "ņ",
 							"isFlippedX": false
 						}
 					},
@@ -30322,24 +30364,24 @@
 							"isFlippedX": false
 						},
 						"7-14": {
-							"x": 6,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ñ",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"7-15": {
-							"x": 6,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "û",
+							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
 						"10-15": {
-							"x": 6,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ñ",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"12-0": {
@@ -33141,10 +33183,10 @@
 							"isFlippedX": false
 						},
 						"1-0": {
-							"x": 9,
-							"y": 8,
+							"x": 5,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "þ",
+							"tileSymbol": "Ŋ",
 							"isFlippedX": false
 						},
 						"0-1": {
@@ -33155,10 +33197,10 @@
 							"isFlippedX": false
 						},
 						"10-0": {
-							"x": 9,
-							"y": 8,
+							"x": 5,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "þ",
+							"tileSymbol": "Ŋ",
 							"isFlippedX": false
 						},
 						"11-1": {
@@ -33253,10 +33295,10 @@
 							"isFlippedX": false
 						},
 						"10-5": {
-							"x": 5,
-							"y": 0,
+							"x": 9,
+							"y": 10,
 							"tilesetIdx": "0",
-							"tileSymbol": "ª",
+							"tileSymbol": "Ē",
 							"isFlippedX": false
 						},
 						"11-7": {
@@ -33281,31 +33323,31 @@
 							"isFlippedX": false
 						},
 						"1-9": {
-							"x": 5,
-							"y": 16,
+							"x": 1,
+							"y": 19,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ŋ",
+							"tileSymbol": "Ť",
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 6,
-							"y": 18,
+							"x": 2,
+							"y": 19,
 							"tilesetIdx": "0",
-							"tileSymbol": "ş",
+							"tileSymbol": "ť",
 							"isFlippedX": false
 						},
 						"0-6": {
-							"x": 2,
+							"x": 3,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Å",
+							"tileSymbol": "Æ",
 							"isFlippedX": false
 						},
 						"0-7": {
-							"x": 2,
+							"x": 3,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ï",
+							"tileSymbol": "Ð",
 							"isFlippedX": false
 						},
 						"1-7": {
@@ -33337,10 +33379,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 7,
-							"y": 4,
+							"x": 9,
+							"y": 2,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ô",
+							"tileSymbol": "Â",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -33400,10 +33442,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 7,
-							"y": 3,
+							"x": 9,
+							"y": 1,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ê",
+							"tileSymbol": "¸",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -33470,17 +33512,17 @@
 							"isFlippedX": false
 						},
 						"7-14": {
-							"x": 9,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ô",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"7-15": {
-							"x": 9,
-							"y": 8,
+							"x": 4,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "þ",
+							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
 						"0-0": {
@@ -33498,10 +33540,10 @@
 							"isFlippedX": false
 						},
 						"1-13": {
-							"x": 1,
-							"y": 18,
+							"x": 9,
+							"y": 9,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ś",
+							"tileSymbol": "Ĉ",
 							"isFlippedX": false
 						},
 						"3-14": {
@@ -33512,10 +33554,10 @@
 							"isFlippedX": false
 						},
 						"10-15": {
-							"x": 9,
-							"y": 7,
+							"x": 4,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ô",
+							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
 						"11-13": {
@@ -33530,6 +33572,48 @@
 							"y": 8,
 							"tilesetIdx": "0",
 							"tileSymbol": "þ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 3,
+							"y": 16,
+							"tilesetIdx": "0",
+							"tileSymbol": "ň",
+							"isFlippedX": false
+						},
+						"2-5": {
+							"x": 3,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Œ",
+							"isFlippedX": false
+						},
+						"1-1": {
+							"x": 5,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ŕ",
+							"isFlippedX": false
+						},
+						"10-1": {
+							"x": 5,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ŕ",
+							"isFlippedX": false
+						},
+						"2-0": {
+							"x": 5,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ŕ",
+							"isFlippedX": false
+						},
+						"9-0": {
+							"x": 5,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ŕ",
 							"isFlippedX": false
 						}
 					},
@@ -35192,10 +35276,10 @@
 							"isFlippedX": false
 						},
 						"1-0": {
-							"x": 4,
-							"y": 8,
+							"x": 9,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ù",
+							"tileSymbol": "Ŏ",
 							"isFlippedX": false
 						},
 						"0-1": {
@@ -35206,10 +35290,10 @@
 							"isFlippedX": false
 						},
 						"10-0": {
-							"x": 4,
-							"y": 8,
+							"x": 9,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ù",
+							"tileSymbol": "Ŏ",
 							"isFlippedX": false
 						},
 						"11-1": {
@@ -35319,37 +35403,30 @@
 						},
 						"2-8": {
 							"x": 5,
-							"y": 10,
-							"tilesetIdx": "0",
-							"tileSymbol": "Ď",
-							"isFlippedX": false
-						},
-						"1-9": {
-							"x": 4,
 							"y": 11,
 							"tilesetIdx": "0",
-							"tileSymbol": "ė",
+							"tileSymbol": "Ę",
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 4,
+							"x": 9,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ñ",
+							"tileSymbol": "Ö",
 							"isFlippedX": false
 						},
 						"0-6": {
-							"x": 5,
-							"y": 3,
+							"x": 1,
+							"y": 1,
 							"tilesetIdx": "0",
-							"tileSymbol": "È",
+							"tileSymbol": "°",
 							"isFlippedX": false
 						},
 						"0-7": {
-							"x": 5,
-							"y": 4,
+							"x": 1,
+							"y": 2,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ò",
+							"tileSymbol": "º",
 							"isFlippedX": false
 						},
 						"1-7": {
@@ -35381,10 +35458,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 6,
+							"x": 7,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ó",
+							"tileSymbol": "Ô",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -35444,10 +35521,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 6,
+							"x": 7,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "É",
+							"tileSymbol": "Ê",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -35514,17 +35591,17 @@
 							"isFlippedX": false
 						},
 						"7-14": {
-							"x": 8,
-							"y": 7,
+							"x": 9,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ó",
+							"tileSymbol": "Ŏ",
 							"isFlippedX": false
 						},
 						"7-15": {
-							"x": 8,
-							"y": 8,
+							"x": 9,
+							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "ý",
+							"tileSymbol": "Ř",
 							"isFlippedX": false
 						},
 						"0-0": {
@@ -35542,10 +35619,10 @@
 							"isFlippedX": false
 						},
 						"1-13": {
-							"x": 6,
-							"y": 16,
+							"x": 5,
+							"y": 20,
 							"tilesetIdx": "0",
-							"tileSymbol": "ŋ",
+							"tileSymbol": "Ų",
 							"isFlippedX": false
 						},
 						"3-14": {
@@ -35556,17 +35633,17 @@
 							"isFlippedX": false
 						},
 						"10-15": {
-							"x": 4,
-							"y": 7,
+							"x": 8,
+							"y": 16,
 							"tilesetIdx": "0",
-							"tileSymbol": "ï",
+							"tileSymbol": "ō",
 							"isFlippedX": false
 						},
 						"11-13": {
-							"x": 7,
+							"x": 1,
 							"y": 0,
 							"tilesetIdx": "0",
-							"tileSymbol": "¬",
+							"tileSymbol": "¦",
 							"isFlippedX": false
 						},
 						"7-16": {
@@ -35577,10 +35654,10 @@
 							"isFlippedX": false
 						},
 						"0-9": {
-							"x": 4,
+							"x": 9,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ç",
+							"tileSymbol": "Ì",
 							"isFlippedX": false
 						},
 						"3-15": {
@@ -35598,10 +35675,45 @@
 							"isFlippedX": false
 						},
 						"2-5": {
-							"x": 5,
+							"x": 8,
+							"y": 4,
+							"tilesetIdx": "0",
+							"tileSymbol": "Õ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 8,
+							"y": 3,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ë",
+							"isFlippedX": false
+						},
+						"1-1": {
+							"x": 9,
 							"y": 17,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ŕ",
+							"tileSymbol": "Ř",
+							"isFlippedX": false
+						},
+						"10-1": {
+							"x": 9,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ř",
+							"isFlippedX": false
+						},
+						"2-0": {
+							"x": 8,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŗ",
+							"isFlippedX": false
+						},
+						"9-0": {
+							"x": 8,
+							"y": 17,
+							"tilesetIdx": "0",
+							"tileSymbol": "ŗ",
 							"isFlippedX": false
 						}
 					},
