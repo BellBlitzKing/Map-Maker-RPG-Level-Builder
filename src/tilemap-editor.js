@@ -338,9 +338,11 @@
 <br><br>
 
         <div class="tool_wrapper">
+            Zoom: 
             <label style="cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
+            <text>| |</text>
             <label style="cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="font-size: 14px;" id="zoomLabel">️</label>
+            <label style="font-size: 14px;" id="zoomLabel">️o</label>
         </div>
 
             </div>
