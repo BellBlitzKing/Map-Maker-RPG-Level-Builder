@@ -338,11 +338,11 @@
 <br><br>
 
         <div class="tool_wrapper">
-            Zoom: 
+            Zoom:
             <label style="cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
-            <text>| |</text>
+            <text> | </text>
             <label style="cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="font-size: 14px;" id="zoomLabel">️o</label>
+            <label style="font-size: 14px;" id="zoomLabel">️</label>
         </div>
 
             </div>
@@ -1376,7 +1376,7 @@
         undoStepPosition += 1;
         restoreFromUndoStackData();
     }
-    const zoomLevels = [0.5, 0.5, 1, 1, 1, 1];
+    const zoomLevels = [0.25, 0.5, 1, 2, 3, 4];
     let zoomIndex = 1
     const updateZoom = () => {
         tilesetImage.style = `transform: scale(${ZOOM});transform-origin: left top;image-rendering: auto;image-rendering: crisp-edges;image-rendering: pixelated;`;
