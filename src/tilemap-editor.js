@@ -335,17 +335,16 @@
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
-<br><br>
 
-        <div class="tool_wrapper">
-            <label style="font-size: 13px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label><text>   </text>
-            <label style="font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="color: white !important; font-size: 14px;" id="zoomLabel">️</label>
-        </div>
+    <br><br>
+
+            <label style="margin-left: 19px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label><text>
+            <label style="margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="margin-left: 5px; font-size: 14px; background-color: transparent; color: white !important;" id="zoomLabel">️</label>
 
             </div>
 
-        <br>
+    <br>
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
