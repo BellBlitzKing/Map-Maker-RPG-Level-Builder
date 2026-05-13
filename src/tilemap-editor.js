@@ -335,16 +335,13 @@
 
                         <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
-<br>
+<br><br>
 
         <div class="tool_wrapper">
             <label style="cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
             <label style="font-size: 14px;" id="zoomLabel">️</label>
         </div>
-
-<br>
-
 
             </div>
 
