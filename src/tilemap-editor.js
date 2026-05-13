@@ -112,14 +112,6 @@
 
         </div>
 
-
-
-
-        <div style="display: none; visibility: hidden;" class="tool_wrapper">
-            <label style="display: none; visibility: hidden; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
-            <label style="display: none; visibility: hidden; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="display: none; visibility: hidden;" id="zoomLabel">️</label>
-        </div>
             
         <div style="display: none; visibility: hidden;">
             <button style="display: none; visibility: hidden;" class="primary-button" id="confirmBtn">"apply"</button>
