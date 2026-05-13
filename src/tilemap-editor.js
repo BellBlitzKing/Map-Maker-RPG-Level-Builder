@@ -1374,7 +1374,7 @@
         undoStepPosition += 1;
         restoreFromUndoStackData();
     }
-    const zoomLevels = [0.25, 0.5, 1, 2, 3, 4];
+    const zoomLevels = [0.5, 0.5, 1, 1, 1, 1];
     let zoomIndex = 1
     const updateZoom = () => {
         tilesetImage.style = `transform: scale(${ZOOM});transform-origin: left top;image-rendering: auto;image-rendering: crisp-edges;image-rendering: pixelated;`;
