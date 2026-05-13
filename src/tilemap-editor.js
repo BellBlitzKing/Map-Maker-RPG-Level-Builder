@@ -324,8 +324,8 @@
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       
 
-                      <input id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
+                      <input style="display: none; visibility: hidden;" id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
@@ -338,8 +338,8 @@
 <br><br>
 
         <div class="tool_wrapper">
-            <label style="font-size: 12px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label><text>   </text>
-            <label style="font-size: 12px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="font-size: 13px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label><text>   </text>
+            <label style="font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
             <label style="color: white !important; font-size: 14px;" id="zoomLabel">️</label>
         </div>
 
