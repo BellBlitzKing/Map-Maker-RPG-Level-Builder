@@ -340,7 +340,7 @@
 
             <label style="margin-left: 25px; font-size: 15px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="margin-left: 5px; font-size: 15px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="margin-left: 5px; font-size: 15px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
+            <label style="margin-left: 5px; font-size: 13px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
 
             </div>
 
@@ -1380,7 +1380,7 @@
         tilesetImage.style = `transform: scale(${ZOOM});transform-origin: left top;image-rendering: auto;image-rendering: crisp-edges;image-rendering: pixelated;`;
         tilesetContainer.style.width = `${tilesetImage.width * ZOOM}px`;
         tilesetContainer.style.height = `${tilesetImage.height * ZOOM}px`;
-        document.getElementById("zoomLabel").innerText = `${ZOOM}x      `; /*Add spacing behind the x for better visibility */
+        document.getElementById("zoomLabel").innerText = `${ZOOM}x`; /*Add spacing behind the x for better visibility */
         updateTilesetGridContainer();
         updateSelection(false);
         updateMapSize({mapWidth: mapTileWidth, mapHeight: mapTileHeight});
