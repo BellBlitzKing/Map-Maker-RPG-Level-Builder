@@ -338,9 +338,9 @@
 
     <br><br>
 
-            <label style="margin-left: 19px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label><text>
-            <label style="margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
-            <label style="margin-left: 5px; font-size: 14px; background-color: transparent; color: white !important;" id="zoomLabel">️</label>
+            <label style="margin-left: 25px; font-size: 15px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
+            <label style="margin-left: 5px; font-size: 15px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="margin-left: 5px; font-size: 15px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
 
             </div>
 
