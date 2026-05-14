@@ -380,9 +380,9 @@
         <div style="max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
-<div style="text-align: center; justify-items: center !important;">
-<br>
-                <a title="Give a Review and Rating! Share ideas & feedback" style="margin-bottom: 10px; font-size: small; display:inline; color: gold;" class="button item button-as-link" href="./rate" target="_blank">Give Review 🤩⭐</a>
+<div style="margin-top: 20px; text-align: center; justify-items: center !important;">
+
+                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="./rate" target="_blank">Give Review 🤩⭐</a>
                 
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display: none; visibility: hidden; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
 <br>
