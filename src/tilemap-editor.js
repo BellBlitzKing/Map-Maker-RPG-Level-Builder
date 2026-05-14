@@ -292,7 +292,7 @@
         
       <div style="max-width: 170px; margin-right: 20px;" class="card_right-column layers">
       
-<div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
+<div title="" style="background: #28423af0; color: gold !important; padding-top: 10px; padding-bottom: 10px; text-align: center;">
 
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
@@ -374,10 +374,10 @@
             <small><label style="display: none; visibility: hidden;" id="activeLayerLabel" class="menu">Edit layer</label></small>
         </label>
 
-<div style="box-shadow: 0 6px 2px -2px grey; max-width: 165px; background: #28423af0; justify-items: center !important;">
-        <button style="color: gold; border-radius: 6px; text-align: center; margin-top: 10px; margin-bottom: 14px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+<div style="max-width: 165px; justify-items: center !important;">
+        <button style="color: gold; border-radius: 6px; text-align: center; margin-top: 15px; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 130px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
-        <div style="background: #28423af0; max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
+        <div style="max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
