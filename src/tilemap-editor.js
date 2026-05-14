@@ -138,7 +138,7 @@
         </details>
 
 
-        <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: linear-gradient(0deg, #28423af0 60%, #283442 60%);"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
+        <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
@@ -172,7 +172,7 @@
 <button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new<small> 🌐</small></button>
 </div>
 
-                <div style="cursor: default; margin-top: 20px; margin-bottom: 12px;">
+                <div style="cursor: default; margin-top: 12px; margin-bottom: 15px;">
                                   
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button style="font-size: large; cursor: pointer; border-color: #283442; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
@@ -273,8 +273,8 @@
            </div>     
         </div>
 
-      <div class="tileset-container">
-        <div class="tileset-container-selection"></div>
+      <div style="margin-top: 5px;" class="tileset-container">
+        <div style="border-radius: 6px;" class="tileset-container-selection"></div>
         <canvas id="tilesetCanvas" />
 <!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
@@ -290,7 +290,7 @@
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 20px; margin-top: 5px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 20px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; margin-top: 10px; text-align: center;">
 
