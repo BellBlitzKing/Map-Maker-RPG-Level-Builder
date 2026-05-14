@@ -273,7 +273,7 @@
            </div>     
         </div>
 
-      <div style="margin-top: 5px;" class="tileset-container">
+      <div style="margin-top: 2px;" class="tileset-container">
         <div style="border-radius: 6px;" class="tileset-container-selection"></div>
         <canvas id="tilesetCanvas" />
 <!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
