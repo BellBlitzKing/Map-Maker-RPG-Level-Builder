@@ -138,7 +138,8 @@
   right: 0;
   background: #ffffffb0;
   /*height: 50;*/
-  border-radius: 6px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   user-select: none;
   padding-right: 0;
 }
@@ -435,6 +436,7 @@ cursor: pointer;
 .layers .active {
   color: #88c6ff;
   background-color: rgba(255, 255, 0, 0.05);
+  font-weight: bold;
 }
 .sticky_top{
   position: sticky;
