@@ -422,7 +422,8 @@ cursor: pointer;
 .tilemapjs_root {
   color: #dceeff;
   background-color: #0a0101;
-  background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(84 84 84) 100%);
+  /* background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(84 84 84) 100%); OG Dark background grey to black */
+  background: linear-gradient(0deg, #5c699f 25%, #6fa6a5 80%, white 100%);
 }
 .card_right-column.layers {
   background: #ffffff14;
