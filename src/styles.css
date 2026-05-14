@@ -429,7 +429,7 @@ cursor: pointer;
 .card_right-column.layers {
   /* background: #ffffff14;
    background-color: #283442f0;  #35354080;   #28344280; */ 
-  background: linear-gradient(0deg, #202934f0 54%, #203434f5 54%);
+  background: linear-gradient(0deg, #202934f0 54%, #202934e0 54%);
 }
 .layer.select_layer{
   color: antiquewhite;
