@@ -338,7 +338,7 @@
 
     <br><br>
 
-            <label style="margin-left: 25px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
+            <label style="margin-left: 30px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
             <label style="margin-left: 5px; font-size: 13px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
 
@@ -382,15 +382,15 @@
       
 <div style="margin-top: 20px; text-align: center; justify-items: center !important;">
 
-                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="./rate" target="_blank">Give Review 🤩⭐</a>
+                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: gold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
                 
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display: none; visibility: hidden; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
 <br>
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 130px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 130px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
