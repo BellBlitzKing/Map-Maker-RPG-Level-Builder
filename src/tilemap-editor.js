@@ -297,7 +297,7 @@
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
 
-            <div style="margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+            <div style="margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
 <button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 15px; color: gold; height: 26px; border-radius: 6px; width: 120px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
@@ -344,7 +344,7 @@
 
             </div>
 
-    <br>
+    
       
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
@@ -375,9 +375,9 @@
         </label>
 
 <div style="max-width: 165px; justify-items: center !important;">
-        <button style="color: gold; border-radius: 6px; text-align: center; margin-top: 12px; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+        <button style="color: gold; border-radius: 6px; text-align: center; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
 </div>
-        <div style="max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
+        <div style="margin-bottom: 15px; max-width: 165px; max-height: 150px; overflow: auto; font-size: small;" class="layers" id="layers">
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
