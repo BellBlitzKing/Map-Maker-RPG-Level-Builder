@@ -273,9 +273,9 @@
            </div>     
         </div>
 
-      <div style="margin-top: 2px;" class="tileset-container">
+      <div style="class="tileset-container">
         <div style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas id="tilesetCanvas" />
+        <canvas style="border-radius: 4px;" id="tilesetCanvas" />
 <!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
@@ -303,7 +303,7 @@
 
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 135px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
+                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
                               <div id="flipBrushIndicator">✏️ Draw</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
@@ -319,27 +319,27 @@
 
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase</label>
 
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       
 
                       <input style="display: none; visibility: hidden;" id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 135px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 
                       <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 135px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 
-                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="margin-left: 23px; color: white; font-size: 13px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
+                        <label style="color: white; font-size: 13px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
     <br><br>
 
-            <label style="margin-left: 25px; font-size: 15px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
-            <label style="margin-left: 5px; font-size: 15px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="margin-left: 25px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
+            <label style="margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
             <label style="margin-left: 5px; font-size: 13px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
 
             </div>
@@ -1640,7 +1640,7 @@
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: "save json",
+            name: `<text style="font-size: 12px;">save json</text>`,
             description: "save map as a json file to edit later",
             transformer: exportJson
         }
@@ -1654,7 +1654,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: "upload json",
+            name: `<text style="font-size: 12px;">upload json</text>`,
             description: "upload / open map json file to continue editing a map",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
