@@ -1640,7 +1640,7 @@
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
-            name: `save json`,
+            name: "save json",
             description: "save map as a json file to edit later",
             transformer: exportJson
         }
@@ -1654,7 +1654,7 @@
         //}
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
-            name: `upload json`,
+            name: "upload json",
             description: "upload / open map json file to continue editing a map",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
