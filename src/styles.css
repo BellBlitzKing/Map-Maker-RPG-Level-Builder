@@ -427,8 +427,9 @@ cursor: pointer;
   background: linear-gradient(0deg, #5c699f 40%, #6fa6a5 96%, white 100%);
 }
 .card_right-column.layers {
-  background: #ffffff14;
-  background-color: #283442f0; /* #35354080;   #28344280; */ 
+  /* background: #ffffff14;
+   background-color: #283442f0;  #35354080;   #28344280; */ 
+  background: linear-gradient(0deg, #202934f0 54%, #203434f5 54%);
 }
 .layer.select_layer{
   color: antiquewhite;
