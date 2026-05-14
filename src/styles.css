@@ -426,7 +426,7 @@ cursor: pointer;
 }
 .card_right-column.layers {
   background: #ffffff14;
-  background-color: #28344280;
+  background-color: #35354080;  /* #28344280; */ 
 }
 .layer.select_layer{
   color: antiquewhite;
