@@ -264,16 +264,13 @@ cursor: pointer;
 }
 
 ::-webkit-resizer {
+  /* Adds visual "size"
   background-color: blue;
-  border: 5px solid yellow; /* Adds visual "size" */
-  outline: 2px solid green;
+  border: 5px solid yellow; 
+  outline: 2px solid green; */
+  background: linear-gradient(135deg, #202934e0 0%, #202934e0 40%, gold 50%);
 }
 
-.resizer {
-  background-color: red;
-  border: 5px solid tan; /* Adds visual "size" */
-  outline: 2px solid blue;
-}
 
 .tileset_opt_field{
   font-size: 0.9em;
