@@ -290,7 +290,7 @@
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 20px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 10px; text-align: center;">
 
