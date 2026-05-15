@@ -155,9 +155,9 @@
 #tileset-source {
   pointer-events: none;
 }
-.canvas_resizer{
+.canvas_r{
   user-select: none;
-  /*cursor: row-resize;*/
+  /*cursor: row-;*/
   touch-action: none;
   background: #ffffff42;
   color: white;
@@ -169,7 +169,7 @@
 }
 
 .tileset_opt_field input,
-.canvas_resizer input {
+.canvas_r input {
   max-width: 55px;
 }
 
@@ -180,7 +180,7 @@
   margin-bottom: 15px;
   background-color: #283442;
 }
-.canvas_resizer.vertical{
+.canvas_r.vertical{
   position: absolute;
   transform-origin: left;
   /*cursor: col-resize;*/
@@ -285,7 +285,7 @@ cursor: pointer;
 }
 .card_left_column{
   min-width: 160px;
-  max-width: 345px;
+  max-width: 342px;
   overflow: auto;
   padding-right: 3px;
   max-height: 97vh;
@@ -431,7 +431,7 @@ cursor: pointer;
   /* background: #ffffff14;
    background-color: #283442f0;  #35354080;   #28344280; */ 
   background: linear-gradient(0deg, #202934f0 54%, #202934e0 54%);
-  resize: horizontal;
+  resize: vertical;
   overflow: hidden;
 }
 .layer.select_layer{
