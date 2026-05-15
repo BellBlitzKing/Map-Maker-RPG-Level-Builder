@@ -292,6 +292,8 @@ cursor: pointer;
   margin: 2px;
   resize: horizontal;
   margin-right: 5px;
+  overflow-y: auto;
+  overflow-x: overlay;
 }
 
 .layers {
