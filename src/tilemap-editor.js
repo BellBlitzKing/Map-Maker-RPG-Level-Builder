@@ -382,7 +382,7 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: palegoldenrod;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
+                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: powderblue; font-weight: bold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
                 
                 <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display: none; visibility: hidden; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
 <br>
