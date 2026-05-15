@@ -263,6 +263,18 @@ cursor: pointer;
   cursor: pointer;
 }
 
+::-webkit-resizer {
+  background-color: blue;
+  border: 5px solid yellow; /* Adds visual "size" */
+  outline: 2px solid green;
+}
+
+.resizer {
+  background-color: red;
+  border: 5px solid tan; /* Adds visual "size" */
+  outline: 2px solid blue;
+}
+
 .tileset_opt_field{
   font-size: 0.9em;
   display:flex;
@@ -293,7 +305,7 @@ cursor: pointer;
   resize: horizontal;
   margin-right: 15px;
   overflow-y: auto;
-  overflow-x: overlay;
+  overflow-x: auto;
 }
 
 .layers {
