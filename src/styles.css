@@ -268,7 +268,9 @@ cursor: pointer;
   background-color: blue;
   border: 5px solid yellow; 
   outline: 2px solid green; */
-  background: linear-gradient(135deg, #202934e0 0%, #202934e0 40%, gold 50%);
+
+  /* background: linear-gradient(135deg, #202934e0 0%, #202934e0 40%, gold 50%); */
+  background: linear-gradient(135deg, #252C39 50%, gold 50%);
 }
 
 
