@@ -119,7 +119,7 @@
 
       </div>
       <div class="card_body">
-        <div id="card_left_column_alt" class="card_left_column" style="background: #353540;">
+        <div id="card_left_column_alt" class="card_left_column" style="background: #353540; width: 345px;">
         
         <details style="display: none; visibility: hidden;" class="details_container sticky_left" id="tilesetDataDetails" open="true">
           <summary >
