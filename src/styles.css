@@ -291,7 +291,7 @@ cursor: pointer;
   max-height: 99vh;
   margin: 2px;
   resize: horizontal;
-  margin-right: 5px;
+  margin-right: 15px;
   overflow-y: auto;
   overflow-x: overlay;
 }
