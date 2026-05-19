@@ -337,9 +337,8 @@
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
     <br><br>
-
-            <label style="margin-left: 30px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out">🔎️–</label>
+            <label style="margin-left: 30px; font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in">🔎️+</label>
             <label style="margin-left: 5px; font-size: 13px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out" id="zoomLabel">️</label>
 
             </div>
