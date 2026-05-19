@@ -22958,258 +22958,264 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "ઓ",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
+						},
+						"2-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-7": {
+						"3-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-7": {
+						"4-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-8": {
+						"5-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-9": {
+						"5-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-9": {
+						"6-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-10": {
+						"7-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-10": {
+						"6-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"2-10": {
+						"7-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-13": {
+						"8-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-14": {
+						"9-5": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"0-15": {
+						"9-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-15": {
+						"8-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"2-15": {
+						"3-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"3-15": {
+						"4-6": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"4-15": {
+						"4-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"5-15": {
+						"5-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
+						"6-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"4-14": {
+						"7-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"3-14": {
+						"8-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"2-14": {
+						"9-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"1-14": {
+						"9-8": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
+						"8-8": {
+							"x": 0,
+							"y": 240,
 							"tilesetIdx": "0",
-							"tileSymbol": "ب",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"5-9": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"6-9": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"7-9": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"8-9": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"9-9": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"10-10": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"11-11": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
 						"11-13": {
@@ -23268,7 +23274,140 @@
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
+						"5-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"4-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"0-15": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
 						"3-13": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"8-11": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 240,
+							"tilesetIdx": "0",
+							"tileSymbol": "ਅ",
+							"isFlippedX": false
+						},
+						"8-10": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
@@ -23289,308 +23428,70 @@
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"7-12": {
+						"0-13": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"8-12": {
+						"2-10": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"9-12": {
+						"1-10": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"10-12": {
+						"1-9": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"11-12": {
+						"0-9": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"11-11": {
+						"0-10": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"10-11": {
+						"0-8": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"9-11": {
+						"1-8": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"8-11": {
+						"1-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
 							"tileSymbol": "ਅ",
 							"isFlippedX": false
 						},
-						"10-10": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-10": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"2-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"3-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-5": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"9-9": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"5-9": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"6-9": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"7-9": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-9": {
-							"x": 0,
-							"y": 240,
-							"tilesetIdx": "0",
-							"tileSymbol": "ਅ",
-							"isFlippedX": false
-						},
-						"8-10": {
+						"0-7": {
 							"x": 0,
 							"y": 240,
 							"tilesetIdx": "0",
@@ -23599,188 +23500,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 3,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "،",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 3,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؖ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 3,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؠ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 3,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ت",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 3,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ش",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 4,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؍",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 4,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؗ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 4,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ء",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 4,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ث",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 4,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ص",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 5,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؎",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 5,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؘ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 5,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "آ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 5,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ج",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 5,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ض",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 6,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؏",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 6,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؙ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 6,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "أ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 6,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ح",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 6,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ط",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 7,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؐ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 7,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؚ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 7,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؤ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 7,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "خ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 7,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ظ",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -24213,6 +23938,181 @@
 							"y": 17,
 							"tilesetIdx": "0",
 							"tileSymbol": "Œ",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 3,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "،",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 3,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؖ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 3,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؠ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 3,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ت",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 3,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ش",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 4,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؍",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 4,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؗ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 4,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ء",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 4,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ث",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 4,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ص",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 5,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؎",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 5,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؘ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 5,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "آ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 5,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ج",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 5,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ض",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 6,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؏",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 6,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؙ",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 6,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "أ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 6,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ح",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 6,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ط",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 7,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؐ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 7,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؚ",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 7,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؤ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 7,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "خ",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 7,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ظ",
 							"isFlippedX": false
 						}
 					},
@@ -25037,258 +24937,313 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "ভ",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
+						},
+						"3-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-7": {
+						"2-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-7": {
+						"3-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-8": {
+						"4-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-9": {
+						"4-7": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-9": {
+						"4-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-10": {
+						"5-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-10": {
+						"6-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"2-10": {
+						"7-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-13": {
+						"8-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-14": {
+						"9-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"0-15": {
+						"9-7": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-15": {
+						"9-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"2-15": {
+						"9-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"3-15": {
+						"7-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"4-15": {
+						"4-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"5-15": {
+						"5-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
+						"6-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"4-14": {
+						"8-5": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"3-14": {
+						"8-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"2-14": {
+						"7-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"1-14": {
+						"6-6": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
+						"5-6": {
+							"x": 0,
+							"y": 218,
 							"tilesetIdx": "0",
-							"tileSymbol": "ب",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"5-9": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"6-9": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"7-9": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"8-9": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"9-9": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"8-10": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"10-10": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"11-11": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"8-11": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
 						"11-13": {
@@ -25340,21 +25295,91 @@
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"4-13": {
+						"5-14": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"3-13": {
+						"5-15": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"2-13": {
+						"4-15": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"0-15": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 218,
+							"tilesetIdx": "0",
+							"tileSymbol": "ऩ",
+							"isFlippedX": false
+						},
+						"0-13": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
@@ -25368,308 +25393,84 @@
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"7-12": {
+						"2-13": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"8-12": {
+						"3-13": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"9-12": {
+						"4-13": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"10-12": {
+						"2-10": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"11-12": {
+						"1-10": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"11-11": {
+						"0-10": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"10-11": {
+						"0-9": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"9-11": {
+						"1-9": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"8-11": {
+						"1-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"10-10": {
+						"1-7": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"9-10": {
+						"0-7": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
 							"tileSymbol": "ऩ",
 							"isFlippedX": false
 						},
-						"2-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"3-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"9-5": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"9-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"9-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"9-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"9-9": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"5-9": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"6-9": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"7-9": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-9": {
-							"x": 0,
-							"y": 218,
-							"tilesetIdx": "0",
-							"tileSymbol": "ऩ",
-							"isFlippedX": false
-						},
-						"8-10": {
+						"0-8": {
 							"x": 0,
 							"y": 218,
 							"tilesetIdx": "0",
@@ -25678,188 +25479,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 1,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "վ",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 1,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "ֈ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 1,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֒",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 1,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֜",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 1,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֦",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 2,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "տ",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 2,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "։",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 2,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֓",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 2,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֝",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 2,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֧",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 3,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ր",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 3,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֊",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 3,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֔",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 3,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֞",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 3,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֨",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 4,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ց",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 4,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֋",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 4,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֕",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 4,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֟",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 4,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֩",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 5,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ւ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 5,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֌",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 5,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֖",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 5,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֠",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 5,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֪",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -26217,20 +25842,6 @@
 							"tileSymbol": "ŗ",
 							"isFlippedX": false
 						},
-						"0-0": {
-							"x": 7,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ü",
-							"isFlippedX": false
-						},
-						"11-0": {
-							"x": 7,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ü",
-							"isFlippedX": false
-						},
 						"10-0": {
 							"x": 8,
 							"y": 16,
@@ -26299,6 +25910,181 @@
 							"y": 5,
 							"tilesetIdx": "0",
 							"tileSymbol": "Þ",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 1,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "վ",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 1,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "ֈ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 1,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֒",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 1,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֜",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 1,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֦",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 2,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "տ",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 2,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "։",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 2,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֓",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 2,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֝",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 2,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֧",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 3,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ր",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 3,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֊",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 3,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֔",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 3,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֞",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 3,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֨",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 4,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ց",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 4,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֋",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 4,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֕",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 4,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֟",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 4,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֩",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 5,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ւ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 5,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֌",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 5,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֖",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 5,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֠",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 5,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֪",
 							"isFlippedX": false
 						}
 					},
@@ -27118,413 +26904,6 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "ധ",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-8": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-9": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-9": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-10": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-10": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"2-10": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"0-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"2-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"3-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"4-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"5-15": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"4-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"3-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"2-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-14": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ب",
-							"isFlippedX": false
-						},
-						"11-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"10-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"9-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"8-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"7-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"6-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"5-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"4-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"3-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"2-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"1-13": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"7-12": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"8-12": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"9-12": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"10-12": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"11-12": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"11-11": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"10-11": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"9-11": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"8-11": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"10-10": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"9-10": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
 						},
 						"2-5": {
 							"x": 0,
@@ -27589,6 +26968,83 @@
 							"tileSymbol": "ಣ",
 							"isFlippedX": false
 						},
+						"8-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"3-6": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
 						"9-7": {
 							"x": 0,
 							"y": 307,
@@ -27597,13 +27053,6 @@
 							"isFlippedX": false
 						},
 						"9-8": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"9-9": {
 							"x": 0,
 							"y": 307,
 							"tilesetIdx": "0",
@@ -27639,83 +27088,6 @@
 							"isFlippedX": false
 						},
 						"4-8": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 307,
-							"tilesetIdx": "0",
-							"tileSymbol": "ಣ",
-							"isFlippedX": false
-						},
-						"5-7": {
 							"x": 0,
 							"y": 307,
 							"tilesetIdx": "0",
@@ -27750,7 +27122,322 @@
 							"tileSymbol": "ಣ",
 							"isFlippedX": false
 						},
+						"9-9": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
 						"8-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"10-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"8-11": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"11-11": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"11-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"10-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"9-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"8-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"7-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"6-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"5-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"5-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"4-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"4-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"3-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"2-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-15": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-13": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"2-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-10": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-9": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-8": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"0-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-7": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-8": {
+							"x": 0,
+							"y": 307,
+							"tilesetIdx": "0",
+							"tileSymbol": "ಣ",
+							"isFlippedX": false
+						},
+						"1-9": {
 							"x": 0,
 							"y": 307,
 							"tilesetIdx": "0",
@@ -27759,188 +27446,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 3,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "،",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 3,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؖ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 3,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؠ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 3,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ت",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 3,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ش",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 4,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؍",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 4,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؗ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 4,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ء",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 4,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ث",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 4,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ص",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 5,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؎",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 5,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؘ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 5,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "آ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 5,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ج",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 5,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ض",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 6,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؏",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 6,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؙ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 6,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "أ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 6,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ح",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 6,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ط",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 7,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؐ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 7,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؚ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 7,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؤ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 7,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "خ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 7,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ظ",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -28214,13 +27725,6 @@
 							"tileSymbol": "ŋ",
 							"isFlippedX": false
 						},
-						"7-16": {
-							"x": 9,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "þ",
-							"isFlippedX": false
-						},
 						"0-6": {
 							"x": 6,
 							"y": 14,
@@ -28359,6 +27863,181 @@
 							"y": 16,
 							"tilesetIdx": "0",
 							"tileSymbol": "ņ",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 3,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "،",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 3,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؖ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 3,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؠ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 3,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ت",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 3,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ش",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 4,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؍",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 4,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؗ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 4,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ء",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 4,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ث",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 4,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ص",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 5,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؎",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 5,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؘ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 5,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "آ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 5,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ج",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 5,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ض",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 6,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؏",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 6,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؙ",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 6,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "أ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 6,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ح",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 6,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ط",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 7,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؐ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 7,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؚ",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 7,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؤ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 7,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "خ",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 7,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ظ",
 							"isFlippedX": false
 						}
 					},
@@ -29225,30 +28904,8 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "ࡒ",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
 						},
 						"1-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"0-7": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29262,14 +28919,28 @@
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
-						"1-9": {
-							"x": 8,
-							"y": 23,
+						"0-8": {
+							"x": 0,
+							"y": 196,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ɠ",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"0-7": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
 						"0-9": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"1-9": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29291,342 +28962,6 @@
 							"isFlippedX": false
 						},
 						"2-10": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"0-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"0-14": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"0-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"1-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"2-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"3-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"4-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"5-15": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
-							"x": 8,
-							"y": 23,
-							"tilesetIdx": "0",
-							"tileSymbol": "Ɠ",
-							"isFlippedX": false
-						},
-						"4-14": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"3-14": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"2-14": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"1-14": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ب",
-							"isFlippedX": false
-						},
-						"11-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"10-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"9-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"8-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"7-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"6-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"5-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"4-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"3-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"2-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"1-13": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"7-12": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"8-12": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"9-12": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"10-12": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"11-12": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"10-11": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"9-11": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"8-11": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"10-10": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"9-10": {
-							"x": 8,
-							"y": 23,
-							"tilesetIdx": "0",
-							"tileSymbol": "Ɠ",
-							"isFlippedX": false
-						},
-						"2-5": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29675,14 +29010,70 @@
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
-						"9-5": {
+						"8-6": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
-						"9-6": {
+						"7-6": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"8-7": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29697,13 +29088,6 @@
 							"isFlippedX": false
 						},
 						"9-8": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"9-9": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29745,88 +29129,11 @@
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
-						"4-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 0,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡍ",
-							"isFlippedX": false
-						},
 						"5-9": {
-							"x": 8,
-							"y": 23,
+							"x": 0,
+							"y": 196,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ɠ",
+							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
 						"6-9": {
@@ -29850,6 +29157,20 @@
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
+						"9-9": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
 						"8-10": {
 							"x": 0,
 							"y": 196,
@@ -29857,7 +29178,224 @@
 							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
-						"11-11": {
+						"8-11": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"11-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"10-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"9-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"8-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"7-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"6-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"5-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"4-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"3-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"2-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"1-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"0-13": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"5-14": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"4-15": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 196,
+							"tilesetIdx": "0",
+							"tileSymbol": "ࡍ",
+							"isFlippedX": false
+						},
+						"0-15": {
 							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
@@ -29866,188 +29404,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 3,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "،",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 3,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؖ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 3,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؠ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 3,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ت",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 3,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ش",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 4,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؍",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 4,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؗ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 4,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ء",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 4,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ث",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 4,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ص",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 5,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؎",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 5,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؘ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 5,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "آ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 5,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ج",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 5,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ض",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 6,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؏",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 6,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؙ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 6,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "أ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 6,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ح",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 6,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ط",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 7,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؐ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 7,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؚ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 7,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؤ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 7,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "خ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 7,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ظ",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -30231,10 +29593,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 0,
+							"x": 1,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Í",
+							"tileSymbol": "Î",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -30294,10 +29656,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 0,
+							"x": 1,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ã",
+							"tileSymbol": "Ä",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -30384,13 +29746,6 @@
 							"tileSymbol": "ŉ",
 							"isFlippedX": false
 						},
-						"12-0": {
-							"x": 3,
-							"y": 10,
-							"tilesetIdx": "0",
-							"tileSymbol": "Č",
-							"isFlippedX": false
-						},
 						"9-12": {
 							"x": 0,
 							"y": 196,
@@ -30424,6 +29779,209 @@
 							"y": 10,
 							"tilesetIdx": "0",
 							"tileSymbol": "Č",
+							"isFlippedX": false
+						},
+						"2-5": {
+							"x": 0,
+							"y": 8,
+							"tilesetIdx": "0",
+							"tileSymbol": "õ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 0,
+							"y": 7,
+							"tilesetIdx": "0",
+							"tileSymbol": "ë",
+							"isFlippedX": false
+						},
+						"3-4": {
+							"x": 1,
+							"y": 7,
+							"tilesetIdx": "0",
+							"tileSymbol": "ì",
+							"isFlippedX": false
+						},
+						"3-5": {
+							"x": 1,
+							"y": 8,
+							"tilesetIdx": "0",
+							"tileSymbol": "ö",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 3,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "،",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 3,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؖ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 3,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؠ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 3,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ت",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 3,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ش",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 4,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؍",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 4,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؗ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 4,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ء",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 4,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ث",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 4,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ص",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 5,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؎",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 5,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؘ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 5,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "آ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 5,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ج",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 5,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ض",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 6,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؏",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 6,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؙ",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 6,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "أ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 6,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ح",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 6,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ط",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 7,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؐ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 7,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؚ",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 7,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؤ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 7,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "خ",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 7,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ظ",
 							"isFlippedX": false
 						}
 					},
@@ -32345,413 +31903,6 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "୯",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-8": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-9": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-9": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-10": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-10": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"2-10": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"0-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"2-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"3-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"4-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"5-15": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"4-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"3-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"2-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-14": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ب",
-							"isFlippedX": false
-						},
-						"11-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"10-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"9-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"8-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"7-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"6-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"5-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"4-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"3-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"2-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"1-13": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"7-12": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"8-12": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"9-12": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"10-12": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"11-12": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"11-11": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"10-11": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"9-11": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"8-11": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"10-10": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"9-10": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
 						},
 						"2-5": {
 							"x": 0,
@@ -32816,6 +31967,83 @@
 							"tileSymbol": "૫",
 							"isFlippedX": false
 						},
+						"8-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"3-6": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
 						"9-7": {
 							"x": 0,
 							"y": 263,
@@ -32824,13 +32052,6 @@
 							"isFlippedX": false
 						},
 						"9-8": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"9-9": {
 							"x": 0,
 							"y": 263,
 							"tilesetIdx": "0",
@@ -32866,83 +32087,6 @@
 							"isFlippedX": false
 						},
 						"4-8": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 263,
-							"tilesetIdx": "0",
-							"tileSymbol": "૫",
-							"isFlippedX": false
-						},
-						"5-7": {
 							"x": 0,
 							"y": 263,
 							"tilesetIdx": "0",
@@ -32977,7 +32121,322 @@
 							"tileSymbol": "૫",
 							"isFlippedX": false
 						},
+						"9-9": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
 						"8-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"10-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"11-11": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"11-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"10-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"9-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"8-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"7-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"8-11": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"6-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"5-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"4-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"3-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"2-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-13": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"5-14": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"4-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-15": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"2-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-10": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-9": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-8": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"1-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-7": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-8": {
+							"x": 0,
+							"y": 263,
+							"tilesetIdx": "0",
+							"tileSymbol": "૫",
+							"isFlippedX": false
+						},
+						"0-9": {
 							"x": 0,
 							"y": 263,
 							"tilesetIdx": "0",
@@ -32986,188 +32445,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 1,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "վ",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 1,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "ֈ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 1,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֒",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 1,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֜",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 1,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֦",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 2,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "տ",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 2,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "։",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 2,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֓",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 2,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֝",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 2,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֧",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 3,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ր",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 3,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֊",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 3,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֔",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 3,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֞",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 3,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֨",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 4,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ց",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 4,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֋",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 4,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֕",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 4,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֟",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 4,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֩",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 5,
-							"y": 124,
-							"tilesetIdx": "0",
-							"tileSymbol": "ւ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 5,
-							"y": 125,
-							"tilesetIdx": "0",
-							"tileSymbol": "֌",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 5,
-							"y": 126,
-							"tilesetIdx": "0",
-							"tileSymbol": "֖",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 5,
-							"y": 127,
-							"tilesetIdx": "0",
-							"tileSymbol": "֠",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 5,
-							"y": 128,
-							"tilesetIdx": "0",
-							"tileSymbol": "֪",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -33189,25 +32472,11 @@
 							"tileSymbol": "Ŋ",
 							"isFlippedX": false
 						},
-						"0-1": {
-							"x": 9,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "þ",
-							"isFlippedX": false
-						},
 						"10-0": {
 							"x": 5,
 							"y": 16,
 							"tilesetIdx": "0",
 							"tileSymbol": "Ŋ",
-							"isFlippedX": false
-						},
-						"11-1": {
-							"x": 9,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "þ",
 							"isFlippedX": false
 						},
 						"10-2": {
@@ -33525,20 +32794,6 @@
 							"tileSymbol": "œ",
 							"isFlippedX": false
 						},
-						"0-0": {
-							"x": 9,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ô",
-							"isFlippedX": false
-						},
-						"11-0": {
-							"x": 9,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ô",
-							"isFlippedX": false
-						},
 						"1-13": {
 							"x": 9,
 							"y": 9,
@@ -33567,25 +32822,18 @@
 							"tileSymbol": "Ē",
 							"isFlippedX": false
 						},
-						"7-16": {
-							"x": 9,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "þ",
-							"isFlippedX": false
-						},
 						"2-4": {
-							"x": 3,
-							"y": 16,
+							"x": 4,
+							"y": 5,
 							"tilesetIdx": "0",
-							"tileSymbol": "ň",
+							"tileSymbol": "Û",
 							"isFlippedX": false
 						},
 						"2-5": {
-							"x": 3,
-							"y": 17,
+							"x": 4,
+							"y": 6,
 							"tilesetIdx": "0",
-							"tileSymbol": "Œ",
+							"tileSymbol": "å",
 							"isFlippedX": false
 						},
 						"1-1": {
@@ -33615,6 +32863,195 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "Ŕ",
 							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 3,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "،",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 3,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؖ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 3,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؠ",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 3,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ت",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 3,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ش",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 4,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؍",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 4,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؗ",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 4,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ء",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 4,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ث",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 4,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ص",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 5,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؎",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 5,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؘ",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 5,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "آ",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 5,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ج",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 5,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ض",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 6,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "؏",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 6,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؙ",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 6,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "أ",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 6,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "ح",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 6,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ط",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 7,
+							"y": 138,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؐ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 7,
+							"y": 139,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؚ",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 7,
+							"y": 140,
+							"tilesetIdx": "0",
+							"tileSymbol": "ؤ",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 7,
+							"y": 141,
+							"tilesetIdx": "0",
+							"tileSymbol": "خ",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 7,
+							"y": 142,
+							"tilesetIdx": "0",
+							"tileSymbol": "ظ",
+							"isFlippedX": false
+						},
+						"3-4": {
+							"x": 5,
+							"y": 5,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ü",
+							"isFlippedX": false
+						},
+						"3-5": {
+							"x": 5,
+							"y": 6,
+							"tilesetIdx": "0",
+							"tileSymbol": "æ",
+							"isFlippedX": false
 						}
 					},
 					"visible": true,
@@ -33632,500 +33069,6 @@
 		},
 		"7": {
 			"layers": [
-				{
-					"tiles": {
-						"0-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"1-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"2-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"3-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"4-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"5-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"6-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"7-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"8-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"9-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"10-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"11-2": {
-							"x": 7,
-							"y": 197,
-							"tilesetIdx": "0",
-							"tileSymbol": "࡞",
-							"isFlippedX": false
-						},
-						"0-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"5-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"6-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"7-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"8-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"9-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-3": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"0-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"5-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"6-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"7-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"8-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"9-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-4": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"0-5": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-5": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-5": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-5": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"0-6": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-6": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-6": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-6": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-6": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-7": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-7": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-7": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-7": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-8": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-8": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-8": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-8": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-9": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-9": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-9": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"10-9": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-9": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"5-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"6-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"7-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"11-10": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"0-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"5-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"6-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"7-11": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"0-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"1-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"2-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"3-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"4-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"5-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						},
-						"6-12": {
-							"x": 5,
-							"y": 196,
-							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ"
-						}
-					},
-					"visible": true,
-					"name": "background",
-					"animatedTiles": {},
-					"opacity": 1
-				},
 				{
 					"tiles": {
 						"0-0": {
@@ -34379,16 +33322,561 @@
 							"tilesetIdx": "0",
 							"tileSymbol": "ో",
 							"isFlippedX": false
-						}
-					},
-					"visible": true,
-					"name": "bottom-ground",
-					"animatedTiles": {},
-					"opacity": 1
-				},
-				{
-					"tiles": {
-						"0-8": {
+						},
+						"0-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"1-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"2-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"3-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"4-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"5-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"6-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"7-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"8-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"9-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"10-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"11-2": {
+							"x": 7,
+							"y": 286,
+							"tilesetIdx": "0",
+							"tileSymbol": "௘",
+							"isFlippedX": false
+						},
+						"11-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"9-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"8-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"7-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"6-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"5-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-3": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"9-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-4": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-5": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-5": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-6": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-6": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-7": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-8": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-8": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-7": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-9": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"10-9": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"11-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"7-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"6-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"5-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-10": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"7-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"6-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"5-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-11": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"6-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"5-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-12": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"4-9": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-9": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-9": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-8": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-8": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-7": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"3-7": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"2-6": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-6": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"1-5": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-5": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-6": {
+							"x": 5,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ௌ",
+							"isFlippedX": false
+						},
+						"0-7": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -34402,13 +33890,6 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
-						"0-7": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
 						"1-8": {
 							"x": 0,
 							"y": 285,
@@ -34416,7 +33897,7 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
-						"1-9": {
+						"0-8": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -34430,7 +33911,7 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
-						"0-10": {
+						"1-9": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -34451,336 +33932,7 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
-						"0-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"0-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"0-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"1-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"2-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"3-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"4-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"5-15": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"6-14": {
-							"x": 0,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "٭",
-							"isFlippedX": false
-						},
-						"7-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"8-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"9-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"10-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"11-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"10-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"9-14": {
-							"x": 1,
-							"y": 148,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٮ",
-							"isFlippedX": false
-						},
-						"7-15": {
-							"x": 1,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٸ",
-							"isFlippedX": false
-						},
-						"6-15": {
-							"x": 0,
-							"y": 149,
-							"tilesetIdx": "0",
-							"tileSymbol": "ٷ",
-							"isFlippedX": false
-						},
-						"5-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"4-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"3-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"2-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"1-14": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"12-14": {
-							"x": 1,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ب",
-							"isFlippedX": false
-						},
-						"11-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"10-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"9-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"8-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"7-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"6-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"5-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"4-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"3-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"2-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"1-13": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"7-12": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"8-12": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"9-12": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"10-12": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"11-12": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"11-11": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"10-11": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"9-11": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"8-11": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"10-10": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"9-10": {
+						"0-10": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -34850,6 +34002,83 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
+						"8-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"3-6": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
 						"9-7": {
 							"x": 0,
 							"y": 285,
@@ -34858,13 +34087,6 @@
 							"isFlippedX": false
 						},
 						"9-8": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"9-9": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -34900,83 +34122,6 @@
 							"isFlippedX": false
 						},
 						"4-8": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"3-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 0,
-							"y": 285,
-							"tilesetIdx": "0",
-							"tileSymbol": "ே",
-							"isFlippedX": false
-						},
-						"5-7": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -35011,7 +34156,259 @@
 							"tileSymbol": "ே",
 							"isFlippedX": false
 						},
+						"9-9": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"9-10": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"10-10": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
 						"8-10": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"8-11": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"9-11": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"10-11": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"11-11": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"11-12": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"11-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"10-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"10-12": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"9-12": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"9-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"8-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"8-12": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"7-12": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"7-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"6-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"5-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"4-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"3-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"2-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"1-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"0-13": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"0-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"1-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"2-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"3-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"5-14": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"3-15": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"2-15": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"4-15": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"1-15": {
+							"x": 0,
+							"y": 285,
+							"tilesetIdx": "0",
+							"tileSymbol": "ே",
+							"isFlippedX": false
+						},
+						"0-15": {
 							"x": 0,
 							"y": 285,
 							"tilesetIdx": "0",
@@ -35020,188 +34417,12 @@
 						}
 					},
 					"visible": true,
-					"name": "grass",
+					"name": "bottom-ground",
 					"animatedTiles": {},
 					"opacity": 1
 				},
 				{
-					"tiles": {
-						"4-4": {
-							"x": 3,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "،",
-							"isFlippedX": false
-						},
-						"4-5": {
-							"x": 3,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؖ",
-							"isFlippedX": false
-						},
-						"4-6": {
-							"x": 3,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؠ",
-							"isFlippedX": false
-						},
-						"4-7": {
-							"x": 3,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ت",
-							"isFlippedX": false
-						},
-						"4-8": {
-							"x": 3,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ش",
-							"isFlippedX": false
-						},
-						"5-4": {
-							"x": 4,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؍",
-							"isFlippedX": false
-						},
-						"5-5": {
-							"x": 4,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؗ",
-							"isFlippedX": false
-						},
-						"5-6": {
-							"x": 4,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ء",
-							"isFlippedX": false
-						},
-						"5-7": {
-							"x": 4,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ث",
-							"isFlippedX": false
-						},
-						"5-8": {
-							"x": 4,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ص",
-							"isFlippedX": false
-						},
-						"6-4": {
-							"x": 5,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؎",
-							"isFlippedX": false
-						},
-						"6-5": {
-							"x": 5,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؘ",
-							"isFlippedX": false
-						},
-						"6-6": {
-							"x": 5,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "آ",
-							"isFlippedX": false
-						},
-						"6-7": {
-							"x": 5,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ج",
-							"isFlippedX": false
-						},
-						"6-8": {
-							"x": 5,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ض",
-							"isFlippedX": false
-						},
-						"7-4": {
-							"x": 6,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "؏",
-							"isFlippedX": false
-						},
-						"7-5": {
-							"x": 6,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؙ",
-							"isFlippedX": false
-						},
-						"7-6": {
-							"x": 6,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "أ",
-							"isFlippedX": false
-						},
-						"7-7": {
-							"x": 6,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "ح",
-							"isFlippedX": false
-						},
-						"7-8": {
-							"x": 6,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ط",
-							"isFlippedX": false
-						},
-						"8-4": {
-							"x": 7,
-							"y": 138,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؐ",
-							"isFlippedX": false
-						},
-						"8-5": {
-							"x": 7,
-							"y": 139,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؚ",
-							"isFlippedX": false
-						},
-						"8-6": {
-							"x": 7,
-							"y": 140,
-							"tilesetIdx": "0",
-							"tileSymbol": "ؤ",
-							"isFlippedX": false
-						},
-						"8-7": {
-							"x": 7,
-							"y": 141,
-							"tilesetIdx": "0",
-							"tileSymbol": "خ",
-							"isFlippedX": false
-						},
-						"8-8": {
-							"x": 7,
-							"y": 142,
-							"tilesetIdx": "0",
-							"tileSymbol": "ظ",
-							"isFlippedX": false
-						}
-					},
+					"tiles": {},
 					"visible": true,
 					"name": "middle",
 					"animatedTiles": {},
@@ -35223,25 +34444,11 @@
 							"tileSymbol": "Ŏ",
 							"isFlippedX": false
 						},
-						"0-1": {
-							"x": 8,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ý",
-							"isFlippedX": false
-						},
 						"10-0": {
 							"x": 9,
 							"y": 16,
 							"tilesetIdx": "0",
 							"tileSymbol": "Ŏ",
-							"isFlippedX": false
-						},
-						"11-1": {
-							"x": 8,
-							"y": 8,
-							"tilesetIdx": "0",
-							"tileSymbol": "ý",
 							"isFlippedX": false
 						},
 						"10-2": {
@@ -35350,10 +34557,10 @@
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 9,
-							"y": 4,
+							"x": 6,
+							"y": 2,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ö",
+							"tileSymbol": "¿",
 							"isFlippedX": false
 						},
 						"0-6": {
@@ -35545,20 +34752,6 @@
 							"tileSymbol": "Ř",
 							"isFlippedX": false
 						},
-						"0-0": {
-							"x": 8,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ó",
-							"isFlippedX": false
-						},
-						"11-0": {
-							"x": 8,
-							"y": 7,
-							"tilesetIdx": "0",
-							"tileSymbol": "ó",
-							"isFlippedX": false
-						},
 						"1-13": {
 							"x": 5,
 							"y": 20,
@@ -35581,13 +34774,6 @@
 							"isFlippedX": false
 						},
 						"11-13": {
-							"x": 1,
-							"y": 0,
-							"tilesetIdx": "0",
-							"tileSymbol": "¦",
-							"isFlippedX": false
-						},
-						"7-16": {
 							"x": 9,
 							"y": 8,
 							"tilesetIdx": "0",
@@ -35595,10 +34781,10 @@
 							"isFlippedX": false
 						},
 						"0-9": {
-							"x": 9,
-							"y": 3,
+							"x": 6,
+							"y": 1,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ì",
+							"tileSymbol": "µ",
 							"isFlippedX": false
 						},
 						"3-15": {
@@ -35616,17 +34802,17 @@
 							"isFlippedX": false
 						},
 						"2-5": {
-							"x": 8,
+							"x": 6,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Õ",
+							"tileSymbol": "Ó",
 							"isFlippedX": false
 						},
 						"2-4": {
-							"x": 8,
+							"x": 6,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ë",
+							"tileSymbol": "É",
 							"isFlippedX": false
 						},
 						"1-1": {
@@ -35655,6 +34841,181 @@
 							"y": 17,
 							"tilesetIdx": "0",
 							"tileSymbol": "ŗ",
+							"isFlippedX": false
+						},
+						"4-4": {
+							"x": 1,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "վ",
+							"isFlippedX": false
+						},
+						"4-5": {
+							"x": 1,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "ֈ",
+							"isFlippedX": false
+						},
+						"4-6": {
+							"x": 1,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֒",
+							"isFlippedX": false
+						},
+						"4-7": {
+							"x": 1,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֜",
+							"isFlippedX": false
+						},
+						"4-8": {
+							"x": 1,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֦",
+							"isFlippedX": false
+						},
+						"5-4": {
+							"x": 2,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "տ",
+							"isFlippedX": false
+						},
+						"5-5": {
+							"x": 2,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "։",
+							"isFlippedX": false
+						},
+						"5-6": {
+							"x": 2,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֓",
+							"isFlippedX": false
+						},
+						"5-7": {
+							"x": 2,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֝",
+							"isFlippedX": false
+						},
+						"5-8": {
+							"x": 2,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֧",
+							"isFlippedX": false
+						},
+						"6-4": {
+							"x": 3,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ր",
+							"isFlippedX": false
+						},
+						"6-5": {
+							"x": 3,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֊",
+							"isFlippedX": false
+						},
+						"6-6": {
+							"x": 3,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֔",
+							"isFlippedX": false
+						},
+						"6-7": {
+							"x": 3,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֞",
+							"isFlippedX": false
+						},
+						"6-8": {
+							"x": 3,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֨",
+							"isFlippedX": false
+						},
+						"7-4": {
+							"x": 4,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ց",
+							"isFlippedX": false
+						},
+						"7-5": {
+							"x": 4,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֋",
+							"isFlippedX": false
+						},
+						"7-6": {
+							"x": 4,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֕",
+							"isFlippedX": false
+						},
+						"7-7": {
+							"x": 4,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֟",
+							"isFlippedX": false
+						},
+						"7-8": {
+							"x": 4,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֩",
+							"isFlippedX": false
+						},
+						"8-4": {
+							"x": 5,
+							"y": 124,
+							"tilesetIdx": "0",
+							"tileSymbol": "ւ",
+							"isFlippedX": false
+						},
+						"8-5": {
+							"x": 5,
+							"y": 125,
+							"tilesetIdx": "0",
+							"tileSymbol": "֌",
+							"isFlippedX": false
+						},
+						"8-6": {
+							"x": 5,
+							"y": 126,
+							"tilesetIdx": "0",
+							"tileSymbol": "֖",
+							"isFlippedX": false
+						},
+						"8-7": {
+							"x": 5,
+							"y": 127,
+							"tilesetIdx": "0",
+							"tileSymbol": "֠",
+							"isFlippedX": false
+						},
+						"8-8": {
+							"x": 5,
+							"y": 128,
+							"tilesetIdx": "0",
+							"tileSymbol": "֪",
 							"isFlippedX": false
 						}
 					},
