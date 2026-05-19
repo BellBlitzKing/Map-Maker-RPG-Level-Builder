@@ -28864,17 +28864,17 @@
 							"isFlippedX": false
 						},
 						"2-5": {
-							"x": 5,
+							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ",
+							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
 						"3-6": {
-							"x": 5,
+							"x": 0,
 							"y": 196,
 							"tilesetIdx": "0",
-							"tileSymbol": "ࡒ",
+							"tileSymbol": "ࡍ",
 							"isFlippedX": false
 						},
 						"9-5": {
@@ -29544,10 +29544,10 @@
 							"isFlippedX": false
 						},
 						"0-10": {
-							"x": 2,
-							"y": 19,
+							"x": 7,
+							"y": 2,
 							"tilesetIdx": "0",
-							"tileSymbol": "ť",
+							"tileSymbol": "À",
 							"isFlippedX": false
 						},
 						"0-6": {
@@ -29593,10 +29593,10 @@
 							"isFlippedX": false
 						},
 						"5-13": {
-							"x": 1,
+							"x": 6,
 							"y": 4,
 							"tilesetIdx": "0",
-							"tileSymbol": "Î",
+							"tileSymbol": "Ó",
 							"isFlippedX": false
 						},
 						"0-14": {
@@ -29656,10 +29656,10 @@
 							"isFlippedX": false
 						},
 						"5-12": {
-							"x": 1,
+							"x": 6,
 							"y": 3,
 							"tilesetIdx": "0",
-							"tileSymbol": "Ä",
+							"tileSymbol": "É",
 							"isFlippedX": false
 						},
 						"9-9": {
@@ -29783,30 +29783,30 @@
 						},
 						"2-5": {
 							"x": 0,
-							"y": 8,
+							"y": 6,
 							"tilesetIdx": "0",
-							"tileSymbol": "õ",
+							"tileSymbol": "á",
 							"isFlippedX": false
 						},
 						"2-4": {
 							"x": 0,
-							"y": 7,
+							"y": 5,
 							"tilesetIdx": "0",
-							"tileSymbol": "ë",
+							"tileSymbol": "×",
 							"isFlippedX": false
 						},
 						"3-4": {
 							"x": 1,
-							"y": 7,
+							"y": 5,
 							"tilesetIdx": "0",
-							"tileSymbol": "ì",
+							"tileSymbol": "Ø",
 							"isFlippedX": false
 						},
 						"3-5": {
 							"x": 1,
-							"y": 8,
+							"y": 6,
 							"tilesetIdx": "0",
-							"tileSymbol": "ö",
+							"tileSymbol": "â",
 							"isFlippedX": false
 						},
 						"4-4": {
@@ -29982,6 +29982,34 @@
 							"y": 142,
 							"tilesetIdx": "0",
 							"tileSymbol": "ظ",
+							"isFlippedX": false
+						},
+						"11-13": {
+							"x": 6,
+							"y": 0,
+							"tilesetIdx": "0",
+							"tileSymbol": "«",
+							"isFlippedX": false
+						},
+						"0-9": {
+							"x": 7,
+							"y": 1,
+							"tilesetIdx": "0",
+							"tileSymbol": "¶",
+							"isFlippedX": false
+						},
+						"5-15": {
+							"x": 2,
+							"y": 21,
+							"tilesetIdx": "0",
+							"tileSymbol": "Ź",
+							"isFlippedX": false
+						},
+						"4-14": {
+							"x": 3,
+							"y": 21,
+							"tilesetIdx": "0",
+							"tileSymbol": "ź",
 							"isFlippedX": false
 						}
 					},
