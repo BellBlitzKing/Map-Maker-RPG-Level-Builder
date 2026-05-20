@@ -404,7 +404,7 @@
     let tilesetImage, canvas, tilesetContainer, tilesetSelection, cropSize,
         confirmBtn, tilesetGridContainer,
         layersElement, resizingCanvas, mapTileHeight, mapTileWidth, tileDataSel,tileFrameSel,tileAnimSel,
-        tilesetDataSel, , objectParametersEditor;
+        tilesetDataSel, mapsDataSel, objectParametersEditor;
 
     const el = {tileFrameCount:"", animStart:"", animEnd:"",renameTileFrameBtn:"",renameTileAnimBtn:"", animSpeed: "", animLoop:""};
      Object.keys(el).forEach(key=>{
