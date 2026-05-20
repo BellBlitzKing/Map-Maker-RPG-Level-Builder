@@ -34450,7 +34450,7 @@
 			"width": 320,
 			"height": 320
 		},
-		"5_copy": {
+		"<b>5_copy</b>": {
 			"layers": [
 				{
 					"tiles": {
@@ -36835,7 +36835,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "BigForest",
+			"name": "<b>BigForest</b>",
 			"mapWidth": 15,
 			"mapHeight": 18,
 			"tileSize": 32,
