@@ -1580,6 +1580,7 @@
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
         mapsDataSel.value = lastMap;
+        mapsDataSel.title = lastMap.title;
         setActiveMap(lastMap);
         document.getElementById("removeMapBtn").disabled = Object.keys(maps).length === 1;
     }
