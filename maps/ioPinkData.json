@@ -34443,14 +34443,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "<b>SwampMap_j7</b>",
+			"name": "SwampMap_j7",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"<b>5_copy</b>": {
+		"8 Testcopy": {
 			"layers": [
 				{
 					"tiles": {
@@ -36835,7 +36835,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "<b>BigForest</b>",
+			"name": "BigForest",
 			"mapWidth": 15,
 			"mapHeight": 18,
 			"tileSize": 32,
