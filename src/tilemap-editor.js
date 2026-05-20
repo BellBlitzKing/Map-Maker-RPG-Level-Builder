@@ -142,7 +142,7 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer;" title="Pick Map from the list" name="mapsData" id="mapsDataSel"></select>
+                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer;" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
 
@@ -404,7 +404,7 @@
     let tilesetImage, canvas, tilesetContainer, tilesetSelection, cropSize,
         confirmBtn, tilesetGridContainer,
         layersElement, resizingCanvas, mapTileHeight, mapTileWidth, tileDataSel,tileFrameSel,tileAnimSel,
-        tilesetDataSel, mapsDataSel, objectParametersEditor;
+        tilesetDataSel, , objectParametersEditor;
 
     const el = {tileFrameCount:"", animStart:"", animEnd:"",renameTileFrameBtn:"",renameTileAnimBtn:"", animSpeed: "", animLoop:""};
      Object.keys(el).forEach(key=>{
@@ -1574,11 +1574,12 @@
             const newOpt = document.createElement("option");
             newOpt.innerHTML = maps[key].name//`map ${idx}`;
             newOpt.value = key;
-            newOpt.title = key;
+            newOpt.title = maps[key].name;
             mapsDataSel.appendChild(newOpt);
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
         mapsDataSel.value = lastMap;
+        mapsDataSel.title= lastMap.title;
         setActiveMap(lastMap);
         document.getElementById("removeMapBtn").disabled = Object.keys(maps).length === 1;
     }
