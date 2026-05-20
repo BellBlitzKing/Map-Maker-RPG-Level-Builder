@@ -1575,11 +1575,11 @@
             newOpt.innerHTML = maps[key].name//`map ${idx}`;
             newOpt.value = key;
             newOpt.title = maps[key].name;
+            newOpt.style = "font-size: x-large;"
             mapsDataSel.appendChild(newOpt);
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
         mapsDataSel.value = lastMap;
-        mapsDataSel.title= lastMap.title;
         setActiveMap(lastMap);
         document.getElementById("removeMapBtn").disabled = Object.keys(maps).length === 1;
     }
