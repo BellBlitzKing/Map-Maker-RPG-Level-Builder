@@ -1572,7 +1572,7 @@
         let lastMap = ACTIVE_MAP;
         Object.keys(maps).forEach((key, idx)=>{
             const newOpt = document.createElement("option");
-            newOpt.innerText = maps[key].name//`map ${idx}`;
+            newOpt.innerHTML = maps[key].name//`map ${idx}`;
             newOpt.value = key;
             newOpt.title = key;
             mapsDataSel.appendChild(newOpt);
