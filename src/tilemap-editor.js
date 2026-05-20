@@ -1574,6 +1574,7 @@
             const newOpt = document.createElement("option");
             newOpt.innerText = maps[key].name//`map ${idx}`;
             newOpt.value = key;
+            newOpt.title = key;
             mapsDataSel.appendChild(newOpt);
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
