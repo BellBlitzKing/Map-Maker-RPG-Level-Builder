@@ -140,14 +140,6 @@
 
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
-                    <!-- Tab links added -->
-                        <div class="tab-container">
-                          <div class="tabs">
-                            <button title="crtLayer" onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Home</button>
-                            <button onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
-                          </div>
-                        
-                          <div class="tab-content active" id="home">
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
             
                     <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
@@ -177,6 +169,15 @@
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
 <button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new<small> 🌐</small></button>
 </div>
+
+                    <!-- Tab links added -->
+                        <div class="tab-container">
+                          <div class="tabs">
+                            <button title="crtLayer" onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Home</button>
+                            <button onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
+                          </div>
+                        
+                          <div class="tab-content active" id="home">
 
                 <div style="cursor: default; margin-top: 12px; margin-bottom: 15px;">
                                   
