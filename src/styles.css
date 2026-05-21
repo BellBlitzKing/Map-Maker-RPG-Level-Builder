@@ -593,12 +593,12 @@ input[name='tool']:checked+label{
 }
 
 .tab-content {
-  display: none;
+  display: none !important; 
 
 }
 
 .tab-content.active {
-   display: block; 
+   display: block !important; 
  /* display: inline-flex;*/
 }
 
