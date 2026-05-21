@@ -563,7 +563,8 @@ input[name='tool']:checked+label{
 /* Style the buttons that are used to open the tab content */
 
 .tab-container {
-  max-width: 600px;
+  width: 322px;
+  max-width: 350px;
   /* background: #fff; */
   /* padding: 1rem; */
   border-radius: 8px;
@@ -572,6 +573,9 @@ input[name='tool']:checked+label{
 .tabs {
   display: flex;
   gap: 0.5rem;
+  background: tan; border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-bottom: 5px;
 }
 
 .tab {
