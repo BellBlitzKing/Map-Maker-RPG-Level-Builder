@@ -143,8 +143,8 @@
                     <!-- Tab links added -->
                         <div class="tab-container">
                           <div class="tabs">
-                            <button class="tab active" data-tab="home">Home</button>
-                            <button class="tab" data-tab="about">About</button>
+                            <button onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Home</button>
+                            <button onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
                           </div>
                         
                           <div class="tab-content active" id="home">
@@ -279,8 +279,8 @@
            </div>     
         </div>
 
-      <div class="tileset-container">
-        <div style="border-radius: 6px;" class="tileset-container-selection"></div>
+      <div id="mapholder" class="tileset-container">
+        <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
         <canvas style="border-radius: 4px;" id="tilesetCanvas" />
 <!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
