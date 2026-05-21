@@ -143,25 +143,14 @@
                     <!-- Tab links added -->
                         <div class="tab-container">
                           <div class="tabs">
-                            <button class="tab active" data-tab="home">Home</button>
-                            <button class="tab" data-tab="about">About</button>
-                            <button class="tab" data-tab="contact">Contact</button>
+                            <button class="tab active" data-tab="home">Map Tiles</button>
+                            <button class="tab" data-tab="about">Map List</button>
+
                           </div>
                         
                           <div class="tab-content active" id="home">
                             <h2>Home Tab</h2>
-                            <p>Welcome to the home tab!</p>
-                          </div>
-                          <div class="tab-content" id="about">
-                            <h2>About Tab</h2>
-                            <p>Here's a little info about us.</p>
-                          </div>
-                          <div class="tab-content" id="contact">
-                            <h2>Contact Tab</h2>
-                            <p>Contact us anytime. We’re always here!</p>
-                          </div>
-                        </div>
-
+                            
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
             
                     <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
@@ -301,13 +290,28 @@
       </div>
         </div>
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
-        <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <canvas id="mapCanvas" width="${width}" height="${height}"></canvas>
-          <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
-          </div>
-          <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
-          </div>
-        </div>
+                <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
+                  <canvas id="mapCanvas" width="${width}" height="${height}"></canvas>
+                              <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y">
+                              <input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
+                              </div>
+                              <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x">
+                              <input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
+                              </div>
+                </div>
+                          </div>
+
+
+                          
+                          <div class="tab-content" id="about">
+                            <h2>About Tab</h2>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map3</button>
+                          </div>
+
+                        </div>
+
+
+        
     </div>
         
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
