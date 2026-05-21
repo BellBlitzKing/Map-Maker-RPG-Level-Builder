@@ -143,7 +143,7 @@
                     <!-- Tab links added -->
                         <div class="tab-container">
                           <div class="tabs">
-                            <button onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Home</button>
+                            <button title="crtLayer" onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Home</button>
                             <button onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
                           </div>
                         
@@ -472,7 +472,7 @@
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
     let selection = [];
-    let currentLayer = 0;
+    let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
     let tileSets = {};
