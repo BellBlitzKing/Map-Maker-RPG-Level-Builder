@@ -594,12 +594,12 @@ input[name='tool']:checked+label{
 
 .tab-content {
   display: none;
-  visibility: hidden;
+
 }
 
 .tab-content.active {
-  /* display: block; */
-  display: inline-flex;
+   display: block; 
+ /* display: inline-flex;*/
 }
 
 /*__________________*/
