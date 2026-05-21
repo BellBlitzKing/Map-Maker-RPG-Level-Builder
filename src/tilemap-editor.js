@@ -140,7 +140,7 @@
 
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
-                    <!-- Tab links -->
+                    <!-- Tab links added -->
                     <div class="tab">
                       <button class="tablinks" onclick="openCity(event, 'London')">London</button>
                       <button class="tablinks" onclick="openCity(event, 'Paris')" >Paris</button>
