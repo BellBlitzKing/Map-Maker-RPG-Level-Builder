@@ -142,7 +142,7 @@
 
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
-                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer;" name="mapsData" id="mapsDataSel"></select>
+                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
 
@@ -1575,7 +1575,7 @@
             newOpt.innerHTML = maps[key].name//`map ${idx}`;
             newOpt.value = key;
             newOpt.title = maps[key].name;
-            newOpt.style = "font-size: x-large;"
+            newOpt.style = "font-size: large;"
             mapsDataSel.appendChild(newOpt);
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
