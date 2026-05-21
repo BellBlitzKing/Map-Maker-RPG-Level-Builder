@@ -141,27 +141,26 @@
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
                     <!-- Tab links added -->
-                    <div class="tab">
-                      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-                      <button class="tablinks" onclick="openCity(event, 'Paris')" >Paris</button>
-                      <button class="tablinks" onclick="openCity(event, 'Tokyo')" >Tokyo</button>
-                    </div>
-                    
-                    <!-- Tab content -->
-                    <div id="London" class="tabcontent">
-                      <h3>London</h3>
-                      <p>London is the capital city of England.</p>
-                    </div>
-                    
-                    <div id="Paris" class="tabcontent">
-                      <h3>Paris</h3>
-                      <p>Paris is the capital of France.</p>
-                    </div>
-                    
-                    <div id="Tokyo" class="tabcontent">
-                      <h3>Tokyo</h3>
-                      <p>Tokyo is the capital of Japan.</p>
-                    </div>
+                        <div class="tab-container">
+                          <div class="tabs">
+                            <button class="tab active" data-tab="home">Home</button>
+                            <button class="tab" data-tab="about">About</button>
+                            <button class="tab" data-tab="contact">Contact</button>
+                          </div>
+                        
+                          <div class="tab-content active" id="home">
+                            <h2>Home Tab</h2>
+                            <p>Welcome to the home tab!</p>
+                          </div>
+                          <div class="tab-content" id="about">
+                            <h2>About Tab</h2>
+                            <p>Here's a little info about us.</p>
+                          </div>
+                          <div class="tab-content" id="contact">
+                            <h2>Contact Tab</h2>
+                            <p>Contact us anytime. We’re always here!</p>
+                          </div>
+                        </div>
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
             
@@ -2208,26 +2207,20 @@
 
         // TABS CUSTOM _______________
 
-          function openCity(evt, cityName) {
-                  // Declare all variables
-                  var i, tabcontent, tablinks;
-                
-                  // Get all elements with class="tabcontent" and hide them
-                  tabcontent = document.getElementsByClassName("tabcontent");
-                  for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                  }
-                
-                  // Get all elements with class="tablinks" and remove the class "active"
-                  tablinks = document.getElementsByClassName("tablinks");
-                  for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                  }
-                
-                  // Show the current tab, and add an "active" class to the button that opened the tab
-                  document.getElementById(cityName).style.display = "block";
-                  evt.currentTarget.className += " active";
-                }
+        const tabs = document.querySelectorAll('.tab');
+        const contents = document.querySelectorAll('.tab-content');
+        
+        tabs.forEach((tab) => {
+          tab.addEventListener('click', () => {
+            const target = tab.dataset.tab;
+        
+            tabs.forEach((t) => t.classList.remove('active'));
+            contents.forEach((c) => c.classList.remove('active'));
+        
+            tab.classList.add('active');
+            document.getElementById(target).classList.add('active');
+          });
+        });
 
         // TABS CUSTOM _______________
 
