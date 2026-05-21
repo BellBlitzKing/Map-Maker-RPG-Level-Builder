@@ -140,14 +140,35 @@
 
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
+                    <!-- Tab links -->
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                      <button class="tablinks" onclick="openCity(event, 'Paris')" >Paris</button>
+                      <button class="tablinks" onclick="openCity(event, 'Tokyo')" >Tokyo</button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="London" class="tabcontent">
+                      <h3>London</h3>
+                      <p>London is the capital city of England.</p>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent">
+                      <h3>Paris</h3>
+                      <p>Paris is the capital of France.</p>
+                    </div>
+                    
+                    <div id="Tokyo" class="tabcontent">
+                      <h3>Tokyo</h3>
+                      <p>Tokyo is the capital of Japan.</p>
+                    </div>
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
+            
                     <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
-                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
-
-
                     
+                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
                     <button style="border-radius: 3px; font-size: small;" title="⊞ Grid On or Off"><input style="font-size: small;" title="⊞ Grid On or Off" value="true" checked="checked" type="checkbox" id="showGrid" checked></input><sup style="font-size: 12px;">⊞ grid</sup></button>
             </div>
             
@@ -2184,6 +2205,32 @@
         document.getElementById("zoomIn").addEventListener("click", zoomIn);
         document.getElementById("zoomOut").addEventListener("click", zoomOut);
         document.getElementById("setSymbolsVisBtn").addEventListener("click", ()=>toggleSymbolsVisible())
+
+        // TABS CUSTOM _______________
+
+          function openCity(evt, cityName) {
+                  // Declare all variables
+                  var i, tabcontent, tablinks;
+                
+                  // Get all elements with class="tabcontent" and hide them
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                
+                  // Get all elements with class="tablinks" and remove the class "active"
+                  tablinks = document.getElementsByClassName("tablinks");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                  }
+                
+                  // Show the current tab, and add an "active" class to the button that opened the tab
+                  document.getElementById(cityName).style.display = "block";
+                  evt.currentTarget.className += " active";
+                }
+
+        // TABS CUSTOM _______________
+
         
         // Scroll zoom in/out - use wheel instead of scroll event since theres no scrollbar on the map
         //canvas.addEventListener('wheel', e=> {
