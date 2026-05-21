@@ -198,6 +198,7 @@ position: relative;
 display: table;
 margin-left: 1px;
 user-select: none;
+background: linear-gradient(360deg, rgb(111, 166, 165) 1%, rgb(0, 128, 153) 45%, rgb(111, 166, 165) 97%, white 100%);
 }
 
 .tileset-container-selection {
@@ -563,7 +564,7 @@ input[name='tool']:checked+label{
 
 .tab-container {
   max-width: 600px;
-  background: #fff;
+  /* background: #fff; */
   /* padding: 1rem; */
   border-radius: 8px;
 }
@@ -584,11 +585,11 @@ input[name='tool']:checked+label{
 }
 
 .tab:hover {
-  background: #ddd;
+  /* background: #ddd; */
 }
 
 .tab.active {
-  background: #333;
+  /* background: #333; */
   color: #fff;
 }
 
