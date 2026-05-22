@@ -170,7 +170,9 @@
 <button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new<small> 🌐</small></button>
 </div>
 
-                    <!-- Tab links added -->
+ <!-- Tab links added -->
+</div>
+
                         <div class="tab-container">
                           <div style="background: linear-gradient(to bottom, #28423a 94%, aliceblue 94%);" class="tabs">
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
@@ -302,7 +304,7 @@
 							
                           </div>
 
-                        </div>
+
 
 
 </div>
