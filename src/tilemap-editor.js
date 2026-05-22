@@ -178,7 +178,7 @@
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Tiles 📚</button>
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							onclick="document.getElementById('mapholder').style.display = 'none'"; onclick="document.getElementById('tileGroupButtons').style.display = 'none'" class="tab" data-tab="about">Maps 🌄</button>
+							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" class="tab" data-tab="about">Maps 🌄</button>
                           </div>
 
                 <div style="cursor: default; margin-top: 12px; margin-bottom: 20px;" id="tileGroupButtons">
@@ -211,15 +211,15 @@
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9760, behavior: 'smooth'});">🔥</button>
 
                 </div> 
+
+
+				
 <!-- this div below is where sticky section stops -->
 </div>
 						
+
                           <div class="tab-content active" id="home">
-
-
-
-            </div>
-
+            				</div>
 
 
         <div style="display: none; visibility: hidden;" class="select_container layer sticky_top sticky_left" id="tilesetSelectContainer">
@@ -298,7 +298,8 @@
                           <div class="tab-content" id="about">
                             
                             <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;  width: 256px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_1.png');" title="Map 1" onclick="document.getElementById('mapsDataSel').value='1'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
-                            <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;  width: 256px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_2.png');" title="Map 2" onclick="document.getElementById('mapsDataSel').value='2'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>                            <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;" title="Map 3" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"><img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_1.png" style="width: 256px; height: 64px;"></img></button>
+                            <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;  width: 256px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_2.png');" title="Map 2" onclick="document.getElementById('mapsDataSel').value='2'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
+							<br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;" title="Map 3" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"><img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_1.png" style="width: 256px; height: 64px;"></img></button>
                             <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;" title="Map 4" onclick="document.getElementById('mapsDataSel').value='4'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"><img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_1.png" style="width: 256px; height: 64px;"></img></button>
                             <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;" title="Map 5" onclick="document.getElementById('mapsDataSel').value='5'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"><img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_2.png" style="width: 256px; height: 64px;"></img></button>
                             <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;" title="Map 6" onclick="document.getElementById('mapsDataSel').value='6'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"><img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_2.png" style="width: 256px; height: 64px;"></img></button>
