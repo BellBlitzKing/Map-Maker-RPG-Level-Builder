@@ -292,13 +292,16 @@
            </div>     
         </div>
 
+</div> <!-- Stick section above ends here with this left div -->
+
       <div id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
         <canvas style="border-radius: 4px;" id="tilesetCanvas" />
-<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
+			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
-                          </div>
+
+						  
                           <div class="tab-content" id="about">
                             
                             <br><button style="margin-bottom: 10px; border-radius: 3px; font-size: small; cursor: cell;  width: 256px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/test_map_preview_1.png');" title="Map 1" onclick="document.getElementById('mapsDataSel').value='1'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
