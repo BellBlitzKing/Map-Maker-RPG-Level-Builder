@@ -176,9 +176,13 @@
                         <div class="tab-container">
                           <div style="background: linear-gradient(to bottom, #28423a 94%, aliceblue 94%);" class="tabs">
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
-							onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Tiles 📚</button>
+							onclick="document.getElementById('mapholder').style.display = 'table'"
+							onmousedown="document.getElementById('tileGroupButtons').style.display = 'block';" 
+							class="tab active" data-tab="home">Tiles 📚</button>
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" class="tab" data-tab="about">Maps 🌄</button>
+							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
+							onmousedown="document.getElementById('tileGroupButtons').style.display = 'none';"
+							class="tab" data-tab="about">Maps 🌄</button>
                           </div>
 
                 <div style="cursor: default; margin-top: 12px; margin-bottom: 20px;" id="tileGroupButtons">
