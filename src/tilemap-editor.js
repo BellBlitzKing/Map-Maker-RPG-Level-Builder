@@ -173,9 +173,9 @@
                     <!-- Tab links added -->
                         <div class="tab-container">
                           <div style="background: linear-gradient(to bottom, #2a3441 94%, aliceblue 94%);" class="tabs">
-                            <button style="width: 135px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
+                            <button style="height: 30px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Map Tiles</button>
-                            <button style="width: 135px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
+                            <button style="height: 30px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
                           </div>
                         
