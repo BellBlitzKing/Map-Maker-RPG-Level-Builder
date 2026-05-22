@@ -579,9 +579,9 @@ input[name='tool']:checked+label{
 .tabs {
   /* display: flex; */
   /* gap: 0.5rem; */
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  margin-top: 15px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  margin-top: 10px;
 }
 
 .tab {
