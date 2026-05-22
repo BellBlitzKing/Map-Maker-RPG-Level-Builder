@@ -495,7 +495,7 @@
     }
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
-    let selection = [1];
+    let selection = [0];
     let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
@@ -801,7 +801,7 @@
         })
     }
 
-    let tileSelectStart = null;
+    let tileSelectStart = 0;
     const getSelectedTile = (event) => {
         const { x, y } = event.target.getBoundingClientRect();
         const tileSize = tileSets[tilesetDataSel.value].tileSize * ZOOM;
