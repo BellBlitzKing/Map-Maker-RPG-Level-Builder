@@ -185,7 +185,7 @@
 							class="tab" data-tab="about">Maps 🌄</button>
                           </div>
 
-                <div style="cursor: default; margin-top: 5px; margin-bottom: 15px;" id="tileGroupButtons">
+                <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
                                   
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
@@ -294,9 +294,9 @@
 
 </div> <!-- Stick section above ends here with this left div -->
 
-      <div style="border-radius: 12px;" id="mapholder" class="tileset-container">
+      <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas style="border-radius: 4px;" id="tilesetCanvas" />
+        <canvas style="border-radius: 6px;" id="tilesetCanvas" />
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
