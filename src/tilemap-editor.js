@@ -801,7 +801,7 @@
         })
     }
 
-    let tileSelectStart = 0;
+    let tileSelectStart = 1;
     const getSelectedTile = (event) => {
         const { x, y } = event.target.getBoundingClientRect();
         const tileSize = tileSets[tilesetDataSel.value].tileSize * ZOOM;
