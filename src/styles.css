@@ -577,6 +577,7 @@ input[name='tool']:checked+label{
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   text-align: center;
+  border-radius: 12px;
 }
 
 .tabs {
@@ -612,7 +613,8 @@ input[name='tool']:checked+label{
 }
 
 .tab-content.active {
-   display: block !important; 
+   display: block !important;
+   text-align: center;
  /* display: inline-flex;*/
 }
 
