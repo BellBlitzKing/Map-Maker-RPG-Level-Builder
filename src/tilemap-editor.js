@@ -196,9 +196,9 @@
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3264, behavior: 'smooth'});">🏠</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5088, behavior: 'smooth'});">🛖</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 10496, behavior: 'smooth'});">🧙‍♂️</button>
-                  <button style="margin-bottom: 4px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11264, behavior: 'smooth'});">🆎</button>
+                  <button style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11264, behavior: 'smooth'});">🆎</button>
 
-                  <br>
+
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6207, behavior: 'smooth'});">🌴</button>
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6623, behavior: 'smooth'});">🌊</button>
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6911, behavior: 'smooth'});">🏜️</button>
