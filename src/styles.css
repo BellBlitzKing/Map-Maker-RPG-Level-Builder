@@ -571,9 +571,12 @@ input[name='tool']:checked+label{
   max-width: 350px;
   /* background: #fff; */
   /* padding: 1rem; */
-  border-radius: 8px;
   /* background: linear-gradient(1deg, #3da484f0 99%, white 100%); */
   background: aliceblue;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .tabs {
