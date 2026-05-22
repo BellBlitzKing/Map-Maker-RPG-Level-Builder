@@ -357,9 +357,9 @@
                         <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
 
     <br><br>
-            <label style="margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔎 to half size view 0.5 (min)">🔎️ out</label>
-            <label style="margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in 🔎 to full normal view 1.0 (max)">🔎️ in</label>
-            <label style="margin-left: 5px;  font-size: 13px; background-color: transparent; color: #80cee7; font-weight: bold;" title="Use 🔎️ to Zoom in or Zoom out the view" id="zoomLabel">️</label>
+            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
+            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
 
             </div>
 
@@ -1657,7 +1657,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<text style="color: gold;">save map</text> ⬇️`,
+            name: `<text style="color: gold;">save map</text><small> ⬇️</small>`,
             description: "save map as an image png (download)",
             transformer: exportImage
         }
