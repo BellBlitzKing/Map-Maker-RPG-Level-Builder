@@ -588,7 +588,7 @@ input[name='tool']:checked+label{
 
 .tab {
   flex: 1;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   cursor: pointer;
   border: none;
   background: #eee;
