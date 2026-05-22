@@ -173,10 +173,10 @@
                     <!-- Tab links added -->
                         <div class="tab-container">
                           <div style="background: linear-gradient(to bottom, #28423a 94%, aliceblue 94%);" class="tabs">
-                            <button style="height: 30px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
-							onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Map Tiles</button>
-                            <button style="height: 30px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">About</button>
+                            <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
+							onclick="document.getElementById('mapholder').style.display = 'table'" class="tab active" data-tab="home">Tiles 📚</button>
+                            <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
+							onclick="document.getElementById('mapholder').style.display = 'none'" class="tab" data-tab="about">Maps 🌄</button>
                           </div>
                         
                           <div class="tab-content active" id="home">
@@ -290,8 +290,17 @@
       </div>
                           </div>
                           <div class="tab-content" id="about">
-                            <h2>About Tab</h2>
-                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">MapChange</button>
+                            <text>Pick a map below to use and build on</text> <br>
+							
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='0'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 0</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='1'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 1</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='2'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 2</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 3</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='4'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 4</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='5'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 5</button>
+                            <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" onclick="document.getElementById('mapsDataSel').value='6'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))">Map 6</button>
+
+							
                           </div>
 
                         </div>
