@@ -359,7 +359,7 @@
     <br><br>
             <label style="margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔎 to half size view 0.5 (min)">🔎️ out</label>
             <label style="margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn" title="Zoom in 🔎 to full normal view 1.0 (max)">🔎️ in</label>
-            <label style="margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔎️ to Zoom in or Zoom out the view" id="zoomLabel">️</label>
+            <label style="margin-left: 5px;  font-size: 13px; background-color: transparent; color: #80cee7; font-weight: bold;" title="Use 🔎️ to Zoom in or Zoom out the view" id="zoomLabel">️</label>
 
             </div>
 
