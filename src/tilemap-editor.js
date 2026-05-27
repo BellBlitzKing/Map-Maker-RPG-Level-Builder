@@ -187,7 +187,12 @@
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
-                                  
+
+                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: powderblue; font-weight: bold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
+                
+                <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
+<br>
+								  
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 512, behavior: 'smooth'});">🌱</button>
@@ -334,7 +339,7 @@
         
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
-<div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 10px; text-align: center;">
+<div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 20px; text-align: center;">
 
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
@@ -423,10 +428,6 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: powderblue; font-weight: bold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
-                
-                <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; display: none; visibility: hidden; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
-<br>
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
