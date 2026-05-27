@@ -187,12 +187,7 @@
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
-
-                <a title="Give a Review and Rating! Share ideas & feedback" style="font-size: small; display:inline; color: powderblue; font-weight: bold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
-                
-                <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
-<br>
-								  
+						  
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 512, behavior: 'smooth'});">🌱</button>
@@ -309,7 +304,11 @@
 
 						  
                           <div class="tab-content" id="about">
-                            
+
+                <a title="Give a Review and Rating! Share ideas & feedback"                     style="font-size: small; color: powderblue;     display:inline;  font-weight: bold;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give Review 🤩⭐</a>
+                
+                <a title="Download free tileset and get the mapping tool for offline creations" style="font-size: small; color: DarkTurquoise;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Get Tiles + Tool ❤︎</a>
+<br>						
                             <br><button style="margin-bottom: 20px; border-radius: 3px; font-size: small; cursor: cell;  width: 288px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/preview_1_forest.png');"  title="Map 1" onclick="document.getElementById('mapsDataSel').value='1'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
                             <br><button style="margin-bottom: 20px; border-radius: 3px; font-size: small; cursor: cell;  width: 288px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/preview_2_desert.png');"  title="Map 2" onclick="document.getElementById('mapsDataSel').value='2'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
                             <br><button style="margin-bottom: 20px; border-radius: 3px; font-size: small; cursor: cell;  width: 288px; height: 64px; background-image: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/maps/preview_3_winter.png');"  title="Map 3" onclick="document.getElementById('mapsDataSel').value='3'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
