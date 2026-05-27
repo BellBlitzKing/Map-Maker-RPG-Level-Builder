@@ -175,7 +175,7 @@
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 512, behavior: 'smooth'});">🌱</button>
                   
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 960, behavior: 'smooth'});">🪧</button>
-                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1120, behavior: 'smooth'});">🗿</button>
+                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1120, behavior: 'smooth'});">🏛️</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1632, behavior: 'smooth'});">📦</button>
                   <br>
 
@@ -183,7 +183,7 @@
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2528, behavior: 'smooth'});">🏛️</button>                  
 
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3264, behavior: 'smooth'});">🏠</button>
-                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5088, behavior: 'smooth'});">🛖</button>
+                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5088, behavior: 'smooth'});">🏘️</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 10496, behavior: 'smooth'});">🧙‍♂️</button>
                   <button style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11264, behavior: 'smooth'});">🆎</button>
 
@@ -763,6 +763,7 @@
         // console.log("COUNT", tileCount)
         const hideSymbols = !DISPLAY_SYMBOLS || shouldHideSymbols();
         const canvas = document.getElementById("tilesetCanvas");
+		const sound = new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav'); // Load sound
         const img = TILESET_ELEMENTS[tilesetDataSel.value];
         canvas.width = img.width * ZOOM;
         canvas.height = img.height * ZOOM;
@@ -2131,6 +2132,11 @@
         canvas.addEventListener('pointermove', (e) => {
             if (isMouseDown && ACTIVE_TOOL !== 2) toggleTile(e)
         });
+			canvas.addEventListener('click', () => {
+		    // Reset to start if already playing (optional)
+		    sound.currentTime = 0; 
+		    sound.play().catch(e => console.error("Playback failed:", e));
+			});
         // Canvas Resizer ===================
         document.getElementById("canvasWidthInp").addEventListener("change", e=>{
             updateMapSize({mapWidth: Number(e.target.value)})
