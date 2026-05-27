@@ -1111,7 +1111,7 @@
      //   if(ACTIVE_TOOL === TOOLS.PAN || !maps[ACTIVE_MAP].layers[currentLayer].visible) return;
 
     const toggleTile=(event)=> {
-        if(ACTIVE_TOOL === TOOLS.PAN || !maps[ACTIVE_MAP].layers[currentLayer].visible) {
+        if(!maps[ACTIVE_MAP].layers[currentLayer].visible) {
             if (!canvas.classList.contains('red-flash')) {
                 canvas.classList.add('red-flash');
                 setTimeout(() => {
