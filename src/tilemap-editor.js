@@ -427,6 +427,10 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
+<a class="button item button-as-link" href="#popup2">About</a>
+
+<br>
+
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
       
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
