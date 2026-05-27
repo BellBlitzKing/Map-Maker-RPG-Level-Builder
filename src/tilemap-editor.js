@@ -1683,6 +1683,16 @@
             appState
         }
     ) => {
+        let savedState;
+        try {
+            savedState = localStorage.getItem('tilemapEditorState');
+            if (savedState) {
+                appState = JSON.parse(savedState);
+            }
+        } catch (e) {
+            console.warn('Failed to load saved state', e);
+        }
+
         // Attach
         const attachTo = document.getElementById(attachToId);
         if(attachTo === null) return;
@@ -1727,8 +1737,13 @@
             },
             acceptFile: "application/JSON"
         }
-        apiOnUpdateCallback = onUpdate;
-
+        //apiOnUpdateCallback = onUpdate;
+        apiOnUpdateCallback = (...args) => {
+            onUpdate(...args);
+            saveStateToLocalStorage();
+        };
+        exports.onUpdate = apiOnUpdateCallback;
+		
         if(onMouseUp){
             apiOnMouseUp = onMouseUp;
             document.getElementById('tileMapEditor').addEventListener('pointerup', function(){
@@ -2194,6 +2209,13 @@
             fileMenuDropDown.appendChild(menuItem); // fileMenuDropDown.prepend(menuItem); 
             return menuItem;
         }
+        makeMenuItem('Clear saved state', 'clearSavedState', 'Remove saved editor state').onclick = () => {
+            try {
+                localStorage.removeItem('tilemapEditorState');
+            } catch (e) {
+                console.warn('Failed to clear saved state', e);
+            }
+        };
         Object.entries(tileMapExporters).forEach(([key, exporter])=>{
             makeMenuItem(exporter.name, key,exporter.description).onclick = () => {
                 exporter.transformer(getExportData());
@@ -2297,7 +2319,14 @@
     exports.getState = () => {
         return getAppState();
     }
-
+    const saveStateToLocalStorage = () => {
+        try {
+            localStorage.setItem('tilemapEditorState', JSON.stringify(getAppState()));
+        } catch (e) {
+            console.warn('Failed to save state', e);
+        }
+    };
+	
     exports.onUpdate = apiOnUpdateCallback;
     exports.onMouseUp = apiOnMouseUp;
 
