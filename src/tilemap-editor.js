@@ -598,7 +598,7 @@
         layersElement.innerHTML = maps[ACTIVE_MAP].layers.map((layer, index)=>{
             return `
               <div class="layer" data-layer-index="${index}">
-                <small><div title="drag and reorder this layer" class="layer-handle" handle-layer="${index}" draggable="false">  ↕️</div></small>
+                <small><div title="drag and reorder this layer" class="layer-handle" handle-layer="${index}" draggable="false">  🧲</div></small>
                 <div id="selectLayerBtn-${index}" class="layer select_layer" tile-layer="${index}" title="${layer.name}" draggable="false">${layer.name} ${layer.opacity < 1 ? ` (${layer.opacity})` : ""}</div>
                 <span style="font-size: small; text-align: left;" title="hide / show this layer" id="setLayerVisBtn-${index}" vis-layer="${index}" draggable="false"></span>
                 <span id="lockLayerBtn-${index}" lock-layer="${index}" draggable="false"></span>
