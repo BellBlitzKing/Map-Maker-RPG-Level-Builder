@@ -279,7 +279,7 @@
 
       <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas style="border-radius: 6px;" id="tilesetCanvas" />
+        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
@@ -307,7 +307,7 @@
 		
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <canvas id="mapCanvas" width="${width}" height="${height}"></canvas>
+          <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -763,7 +763,6 @@
         // console.log("COUNT", tileCount)
         const hideSymbols = !DISPLAY_SYMBOLS || shouldHideSymbols();
         const canvas = document.getElementById("tilesetCanvas");
-		const sound = new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav'); // Load sound
         const img = TILESET_ELEMENTS[tilesetDataSel.value];
         canvas.width = img.width * ZOOM;
         canvas.height = img.height * ZOOM;
@@ -2132,6 +2131,7 @@
         canvas.addEventListener('pointermove', (e) => {
             if (isMouseDown && ACTIVE_TOOL !== 2) toggleTile(e)
         });
+			const sound = new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav'); // Load sound
 			canvas.addEventListener('click', () => {
 		    // Reset to start if already playing (optional)
 		    sound.currentTime = 0; 
