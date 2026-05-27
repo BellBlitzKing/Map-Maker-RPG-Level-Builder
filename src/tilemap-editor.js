@@ -180,9 +180,9 @@
 
 							class="tab active" data-tab="home" id="myTiles">Tiles 📚</button>
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
+							onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
-							onmousedown="document.getElementById('tileGroupButtons').style.display = 'none';"
+							onmousedown="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';"
 							class="tab" data-tab="about" id="myMaps">Maps 🌄</button>
                           </div>
 
