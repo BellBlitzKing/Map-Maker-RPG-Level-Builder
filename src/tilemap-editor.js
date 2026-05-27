@@ -409,7 +409,7 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-	<a class="button item button-as-link" href="#popup2">Credits & Help</a>
+	<a style="font-size: small !important;" class="button item button-as-link" href="#popup2">Credits & Help</a>
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
 	                                        <h4>Tilemap editor</h4>
