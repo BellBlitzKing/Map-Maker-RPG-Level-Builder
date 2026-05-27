@@ -1105,9 +1105,21 @@
         }
     }
 
-    const toggleTile=(event)=> {
-        if(ACTIVE_TOOL === TOOLS.PAN || !maps[ACTIVE_MAP].layers[currentLayer].visible) return;
+	// previous version
+   // const toggleTile=(event)=> {
+     //   if(ACTIVE_TOOL === TOOLS.PAN || !maps[ACTIVE_MAP].layers[currentLayer].visible) return;
 
+    const toggleTile=(event)=> {
+        if(ACTIVE_TOOL === TOOLS.PAN || !maps[ACTIVE_MAP].layers[currentLayer].visible) {
+            if (!canvas.classList.contains('red-flash')) {
+                canvas.classList.add('red-flash');
+                setTimeout(() => {
+                    canvas.classList.remove('red-flash');
+                }, 300);
+            }
+            return;
+        }
+		
         const {x,y} = getSelectedTile(event)[0];
         const key = `${x}-${y}`;
 
