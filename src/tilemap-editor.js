@@ -320,7 +320,7 @@
         
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
-<div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 20px; text-align: center;">
+<div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 15px; text-align: center;">
 
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
@@ -409,7 +409,7 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-	<a class="button item button-as-link" href="#popup2">About</a>
+	<a class="button item button-as-link" href="#popup2">Credits & Help</a>
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
 	                                        <h4>Tilemap editor</h4>
