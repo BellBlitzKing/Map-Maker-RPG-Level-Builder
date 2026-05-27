@@ -406,11 +406,11 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate it! 🤩⭐</a>
+    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate it 🤩⭐</a>
 
-	<label style="font-size: small !important;">&hairsp; &hairsp;</label>
+	<label style="font-size: small !important;">&hairsp;</label>
 
-	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2">Credits</a>	
+	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2">Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
 	                                        <h4>Tilemap editor</h4>
