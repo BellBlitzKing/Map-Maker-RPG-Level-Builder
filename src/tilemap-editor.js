@@ -1685,7 +1685,7 @@
     ) => {
         let savedState;
         try {
-            savedState = localStorage.getItem('tilemapEditorState');
+            savedState = localStorage.getItem('State');
             if (savedState) {
                 appState = JSON.parse(savedState);
             }
@@ -2290,7 +2290,7 @@
            // else zoomOut();
         //});
 
-        await loadData(tileMapData)
+        loadData(tileMapData)
         if (appState) {
             ACTIVE_MAP = appState.ACTIVE_MAP;
             mapsDataSel.value = ACTIVE_MAP;
@@ -2319,8 +2319,8 @@
     }
     const saveStateToLocalStorage = async () => {
         try {
-            const state = await getAppState();
-			localStorage.setItem('tilemapEditorState', JSON.stringify(state));
+            const state = getAppState();
+			localStorage.setItem('appState', JSON.stringify(state));
         } catch (e) {
             console.warn('Failed to save state', e);
         }
