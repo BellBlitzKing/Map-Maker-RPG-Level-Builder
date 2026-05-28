@@ -279,7 +279,7 @@
 
       <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
+        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_mouse.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
@@ -307,7 +307,7 @@
 		
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
+          <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_press.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -2131,12 +2131,12 @@
         canvas.addEventListener('pointermove', (e) => {
             if (isMouseDown && ACTIVE_TOOL !== 2) toggleTile(e)
         });
-			const sound = new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav'); // Load sound
+			/* const sound = new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sound_click.wav'); // Load sound
 			canvas.addEventListener('click', () => {
 		    // Reset to start if already playing (optional)
 		    sound.currentTime = 0; 
 		    sound.play().catch(e => console.error("Playback failed:", e));
-			});
+			}); */
         // Canvas Resizer ===================
         document.getElementById("canvasWidthInp").addEventListener("change", e=>{
             updateMapSize({mapWidth: Number(e.target.value)})
