@@ -1118,8 +1118,10 @@
         if(!maps[ACTIVE_MAP].layers[currentLayer].visible) {
             if (!canvas.classList.contains('red-flash')) {
                 canvas.classList.add('red-flash');
+				maps[ACTIVE_MAP].layers[currentLayer].classList.add('red-flash');
                 setTimeout(() => {
                     canvas.classList.remove('red-flash');
+					maps[ACTIVE_MAP].layers[currentLayer].classList.remove('red-flash');
                 }, 300);
             }
             return;
