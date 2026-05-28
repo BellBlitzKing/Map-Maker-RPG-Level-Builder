@@ -160,12 +160,12 @@
                             <button value=0 style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table' ; document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: this.value}) ; document.getElementById('tileGroupButtons').style.display = 'block'"
 
-							class="tab active" data-tab="home" id="myTiles">Tilez 📚</button>
+							class="tab active" data-tab="home" id="myTiles">Tiles 📚</button>
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
-							class="tab" data-tab="about" id="myMapsz">Mapz 🌄</button>
+							class="tab" data-tab="about" id="myMaps">Maps 🌄</button>
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
@@ -501,7 +501,7 @@
     }
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
-    let selection = [];
+    let selection = 1;
     let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
@@ -1683,15 +1683,6 @@
             appState
         }
     ) => {
-        let savedState;
-        try {
-            savedState = localStorage.getItem('State');
-            if (savedState) {
-                appState = JSON.parse(savedState);
-            }
-        } catch (e) {
-            console.warn('Failed to load saved state', e);
-        }
         // Attach
         const attachTo = document.getElementById(attachToId);
         if(attachTo === null) return;
@@ -1736,12 +1727,7 @@
             },
             acceptFile: "application/JSON"
         }
-        // apiOnUpdateCallback = onUpdate;
-        apiOnUpdateCallback = (...args) => {
-            onUpdate(...args);
-            saveStateToLocalStorage();
-        };
-        exports.onUpdate = apiOnUpdateCallback;
+        apiOnUpdateCallback = onUpdate;
 
         if(onMouseUp){
             apiOnMouseUp = onMouseUp;
@@ -2304,12 +2290,12 @@
             SHOW_GRID = appState.SHOW_GRID;
         }
         
-			        // Animated tiles when on frames mode
-			        const animateTiles = () => {
-			            if (tileDataSel.value === "frames") draw();
-			            requestAnimationFrame(animateTiles);
-			        }
-			        requestAnimationFrame(animateTiles);
+        // Animated tiles when on frames mode
+        const animateTiles = () => {
+            if (tileDataSel.value === "frames") draw();
+            requestAnimationFrame(animateTiles);
+        }
+        requestAnimationFrame(animateTiles);
     };
 
 
@@ -2317,18 +2303,9 @@
     exports.getState = () => {
         return getAppState();
     }
-    const saveStateToLocalStorage = async () => {
-        try {
-            const state = getAppState();
-			localStorage.setItem('appState', JSON.stringify(state));
-        } catch (e) {
-            console.warn('Failed to save state', e);
-        }
-    };
-	
+
     exports.onUpdate = apiOnUpdateCallback;
     exports.onMouseUp = apiOnMouseUp;
 
     exports.getTilesets = () => tileSets;
-
 });
