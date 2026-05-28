@@ -165,7 +165,7 @@
 							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
-							class="tab" data-tab="about" id="myMapsz">Maps 🌄</button>
+							class="tab" data-tab="about" id="myMapsz">Mapz 🌄</button>
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
