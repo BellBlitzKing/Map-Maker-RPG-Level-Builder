@@ -501,7 +501,7 @@
     }
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
-    let selection = 1;
+    let selection = [];
     let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
@@ -1683,6 +1683,15 @@
             appState
         }
     ) => {
+        let savedState;
+        try {
+            savedState = localStorage.getItem('tilemapEditorState');
+            if (savedState) {
+                appState = JSON.parse(savedState);
+            }
+        } catch (e) {
+            console.warn('Failed to load saved state', e);
+        }
         // Attach
         const attachTo = document.getElementById(attachToId);
         if(attachTo === null) return;
@@ -1727,7 +1736,12 @@
             },
             acceptFile: "application/JSON"
         }
-        apiOnUpdateCallback = onUpdate;
+        // apiOnUpdateCallback = onUpdate;
+        apiOnUpdateCallback = (...args) => {
+            onUpdate(...args);
+            saveStateToLocalStorage();
+        };
+        exports.onUpdate = apiOnUpdateCallback;
 
         if(onMouseUp){
             apiOnMouseUp = onMouseUp;
@@ -2303,7 +2317,14 @@
     exports.getState = () => {
         return getAppState();
     }
-
+    const saveStateToLocalStorage = () => {
+        try {
+            localStorage.setItem('tilemapEditorState', JSON.stringify(getAppState()));
+        } catch (e) {
+            console.warn('Failed to save state', e);
+        }
+    };
+	
     exports.onUpdate = apiOnUpdateCallback;
     exports.onMouseUp = apiOnMouseUp;
 
