@@ -501,7 +501,7 @@
     }
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
-    let selection = [1,1];
+    let selection = 1;
     let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
@@ -728,7 +728,7 @@
     let selectionSize = [1,1];
     const updateSelection = (autoSelectTool = true) => {
         if(!tileSets[tilesetDataSel.value]) return;
-        const selected = selection[1];
+        const selected = selection[0];
         if(!selected) return;
         const {x, y} = selected;
         const {x: endX, y: endY} = selection[selection.length - 1];
@@ -807,7 +807,7 @@
         })
     }
 
-    let tileSelectStart = [1];
+    let tileSelectStart = 1;
     const getSelectedTile = (event) => {
         const { x, y } = event.target.getBoundingClientRect();
         const tileSize = tileSets[tilesetDataSel.value].tileSize * ZOOM;
