@@ -2290,7 +2290,7 @@
            // else zoomOut();
         //});
 
-        loadData(tileMapData)
+        await loadData(tileMapData)
         if (appState) {
             ACTIVE_MAP = appState.ACTIVE_MAP;
             mapsDataSel.value = ACTIVE_MAP;
@@ -2304,12 +2304,12 @@
             SHOW_GRID = appState.SHOW_GRID;
         }
         
-        // Animated tiles when on frames mode
-        const animateTiles = () => {
-            if (tileDataSel.value === "frames") draw();
-            requestAnimationFrame(animateTiles);
-        }
-        requestAnimationFrame(animateTiles);
+			        // Animated tiles when on frames mode
+			        const animateTiles = () => {
+			            if (tileDataSel.value === "frames") draw();
+			            requestAnimationFrame(animateTiles);
+			        }
+			        requestAnimationFrame(animateTiles);
     };
 
 
@@ -2330,4 +2330,5 @@
     exports.onMouseUp = apiOnMouseUp;
 
     exports.getTilesets = () => tileSets;
+	window.exports = exports;
 });
