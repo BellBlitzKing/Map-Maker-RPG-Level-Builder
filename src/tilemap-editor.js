@@ -728,7 +728,7 @@
     let selectionSize = [1,1];
     const updateSelection = (autoSelectTool = true) => {
         if(!tileSets[tilesetDataSel.value]) return;
-        const selected = selection[0];
+        const selected = selection[1];
         if(!selected) return;
         const {x, y} = selected;
         const {x: endX, y: endY} = selection[selection.length - 1];
