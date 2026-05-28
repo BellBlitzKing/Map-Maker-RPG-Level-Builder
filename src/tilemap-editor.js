@@ -501,7 +501,7 @@
     }
 
     const getSnappedPos = (pos) => (Math.round(pos / (SIZE_OF_CROP)) * (SIZE_OF_CROP));
-    let selection = [0];
+    let selection = [1,1];
     let currentLayer = 1;
     let isMouseDown = false;
     let maps = {};
