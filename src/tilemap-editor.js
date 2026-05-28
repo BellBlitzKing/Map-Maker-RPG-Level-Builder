@@ -2330,5 +2330,5 @@
     exports.onMouseUp = apiOnMouseUp;
 
     exports.getTilesets = () => tileSets;
-	window.exports = exports;
+
 });
