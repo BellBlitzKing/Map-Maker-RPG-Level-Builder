@@ -279,7 +279,7 @@
 
       <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
+        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/GenericClick_2_Fade.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
@@ -307,7 +307,7 @@
 		
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/SFX_FastUiClickDoubleClick02.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
+          <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
