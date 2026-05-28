@@ -75,7 +75,10 @@
   <body>
   <div id="tileMapEditor"></div>
 
-  <button style="" id="addPwaBtn" >PLAY</button>
+  <button style="" id="addPwaBtn">PLAY</button>
+  <button id=mymusic style="width: 155px; cursor: pointer, default;" onclick="togglePlayPause(); changeText();"><small style="cursor: pointer, default;">Pause Music Off ⏸️</small></button>
+	<audio id="ad" src="https://html-classic.itch.zone/html/17031939/Caketown.mp3" muted=false autoplay  loop></audio>
+    
   <div style="display: none; visibility: none;" id="snackbar">A new version of this app is available.<a id="reload"> Click here to update.</a></div>
 
   <script type="module" src="importers/tiled.js"></script>
@@ -419,8 +422,33 @@ console.log(mapsList[randomIndex]);
     
   </script>
 
+   <script>
+   
+var song=document.getElementById("ad");
+function togglePlayPause()
+{
+    song.paused? song.play() : song.pause();
+}
+
+song.muted = false;
+song.volume = 0.3;
+
+function changeText() {
+   //document.getElementById("mymusic").innerHTML = "New Text";
+   
+    var elem = document.getElementById("mymusic");
+	
+    if (elem.value== "<b " + 'style="cursor: url(' + "'Arrow_Yellow.png'" + '), default;"' + ">" + "Play Music On ▶️" + "</b>") elem.value = "<b " + 'style="cursor: url(' + "'Arrow_Yellow.png'" + '), default;"' + ">" + "Pause Music Off ⏸️" + "</b>";
+    else elem.value = "<b " + 'style="cursor: url(' + "'Arrow_Yellow.png'" + '), default;"' + ">" + "Play Music On ▶️" + "</b>";
+	
+	document.getElementById("mymusic").innerHTML = elem.value;
+   
+}
+
+ </script>
+    
   <style>
-    #addPwaBtn {
+    #addBtn {
       position: absolute;
       bottom: 10px;
       left: 50%;
