@@ -853,7 +853,7 @@
                 const tileSize = tileSets[tilesetIdx]?.tileSize || SIZE_OF_CROP;
 
                 if(!(tilesetIdx in TILESET_ELEMENTS)) { //texture not found
-                    ctx.fillStyle = 'red';
+                    ctx.fillStyle = 'blue';
                     ctx.fillRect(positionX * SIZE_OF_CROP * ZOOM, positionY * SIZE_OF_CROP * ZOOM, SIZE_OF_CROP * ZOOM, SIZE_OF_CROP * ZOOM);
                     return;
                 }
