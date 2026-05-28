@@ -2317,9 +2317,10 @@
     exports.getState = () => {
         return getAppState();
     }
-    const saveStateToLocalStorage = () => {
+    const saveStateToLocalStorage = async () => {
         try {
-            localStorage.setItem('tilemapEditorState', JSON.stringify(getAppState()));
+            const state = await getAppState();
+			localStorage.setItem('tilemapEditorState', JSON.stringify(state));
         } catch (e) {
             console.warn('Failed to save state', e);
         }
