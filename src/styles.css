@@ -204,7 +204,7 @@ background: linear-gradient(360deg, #a2794f 0%, #a68b6f 1%, white 20%, #a68b6f 9
 
 .tileset-container-selection {
 position: absolute;
-/* pointer-events: none; remove to ensure animation size change occurs*/
+pointer-events: none;
 outline: 2px solid blueviolet;
 left: 0;
 top: 0;
@@ -216,10 +216,6 @@ background-color: rgba(66, 255, 222, 0.29);
 text-align: center;
 
 transition: transform 0.15s ease-in-out;
-}
-
-.tileset-container-selection:active {
-transform: scale(0.9);
 }
 
 .tileset-container-selection:hover {
