@@ -203,7 +203,7 @@ background: linear-gradient(360deg, rgb(111, 166, 165) 1%, rgb(0, 128, 153) 45%,
 
 .tileset-container-selection {
 position: absolute;
-pointer-events: none;
+/* pointer-events: none; remove to ensure animation size change occurs*/
 outline: 2px solid blueviolet;
 left: 0;
 top: 0;
