@@ -76,9 +76,8 @@
   <div id="tileMapEditor"></div>
 
   <audio id="ad" src="https://html-classic.itch.zone/html/17031939/Caketown.mp3" muted=false autoplay loop></audio>
-  <button id="addPwaBtn" style="width: 155px; cursor: pointer, default;" onclick="togglePlayPause(); changeText();" title="Zone">Pause Music Off ⏸️</button>
-  
-	  
+  <button id="addPwaBtn" style="width: 155px;" onclick="togglePlayPause(); changeText();" title="Click to Play or Pause Music. Off/Muted by Default on start.">Play Music On ▶️</button>
+
   <div style="display: none; visibility: none;" id="snackbar">A new version of this app is available.<a id="reload"> Click here to update.</a></div>
 	  
 	  <!-- button id=mymusic style="width: 155px; cursor: pointer, default;" onclick="togglePlayPause(); changeText();">Pause Music Off ⏸️</button -->
@@ -435,7 +434,7 @@ function togglePlayPause()
 }
 
 song.muted = false;
-song.volume = 0.3;
+song.volume = 0.2;
 
 function changeText() {
    //document.getElementById("mymusic").innerHTML = "New Text";
