@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "favicon.ico",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/ico",
       "purpose": "any maskable"
     }
   ],
