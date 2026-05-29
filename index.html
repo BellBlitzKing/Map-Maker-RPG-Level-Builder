@@ -75,11 +75,14 @@
   <body>
   <div id="tileMapEditor"></div>
 
+  <audio id="ad" src="https://html-classic.itch.zone/html/17031939/Caketown.mp3" muted=false autoplay loop></audio>
   <button id="addPwaBtn" style="width: 155px; cursor: pointer, default;" onclick="togglePlayPause(); changeText();" title="Zone">Pause Music Off ⏸️</button>
+  
+	  
   <div style="display: none; visibility: none;" id="snackbar">A new version of this app is available.<a id="reload"> Click here to update.</a></div>
 	  
 	  <!-- button id=mymusic style="width: 155px; cursor: pointer, default;" onclick="togglePlayPause(); changeText();">Pause Music Off ⏸️</button -->
-	  <audio id="ad" src="https://html-classic.itch.zone/html/17031939/Caketown.mp3" muted=false autoplay  loop></audio>
+	  
 
     
   <script type="module" src="importers/tiled.js"></script>
@@ -442,7 +445,7 @@ function changeText() {
     if (elem.value== "<b " + ">" + "Play Music On ▶️" + "</b>") elem.value = "<b " + ">" + "Pause Music Off ⏸️" + "</b>";
     else elem.value = "<b " + ">" + "Play Music On ▶️" + "</b>";
 	
-	document.getElementById("mymusic").innerHTML = elem.value;
+	document.getElementById("addPwaBtn").innerHTML = elem.value;
    
 }
 
