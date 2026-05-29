@@ -76,7 +76,7 @@
 
   <audio id="ad" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/Peaceful_Village.mp3" muted=true autoplay="autoplay" loop="loop" preload="auto"></audio>
 	  <!-- audio id="ad" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/Symphony_Summers.mp3" muted=false autoplay loop></audio -->
-  <button id="addPwaBtn" style="width: 155px;" onclick="togglePlayPause(); changeText();" title="Click to Play or Pause Music. Off/Muted by Default on start.">Play Music On ▶️</button>
+  <button id="addPwaBtn" style="width: 165px;" onclick="togglePlayPause(); changeText();" title="Click to Play or Pause Music. Off/Muted by Default on start.">Play Music On ▶️🎧🔊</button>
 
   <div style="display: none; visibility: none;" id="snackbar">A new version of this app is available.<a id="reload"> Click here to update.</a></div>
 	  
@@ -439,8 +439,8 @@ function changeText() {
    
     var elem = document.getElementById("addPwaBtn");
 	
-    if (elem.value== "<b " + ">" + "Pause Music Off ⏸️" + "</b>") elem.value = "<b " + ">" + "Play Music On ▶️" + "</b>";
-    else elem.value = "<b " + ">" + "Pause Music Off ⏸️" + "</b>";
+    if (elem.value== "<b " + ">" + "Pause Music Off ⛔🔇" + "</b>") elem.value = "<b " + ">" + "Play Music On ▶️🎧🔊" + "</b>";
+    else elem.value = "<b " + ">" + "Pause Music Off ⛔🔇" + "</b>";
 	
 	document.getElementById("addPwaBtn").innerHTML = elem.value;
    
