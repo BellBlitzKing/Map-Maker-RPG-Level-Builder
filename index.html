@@ -74,7 +74,7 @@
   <body>
   <div id="tileMapEditor"></div>
 
-  <audio id="ad" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/Peaceful_Village.mp3" muted=false autoplay loop></audio>
+  <audio id="ad" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/Peaceful_Village.mp3" muted=false autoplay="autoplay" loop="loop"></audio>
 	  <!-- audio id="ad" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/Symphony_Summers.mp3" muted=false autoplay loop></audio -->
   <button id="addPwaBtn" style="width: 155px;" onclick="togglePlayPause(); changeText();" title="Click to Play or Pause Music. Off/Muted by Default on start.">Play Music On ▶️</button>
 
@@ -422,11 +422,6 @@ console.log(mapsList[randomIndex]);
 
 
     
-    
-  </script>
-
-   <script>
-   
 var song=document.getElementById("ad");
 function togglePlayPause()
 {
@@ -434,7 +429,7 @@ function togglePlayPause()
 }
 
 song.muted = false;
-song.volume = 0.1;
+song.volume = 0.05;
 
 function changeText() {
    //document.getElementById("mymusic").innerHTML = "New Text";
@@ -447,8 +442,18 @@ function changeText() {
 	document.getElementById("addPwaBtn").innerHTML = elem.value;
    
 }
+	  
+  </script>
 
- </script>
+  <script defer>
+
+var audioToPlay = document.getElementById("ad");
+
+window.onload = function() {
+    audioToPlay.play()
+	  
+  </script>
+	  
     
   <style>
     #addPwaBtn {
