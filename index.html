@@ -457,7 +457,22 @@ function changeText() {
       border: 1px solid grey;
       border-radius: 3px;
       padding: 10px;
+
+		  /* Smooth animation setup */
+ 	 transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
+
+	      .addPwaBtn:hover {
+			transform: scale(1.05);
+			  
+		  }
+
+	  	      .addPwaBtn:active {
+			transform: scale(0.92);
+			  
+		  }
+
+	  
   </style>
 
   </body>
