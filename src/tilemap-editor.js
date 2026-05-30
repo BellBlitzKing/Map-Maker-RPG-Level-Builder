@@ -180,7 +180,7 @@
                   <br>
 
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2080, behavior: 'smooth'});">🏛️</button>
-                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2016, behavior: 'smooth'});">🏛️</button>                  
+                  <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2592, behavior: 'smooth'});">🧱</button>                  
 
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7264, behavior: 'smooth'});">🏠</button>
                   <button style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
