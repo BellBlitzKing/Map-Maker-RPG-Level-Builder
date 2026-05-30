@@ -189,11 +189,11 @@
 
 
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3008, behavior: 'smooth'});">🌴</button>
-                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6623, behavior: 'smooth'});">🌊</button>
-                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6911, behavior: 'smooth'});">🏜️</button>
-                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7615, behavior: 'smooth'});">🧊</button>
+                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3424, behavior: 'smooth'});">🌊</button>
+                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3712, behavior: 'smooth'});">🏜️</button>
+                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 4416, behavior: 'smooth'});">🧊</button>
                   
-                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 8352, behavior: 'smooth'});">🌸</button>
+                  <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5120, behavior: 'smooth'});">🌸</button>
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9056, behavior: 'smooth'});">🐸</button>
                   <button style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9760, behavior: 'smooth'});">🔥</button>
 
