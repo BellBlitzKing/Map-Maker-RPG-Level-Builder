@@ -328,7 +328,7 @@
 
                     
                       <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="draw tiles you selected" data-value="0" class="menu">
+                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
                               <div id="flipBrushIndicator">✏️ Draw</div>
                               
                               <div style="display: none; visibility: hidden;" class="dropdown">
@@ -344,7 +344,7 @@
 
 
                       <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool1" title="erase tiles" data-value="1">❌ Erase</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
 
                       <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
                       
@@ -353,13 +353,13 @@
                       <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 
                       <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool4" title="draw/pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 
                       <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool5" title="replace and swap tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 
-                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="Undo action">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="Redo action">↪️ Redo</label>
+                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
+                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
 
     <br><br>
             <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
@@ -399,18 +399,18 @@
         </label>
 
 <div style="max-width: 165px; justify-items: center !important;">
-        <button style="color: gold; border-radius: 6px; text-align: center; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="☰ Add New Layer to Map">✚ New Layer</button>
+        <button style="color: gold; border-radius: 6px; text-align: center; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="✚ Add New Layer ☰ to Map">✚ New Layer</button>
 </div>
         <div style="margin-bottom: 15px; max-width: 165px; max-height: 150px; overflow: auto; font-size: small; min-height: 150px;" class="layers" id="layers">
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
 
-    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
+    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank" title="Rate this tool to help it grow">Rate It! 🤩</a>
 
 	<label style="font-size: small !important;">&hairsp;</label>
 
-	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2">Credits 😎</a>	
+	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
 	                                        <h4>Tilemap editor</h4>
@@ -432,11 +432,11 @@
 	                            </div>
 <br>
 
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b>   Upload tileset     </small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ Erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
       
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="removeMapBtn" title="⚠️ delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
+      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
