@@ -124,11 +124,11 @@
 
             <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
             
-                    <select style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
-                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map">🖉</button>
+                    <select title="Pick Map from the list ☰🗺️" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+                    <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
                     
-                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers"><small>⧉ </small>clone</button>
-                    <button style="border-radius: 3px; font-size: small;" title="⊞ Grid On or Off"><input style="font-size: small;" title="⊞ Grid On or Off" value="true" checked="checked" type="checkbox" id="showGrid" checked></input><sup style="font-size: 12px;">⊞ grid</sup></button>
+                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋"><small>⧉ </small>clone</button>
+                    <button style="border-radius: 3px; font-size: small;" title="⊞ Grid On or Off"><input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input><sup style="font-size: 12px;">⊞ grid</sup></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -149,7 +149,7 @@
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
-<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map">new<small> 🌐</small></button>
+<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new<small> 🌐</small></button>
 </div>
 
  <!-- Tab links added -->
@@ -160,42 +160,42 @@
                             <button value=0 style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table' ; document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: this.value}) ; document.getElementById('tileGroupButtons').style.display = 'block'"
 
-							class="tab active" data-tab="home" id="myTiles">Tiles 📚</button>
+							class="tab active" data-tab="home" id="myTiles" title="Show Tiles List 📚">Tiles 📚</button>
                             <button style="height: 32px; width: 125px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
-							class="tab" data-tab="about" id="myMaps">Maps 🌄</button>
+							class="tab" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🌄</button>
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
 						  
-                  <button title="🌳 Tree Tiles" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
-                  <button title="⛰️ Rock Tiles" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
-                  <button title="🌱 Flower & Grass Tiles" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 576, behavior: 'smooth'});">🌱</button>
+                  <button title="🌳 Tree Tiles 🌲" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
+                  <button title="⛰️ Rock Tiles 🗿" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
+                  <button title="🌱 Flower & Grass Tiles 🟩" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 576, behavior: 'smooth'});">🌱</button>
                   
-                  <button title="🪧 Signs & Unique Objects" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 992, behavior: 'smooth'});">🪧</button>
-                  <button title="📦 Boxes and House Objects" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1216, behavior: 'smooth'});">📦</button>
-                  <button title="⛩️ Fences & Gate Tiles" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1536, behavior: 'smooth'});">⛩️</button>
+                  <button title="🪧 Signs & Unique Objects 🗡️" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 992, behavior: 'smooth'});">🪧</button>
+                  <button title="📦 Boxes and House Objects🪑" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1216, behavior: 'smooth'});">📦</button>
+                  <button title="⛩️ Fences & Gate Tiles 🚧" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1536, behavior: 'smooth'});">⛩️</button>
                   <br>
 
-                  <button title="🏛️ Brick Structures" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2080, behavior: 'smooth'});">🏛️</button>
-                  <button title="🧱 Brick Walls" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2592, behavior: 'smooth'});">🧱</button>                  
+                  <button title="🏛️ Brick Structures 🏗️" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2080, behavior: 'smooth'});">🏛️</button>
+                  <button title="🧱 Brick Walls 🏰" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2592, behavior: 'smooth'});">🧱</button>                  
 
-                  <button title="🏠 Homes + Buildings" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7264, behavior: 'smooth'});">🏠</button>
-                  <button title="🏘️ Shops + Stands" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
-                  <button title="🧙‍♂️ Character Tile" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
-                  <button title="🆎 Letters & Alphabet" style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11808, behavior: 'smooth'});">🆎</button>
+                  <button title="🏠 Homes + Buildings 🏡" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7264, behavior: 'smooth'});">🏠</button>
+                  <button title="🏘️ Shops + Stands 🛖" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
+                  <button title="🧙‍♂️ Character Tile 🧝" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
+                  <button title="🆎 Letters & Alphabet 🔠" style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11808, behavior: 'smooth'});">🆎</button>
 
 
-                  <button title="🌴 Forest Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3008, behavior: 'smooth'});">🌴</button>
-                  <button title="🌊 River Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3424, behavior: 'smooth'});">🌊</button>
-                  <button title="🏜️ Desert Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3712, behavior: 'smooth'});">🏜️</button>
-                  <button title="🧊 Winter Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 4416, behavior: 'smooth'});">🧊</button>
+                  <button title="🌴 Forest Tiles 🍃" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3008, behavior: 'smooth'});">🌴</button>
+                  <button title="🌊 River Tiles 🏞️" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3424, behavior: 'smooth'});">🌊</button>
+                  <button title="🏜️ Desert Tiles 🌵" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3712, behavior: 'smooth'});">🏜️</button>
+                  <button title="🧊 Winter Tiles ❄️" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 4416, behavior: 'smooth'});">🧊</button>
                   
-                  <button title="🌸 Dreamland Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5152, behavior: 'smooth'});">🌸</button>
-                  <button title="🐸 Swampland Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5856, behavior: 'smooth'});">🐸</button>
-                  <button title="🔥 Lavaland Tiles" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6560, behavior: 'smooth'});">🔥</button>
+                  <button title="🌸 Dreamland Tiles 🦄" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5152, behavior: 'smooth'});">🌸</button>
+                  <button title="🐸 Swampland Tiles 🐊" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5856, behavior: 'smooth'});">🐸</button>
+                  <button title="🔥 Lavaland Tiles 🌋" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6560, behavior: 'smooth'});">🔥</button>
 
                 </div> 
 
@@ -1697,12 +1697,12 @@
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
             name: `<text style="color: gold;">save map</text><small> ⬇️</small>`,
-            description: "save map as an image png (download)",
+            description: "save map as an image 🖼️ png (download)",
             transformer: exportImage
         }
         apiTileMapExporters.saveData = {
             name: "save json",
-            description: "save map as a json file to edit later",
+            description: "save map as a json 📜 file to edit later",
             transformer: exportJson
         }
         // apiTileMapExporters.analizeTilemap = {
@@ -1716,7 +1716,7 @@
         apiTileMapImporters = tileMapImporters;
         apiTileMapImporters.openData = {
             name: "upload json",
-            description: "upload / open map json file to continue editing a map",
+            description: "upload ⬆️ / open map json file to continue editing a map",
             onSelectFiles: (setData, files) => {
                 const readFile = new FileReader();
                 readFile.onload = (e) => {
