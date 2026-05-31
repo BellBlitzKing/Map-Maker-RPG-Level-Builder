@@ -279,7 +279,8 @@
 
       <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" />
+        <!-- canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" -->
+		<canvas style="border-radius: 6px;" id="tilesetCanvas" />
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
