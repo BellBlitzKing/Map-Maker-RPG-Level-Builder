@@ -184,7 +184,7 @@
 
                   <button title="🏠 Homes + Buildings 🏡" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7264, behavior: 'smooth'});">🏠</button>
                   <button title="🏘️ Shops + Stands 🛖" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
-                  <button title="🧙‍♂️ Character Tile 🧝" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
+                  <button title="🧙‍♂️ Character Tiles 🧝" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
                   <button title="🆎 Letters & Alphabet 🔠" style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11808, behavior: 'smooth'});">🆎</button>
 
 
@@ -279,8 +279,8 @@
 
       <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <!-- canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas" -->
-		<canvas style="border-radius: 6px;" id="tilesetCanvas" />
+        <canvas onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas">
+
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
       </div>
