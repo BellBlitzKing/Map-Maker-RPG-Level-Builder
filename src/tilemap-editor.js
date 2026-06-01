@@ -172,7 +172,7 @@
 						  
                   <button title="🌳 Tree Tiles 🌲" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button title="⛰️ Rock Tiles 🗿" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
-                  <button title="🌱 Flower & Grass Tiles 🟩" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 576, behavior: 'smooth'});">🌱</button>
+                  <button title="🌱 Flower & Land Tiles 🟩" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 576, behavior: 'smooth'});">🌱</button>
                   
                   <button title="🪧 Signs & Unique Objects 🗡️" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 992, behavior: 'smooth'});">🪧</button>
                   <button title="📦 Boxes and House Objects🪑" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 1216, behavior: 'smooth'});">📦</button>
@@ -183,9 +183,9 @@
                   <button title="🧱 Brick Walls 🏰" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 2592, behavior: 'smooth'});">🧱</button>                  
 
                   <button title="🏠 Homes + Buildings 🏡" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 7264, behavior: 'smooth'});">🏠</button>
-                  <button title="🏘️ Shops + Stands 🛖" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
-                  <button title="🧙‍♂️ Character Tiles 🧝" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
-                  <button title="🆎 Letters & Alphabet 🔠" style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11808, behavior: 'smooth'});">🆎</button>
+                  <button title="🏘️ Shops + Booths 🎪" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 9408, behavior: 'smooth'});">🏘️</button>
+                  <button title="🧝 Character Tiles 🧙‍♂️" style="font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11072, behavior: 'smooth'});">🧙‍♂️</button>
+                  <button title="🆎 Letters + Alphabet 🔠" style="margin-bottom: 10px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 11808, behavior: 'smooth'});">🆎</button>
 
 
                   <button title="🌴 Forest Tiles 🍃" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 3008, behavior: 'smooth'});">🌴</button>
@@ -195,7 +195,7 @@
                   
                   <button title="🌸 Dreamland Tiles 🦄" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5152, behavior: 'smooth'});">🌸</button>
                   <button title="🐸 Swampland Tiles 🐊" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 5856, behavior: 'smooth'});">🐸</button>
-                  <button title="🔥 Lavaland Tiles 🌋" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6560, behavior: 'smooth'});">🔥</button>
+                  <button title="🔥 Fireland Tiles 🌋" style="padding: 2px; font-size: larger; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 6560, behavior: 'smooth'});">🔥</button>
 
                 </div> 
 
@@ -414,7 +414,7 @@
 	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
-	                                        <h4>Tilemap editor</h4>
+	                                        <h4>Fantasy Tiles Online Level Editor</h4>
 	                                        <a class="close" href="#">&times;</a>
 	                                                        <div class="content"> 
 	                                                            	<div>Created by Todor Imreorov (blurymind@gmail.com)</div>
