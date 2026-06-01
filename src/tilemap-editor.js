@@ -407,27 +407,31 @@
       
 <div style="text-align: center; justify-items: center !important;">
 
-    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank" title="Rate this tool to help it grow">Rate It! 🤩</a>
+    <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
 
 	<label style="font-size: small !important;">&hairsp;</label>
 
 	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
-	                                        <h4>Fantasy Tiles Online Level Editor</h4>
+	                                        <h4>RPG Tile Map Level Editor</h4>
 	                                        <a class="close" href="#">&times;</a>
 	                                                        <div class="content"> 
-	                                                            	<div>Created by Todor Imreorov (blurymind@gmail.com)</div>
+	                                                            	<div>Built by KingBell (bellblitzking@gmail.com)</div>
+																	<div>Based on code by Todor Imreorov (blurymind@gmail.com)</div>
 	                                                            <br/>
 	                                                            	<div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
-	                                                            	<div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
+																	<div><a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give a Review & Share feedback 🤩</a></div>
+	                                                            	<div><a title="Donate to keep it free for everyone!" style="color: powderblue;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/donate" target="_blank">Donate to help it grow! 🎁</a></div>
+	                                                            	<div><a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Download Free Tileset! ⭐</a></div>
+																	<div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
 	                                                            <br/>
-	                                                            	<div>Instructions:</div>
-	                                                            	<div>right click on map - picks tile</div>
-	                                                            	<div>mid-click - erases tile</div>
-	                                                            	<div>left-click adds tile</div> 
-	                                                            	<div>right-click on tileset - lets you change tile symbol or metadata</div>
-	                                                            	<div>left-click - selects tile </div>
+	                                                            	<div>Made to help devs, indies and students build levels online, no installs needed!</div>
+	                                                            	<div>Draw maps, import and export to keep editing, upload your own tileset & more.</div>
+	                                                            	<div>The Free Tileset is a huge expansion of the original <a class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Fantasy tiles by KMH Kevin's / AnalogStudios</a> </div>
+	                                                            	<div>The original source code can be found on <a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Blury Mind's Tile Editor GitHub Project page</a></div> 
+	                                                            	<div>________________________________</div>
+	                                                            	<div>________________________________</div>
 	                                                        </div>
 	                                        </div>
 	                            </div>
