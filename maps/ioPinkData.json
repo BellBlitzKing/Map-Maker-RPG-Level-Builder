@@ -23290,7 +23290,7 @@
 		}
 	},
 	"maps": {
-		"1": {
+		"3": {
 			"layers": [
 				{
 					"tiles": {
@@ -25070,7 +25070,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "IceMap_j1",
+			"name": "IceMap_j3",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -26840,7 +26840,7 @@
 			"width": 320,
 			"height": 320
 		},
-		"3": {
+		"6": {
 			"layers": [
 				{
 					"tiles": {
@@ -28582,14 +28582,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "FlameMap_j3",
+			"name": "FlameMap_j6",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"4": {
+		"7": {
 			"layers": [
 				{
 					"tiles": {
@@ -30350,14 +30350,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "ForestMap_j4",
+			"name": "ForestMap_j7",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"5": {
+		"1": {
 			"layers": [
 				{
 					"tiles": {},
@@ -30396,14 +30396,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "EmptyMap_j5",
+			"name": "EmptyMap_j1",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"6": {
+		"4": {
 			"layers": [
 				{
 					"tiles": {
@@ -32152,14 +32152,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "MagicMap_j6",
+			"name": "MagicMap_j4",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"7": {
+		"5": {
 			"layers": [
 				{
 					"tiles": {
@@ -33936,14 +33936,14 @@
 					"opacity": 1
 				}
 			],
-			"name": "SwampMap_j7",
+			"name": "SwampMap_j5",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
 			"width": 320,
 			"height": 320
 		},
-		"8 Testcopy": {
+		"8": {
 			"layers": [
 				{
 					"tiles": {
@@ -36224,7 +36224,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "BigForest",
+			"name": "BigForest_j8",
 			"mapWidth": 15,
 			"mapHeight": 18,
 			"tileSize": 32,
