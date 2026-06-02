@@ -2279,6 +2279,34 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         });
 
         // TABS CUSTOM _______________
+		
+        // Scroll zoom in/out - use wheel instead of scroll event since theres no scrollbar on the map
+        //canvas.addEventListener('wheel', e=> {
+          //  if (e.deltaY < 0) zoomIn();
+           // else zoomOut();
+        //});
+
+        loadData(tileMapData)
+        if (appState) {
+            ACTIVE_MAP = appState.ACTIVE_MAP;
+            mapsDataSel.value = ACTIVE_MAP;
+            setActiveMap(appState.ACTIVE_MAP)
+            PREV_ACTIVE_TOOL = appState.PREV_ACTIVE_TOOL;
+            ACTIVE_TOOL = appState.ACTIVE_TOOL;
+            setActiveTool(appState.ACTIVE_TOOL)
+            setLayer(appState.currentLayer)
+            selection = appState.selection;
+            updateSelection(false);
+            SHOW_GRID = appState.SHOW_GRID;
+        }
+        
+        // Animated tiles when on frames mode
+        const animateTiles = () => {
+            if (tileDataSel.value === "frames") draw();
+            requestAnimationFrame(animateTiles);
+        }
+        requestAnimationFrame(animateTiles);
+
 
 
 								//TEST Canvas Draw Get the canvas element
@@ -2332,32 +2360,6 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 												    mainctx.lineWidth = 2;
 												    mainctx.strokeRect(mainxPos, mainyPos, maintileSize, maintileSize);
 		
-        // Scroll zoom in/out - use wheel instead of scroll event since theres no scrollbar on the map
-        //canvas.addEventListener('wheel', e=> {
-          //  if (e.deltaY < 0) zoomIn();
-           // else zoomOut();
-        //});
-
-        loadData(tileMapData)
-        if (appState) {
-            ACTIVE_MAP = appState.ACTIVE_MAP;
-            mapsDataSel.value = ACTIVE_MAP;
-            setActiveMap(appState.ACTIVE_MAP)
-            PREV_ACTIVE_TOOL = appState.PREV_ACTIVE_TOOL;
-            ACTIVE_TOOL = appState.ACTIVE_TOOL;
-            setActiveTool(appState.ACTIVE_TOOL)
-            setLayer(appState.currentLayer)
-            selection = appState.selection;
-            updateSelection(false);
-            SHOW_GRID = appState.SHOW_GRID;
-        }
-        
-        // Animated tiles when on frames mode
-        const animateTiles = () => {
-            if (tileDataSel.value === "frames") draw();
-            requestAnimationFrame(animateTiles);
-        }
-        requestAnimationFrame(animateTiles);
     };
     
     exports.getState = () => {
