@@ -1776,7 +1776,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         objectParametersEditor = document.getElementById("objectParametersEditor");
 
 //_______________________________________________________Custom Code
-						
+		
+						const ctx = canvas.getContext('2d');
 						// Define the size of the square
 						const squareSize = 32;
 						
