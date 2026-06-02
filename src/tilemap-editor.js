@@ -1775,7 +1775,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         layersElement = document.getElementById("layers");
         objectParametersEditor = document.getElementById("objectParametersEditor");
 
-						const ctx = canvas.getContext('2d');
+//_______________________________________________________Custom Code
 						
 						// Define the size of the square
 						const squareSize = 32;
@@ -1789,8 +1789,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 						    const mouseY = event.clientY - rect.top;
 						
 						    // Clear previous drawings
-						    ctx.clearRect(0, 0, canvas.width, canvas.height);
-						
+						    ctx.clearRect(img, 0, 0, canvas.width, canvas.height);
+						    ctx.drawImage(img,0,0,canvas.width ,canvas.height);
 						    // Draw the new square centered at the cursor
 						    // Calculate top-left corner: X - (width / 2)
 						    ctx.strokeRect(
