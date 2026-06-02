@@ -128,7 +128,7 @@
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
                     
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋"><small>⧉ </small>clone</button>
-					<button style="color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new<small> 🌐</small></button>
+					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new<small> 🌐</small></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -156,18 +156,18 @@
 
                         <div class="tab-container">
                           <div style="background: linear-gradient(to bottom, #28423a 94%, aliceblue 94%);" class="tabs">
-                            <button value=0 style="height: 32px; width: 100px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
+                            <button value=0 style="height: 32px; width: 110px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table' ; document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: this.value}) ; document.getElementById('tileGroupButtons').style.display = 'block'"
 
 							class="tab active" data-tab="home" id="myTiles" title="Show Tiles List 📚">Tiles 📚</button>
-                            <button style="height: 32px; width: 100px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
+                            <button style="height: 32px; width: 110px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
 							class="tab" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🌄</button>
 							
-							<button title="⊞ Grid On or Off" style="height: 32px; width: 75px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							class="tab" title="Show Maps List 🗺️">Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input><sup style="font-size: 12px;">⊞ grid</sup></button>
+							<button title="⊞ Grid On or Off" style="height: 32px; width: 70px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
+							class="tab" title="Show Maps List 🗺️">Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input></button>
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
@@ -1703,7 +1703,7 @@
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<text style="color: gold;">save map</text><small> ⬇️</small>`,
+            name: `<text style="font-weight:bold; color: gold;">save map</text>`,
             description: "save map as an image 🖼️ png (download)",
             transformer: exportImage
         }
@@ -1717,8 +1717,8 @@
            // transformer: drawAnaliticsReport
        // }
        apiTileMapExporters.exportTilesFromMap = {
-            name: "Save used Tiles 📚",
-		    description: "save used tiles as image from this map",
+            name: "save tiles",
+		    description: "📚 save used tiles as image from this map",
             transformer: exportUniqueTiles
         }
         apiTileMapImporters = tileMapImporters;
