@@ -2279,27 +2279,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         });
 
         // TABS CUSTOM _______________
-														//Google generated code below separate
-												const maincanvas = document.getElementById('mapCanvas');
-												const mainctx = maincanvas.getContext('2d');
-												const maintileSize = 32;
-												
-												function drawTileHighlight(maintileX, maintileY) {
-												    // 1. Clear the canvas before redrawing
-												    mainctx.clearRect(0, 0, maincanvas.width, maincanvas.height);
-												
-												    // 2. Redraw your background/tiles here
-												    
-												    // 3. Highlight specific tile
-												    const mainxPos = maintileX * maintileSize;
-												    const mainyPos = maintileY * maintileSize;
-												
-												    mainctx.fillStyle = 'rgba(255, 255, 0, 0.4)'; // Semi-transparent yellow
-												    mainctx.fillRect(mainxPos, mainyPos, maintileSize, maintileSize);
-												
-												    mainctx.strokeStyle = 'red'; // Red border
-												    mainctx.lineWidth = 2;
-												    mainctx.strokeRect(mainxPos, mainyPos, maintileSize, maintileSize);
+
         // Scroll zoom in/out - use wheel instead of scroll event since theres no scrollbar on the map
         //canvas.addEventListener('wheel', e=> {
           //  if (e.deltaY < 0) zoomIn();
