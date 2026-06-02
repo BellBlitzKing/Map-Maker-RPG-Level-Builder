@@ -1791,7 +1791,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 						
 						    // Clear previous drawings
 						    ctx.clearRect(0, 0, canvas.width, canvas.height);
-						    ctx.drawImage(img,0,0,canvas.width ,canvas.height);
+						    ctx.drawImage(0, 0, canvas.width ,canvas.height);
 						    // Draw the new square centered at the cursor
 						    // Calculate top-left corner: X - (width / 2)
 						    ctx.strokeRect(
