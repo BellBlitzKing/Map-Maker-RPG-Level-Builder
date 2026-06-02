@@ -2311,17 +2311,17 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 						//TEST Canvas Draw Get the canvas element
 						const mycanvas = document.getElementById("mapCanvas");
-						const ctx = mycanvas.getContext("2d");
+						const myctx = mycanvas.getContext("2d");
 						
 						// Function to draw a red circle
 						function drawCircle(x, y){
 						
-						ctx.clearRect(0, 0, mycanvas.width, mycanvas.height); // clear canvas to redraw
-						ctx.beginPath();
-						ctx.arc(x, y, 40, 0, 2 * Math.PI); // draw circle
-						ctx.fillStyle = "red";
-						ctx.fill();
-						ctx.closePath();
+						myctx.clearRect(0, 0, mycanvas.width, mycanvas.height); // clear canvas to redraw
+						myctx.beginPath();
+						myctx.arc(x, y, 40, 0, 2 * Math.PI); // draw circle
+						myctx.fillStyle = "red";
+						myctx.fill();
+						myctx.closePath();
 						
 						}
 						
