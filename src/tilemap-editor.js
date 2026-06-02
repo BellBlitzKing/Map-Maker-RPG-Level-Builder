@@ -128,7 +128,7 @@
                     <button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
                     
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋"><small>⧉ </small>clone</button>
-					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 56px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new<small> 🌐</small></button>
+					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 65px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new<small> 🌐</small></button>
             </div>
             
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -166,7 +166,7 @@
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
 							class="tab" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🌄</button>
 							
-							<button title="⊞ Grid On or Off" style="height: 32px; width: 70px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
+							<button title="⊞ Grid On or Off" style="height: 32px; width: 75px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							class="tab" title="Show Maps List 🗺️">Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input></button>
                           </div>
 
