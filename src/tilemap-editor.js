@@ -2310,13 +2310,13 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
     };
 
 						//TEST Canvas Draw Get the canvas element
-						const canvas = document.getElementById("mapCanvas");
-						const ctx = canvas.getContext("2d");
+						const mycanvas = document.getElementById("mapCanvas");
+						const ctx = mycanvas.getContext("2d");
 						
 						// Function to draw a red circle
 						function drawCircle(x, y){
 						
-						ctx.clearRect(0, 0, canvas.width, canvas.height); // clear canvas to redraw
+						ctx.clearRect(0, 0, mycanvas.width, mycanvas.height); // clear canvas to redraw
 						ctx.beginPath();
 						ctx.arc(x, y, 40, 0, 2 * Math.PI); // draw circle
 						ctx.fillStyle = "red";
@@ -2326,16 +2326,16 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 						}
 						
 						//Event listener for mousemove
-						canvas.addEventListener("mousemove", function (e){
-							const rect = canvas.getBoundingClientRect();
+						mycanvas.addEventListener("mousemove", function (e){
+							const rect = mycanvas.getBoundingClientRect();
 							const mouseX = e.clientX - rect.left;
 							const mouseY = e.clientY - rect.top;
 							drawCircle(mouseX, mouseY); //use mouse position as values to draw
 						};
 						
 						//initial drawing of the red circle at the center
-						const initialX = canvas.width / 2;
-						const initialY = canvas.height / 2;
+						const initialX = mycanvas.width / 2;
+						const initialY = mycanvas.height / 2;
 						drawCircle(initial, initialY);
     
     exports.getState = () => {
