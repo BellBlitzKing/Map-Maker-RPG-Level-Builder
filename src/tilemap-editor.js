@@ -2326,7 +2326,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 						}
 						
 						//Event listener for mousemove
-						mycanvas.addEventListener("mousemove", function (e){
+						mycanvas.addEventListener("mousemove", function (e)){
 							const rect = mycanvas.getBoundingClientRect();
 							const mouseX = e.clientX - rect.left;
 							const mouseY = e.clientY - rect.top;
