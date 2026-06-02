@@ -402,7 +402,7 @@
 <div style="max-width: 165px; justify-items: center !important;">
         <button style="color: gold; border-radius: 6px; text-align: center; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="✚ Add New Layer ☰ to Map">✚ New Layer</button>
 </div>
-        <div style="margin-bottom: 15px; max-width: 165px; max-height: 150px; overflow: auto; font-size: small; min-height: 150px;" class="layers" id="layers">
+        <div style="margin-bottom: 15px; max-width: 165px; max-height: 120px; overflow: auto; font-size: small; min-height: 120px;" class="layers" id="layers">
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
