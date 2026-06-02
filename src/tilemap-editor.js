@@ -1775,6 +1775,32 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         layersElement = document.getElementById("layers");
         objectParametersEditor = document.getElementById("objectParametersEditor");
 
+						const ctx = canvas.getContext('2d');
+						
+						// Define the size of the square
+						const squareSize = 32;
+						
+						canvas.addEventListener('mousemove', (event) => {
+						    // Get canvas boundaries to calculate mouse offset
+						    const rect = canvas.getBoundingClientRect();
+						    
+						    // Calculate current mouse position
+						    const mouseX = event.clientX - rect.left;
+						    const mouseY = event.clientY - rect.top;
+						
+						    // Clear previous drawings
+						    ctx.clearRect(0, 0, canvas.width, canvas.height);
+						
+						    // Draw the new square centered at the cursor
+						    // Calculate top-left corner: X - (width / 2)
+						    ctx.strokeRect(
+						        mouseX - (squareSize / 2),
+						        mouseY - (squareSize / 2),
+						        squareSize,
+						        squareSize
+						    );
+						});
+		
         tilesetContainer.addEventListener("contextmenu", e => {
             e.preventDefault();
         });
