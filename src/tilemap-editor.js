@@ -167,7 +167,7 @@
 							class="tab" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🌄</button>
 							
 							<button title="⊞ Grid On or Off" style="height: 32px; width: 75px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
-							class="tab" title="Show Maps List 🗺️">Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input></button>
+							title="Show Maps List 🗺️">Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true" checked="checked" type="checkbox" id="showGrid" checked></input></button>
                           </div>
 
                 <div style="cursor: default; margin-top: 8px; margin-bottom: 20px; padding-bottom: 10px;" id="tileGroupButtons">
