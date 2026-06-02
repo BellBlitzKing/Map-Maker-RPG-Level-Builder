@@ -2309,7 +2309,34 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         requestAnimationFrame(animateTiles);
     };
 
-
+						//TEST Canvas Draw Get the canvas element
+						const canvas = document.getElementById("mapCanvas");
+						const ctx = canvas.getContext("2d");
+						
+						// Function to draw a red circle
+						function drawCircle(x, y){
+						
+						ctx.clearRect(0, 0, canvas.width, canvas.height); // clear canvas to redraw
+						ctx.beginPath();
+						ctx.arc(x, y, 40, 0, 2 * Math.PI); // draw circle
+						ctx.fillStyle = "red";
+						ctx.fill();
+						ctx.closePath();
+						
+						}
+						
+						//Event listener for mousemove
+						canvas.addEventListener("mousemove", function (e){
+							const rect = canvas.getBoundingClientRect();
+							const mouseX = e.clientX - rect.left;
+							const mouseY = e.clientY - rect.top;
+							drawCircle(mouseX, mouseY); //use mouse position as values to draw
+						};
+						
+						//initial drawing of the red circle at the center
+						const initialX = canvas.width / 2;
+						const initialY = canvas.height / 2;
+						drawCircle(initial, initialY);
     
     exports.getState = () => {
         return getAppState();
