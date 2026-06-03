@@ -312,7 +312,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 		
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <div class="ripple-btn"> <canvas style="cursor: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png'), auto;" class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas> </div>
+          <canvas id="mapCanvas" style="cursor: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png'), auto;" class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -2310,15 +2310,17 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 
 		
-const btn = document.querySelector('.ripple-btn');
+// const btn = document.querySelector('.ripple-btn');
 
+const btn = document.querySelector('.mapCanvas');
+		
 btn.addEventListener('click', function(e) {
   // Get button coordinates relative to the viewport
   const rect = e.target.getBoundingClientRect();
   
   // Calculate cursor position relative to the button
-  const x = e.clientX - rect.left;
-  const y = e.clientY - rect.top;
+  const x = e.clientX;
+  const y = e.clientY;
   
   const ripple = document.createElement('span');
   ripple.classList.add('btn-ripple');
