@@ -312,7 +312,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 		
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <span class="ripple-btn"><canvas id="mapCanvas" style="cursor: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png'), auto;" class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas></span>
+          <div id="ripple-btn" class="ripple-btn"><canvas id="mapCanvas" style="cursor: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png'), auto;" class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas></div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
