@@ -314,6 +314,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
           <canvas class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
+		  <img style="z-index: 10;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -411,7 +412,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
-<img style="z-index: 1;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
+
 
     <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
 
