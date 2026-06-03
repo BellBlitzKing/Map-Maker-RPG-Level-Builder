@@ -667,8 +667,8 @@ a:active {
     opacity: 1;
   }
   to {
-    width: 80px; /* Big enough to cover the button */
-    height: 80px;
+    width: 96px; /* Big enough to cover the button */
+    height: 96px;
     opacity: 0;
   }
 }
