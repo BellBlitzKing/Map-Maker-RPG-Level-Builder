@@ -2330,8 +2330,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							
 							// Hide image when mouse leaves the element
 							target.addEventListener('mouseleave', () => {
-							  image.style.display = 'none';
-								image.style.zIndex = 1;
+							  image.style.display = 'fixed';
+								image.style.zIndex = 10;
 							});
 		
     };
