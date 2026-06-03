@@ -419,24 +419,34 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
-	                                        <h4>RPG Tile Map Level Editor</h4>
+	                                        <h4>RPG Tile Map Level Editor by KingBell on Itchio 🏗️🌍</h4>
 	                                        <a class="close" href="#">&times;</a>
 	                                                        <div class="content"> 
-	                                                            	<div>Built by KingBell (bellblitzking@gmail.com)</div>
-																	<div>Based on code by Todor Imreorov (blurymind@gmail.com)</div>
+	                                                            	<div>Made to help everyone build maps online with a free & fast tileset!</div>
+																	<div>No installs needed. Great for game jams, level design & prototypes.</div>
 	                                                            <br/>
-	                                                            	<div><a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Project page (Github)</a></div>
-																	<div><a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Give a Review & Share feedback 🤩</a></div>
-	                                                            	<div><a title="Donate to keep it free for everyone!" style="color: powderblue;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/donate" target="_blank">Donate to help it grow! 🎁</a></div>
-	                                                            	<div><a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/purchase" target="_blank">Download Free Tileset! ⭐</a></div>
+																	<div>
+																	<a title="Give a Review" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Give a Review 🤩</a>
+																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
+																	<a title="Donate to keep it free for everyone!" style="color: powderblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/donate" target="_blank">Donate to help 🎁</a>
+																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
+																	<a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/purchase" target="_blank">Download Tileset! ⭐</a>
+																	
+																	</div>
+	                                                            	<div></div>
+	                                                            	<div></div>
 																	<div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
 	                                                            <br/>
-	                                                            	<div>Made to help devs, indies and students build levels online, no installs needed!</div>
-	                                                            	<div>Draw maps, import and export to keep editing, upload your own tileset & more.</div>
-	                                                            	<div>The Free Tileset is a huge expansion of the original <a class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Fantasy tiles by KMH Kevin's / AnalogStudios</a> </div>
-	                                                            	<div>The original source code can be found on <a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Blury Mind's Tile Editor GitHub Project page</a></div> 
-	                                                            	
-	                                                            	<div>________________________________</div>
+<div>🗺️ TOP FEATURES ⭐</div>
+<div>1️⃣ Make Maps online! In an easy web editor</div>
+<div>2️⃣ Over 1000 Tiles, all royalty Free</div>
+<div>3️⃣ Build towns, dungeons, arenas & more</div>
+<div>4️⃣ Save levels as Images or Json to share</div>
+<div>5️⃣ Upload your maps & tile edits too</div>
+	                                                            	<br>
+																	<div>Rate this tool to help it grow! (Email: BellBlitzKing@gmail.com)</div>
+	                                                            	<div>Credit to KMH Kevin's Mom's House on itch for the art style.</div>
+	                                                            	<div>Credit to BluryMind for source code to build & expand on. </div> 
 	                                                        </div>
 	                                        </div>
 	                            </div>
@@ -1649,7 +1659,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
         mapsDataSel.value = lastMap;
-        mapsDataSel.title = "Pick a Map from the list";
+        mapsDataSel.title = "Pick a Map from the list ☰";
         setActiveMap(lastMap);
         document.getElementById("removeMapBtn").disabled = Object.keys(maps).length === 1;
     }
