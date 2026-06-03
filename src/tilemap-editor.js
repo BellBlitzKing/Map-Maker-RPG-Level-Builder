@@ -2308,7 +2308,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         requestAnimationFrame(animateTiles);
 
-							const target = document.querySelector('.mapCanvas');
+							const target = document.querySelector('.canvas_wrapper');
 							const image = document.getElementById('hover-image');
 							
 							// Adjust these values to position the image relative to your cursor tip
@@ -2317,7 +2317,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							
 							// Show image when mouse enters the element
 							target.addEventListener('mouseenter', () => {
-							  image.style.display = 'absolute';
+							  image.style.display = 'fixed';
 							});
 							
 							// Update the image position continuously as the mouse moves
