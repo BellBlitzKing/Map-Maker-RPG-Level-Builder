@@ -654,21 +654,21 @@ a:active {
 .btn-ripple {
   position: absolute;
   background: rgba(255, 255, 255, 0.5);
-  border-radius: 10%;
+  border-radius: 20%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  animation: btn-ripple-animation 0.6s ease-out forwards;
+  animation: btn-ripple-animation 0.4s ease-out forwards;
 }
 
 @keyframes btn-ripple-animation {
   from {
-    width: 0;
-    height: 0;
+    width: 32px;
+    height: 32px;
     opacity: 1;
   }
   to {
-    width: 100px; /* Big enough to cover the button */
-    height: 100px;
+    width: 80px; /* Big enough to cover the button */
+    height: 80px;
     opacity: 0;
   }
 }
