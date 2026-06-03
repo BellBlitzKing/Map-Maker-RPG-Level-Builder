@@ -25070,7 +25070,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "IceMap_j3",
+			"name": "🟦 Ice map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -26833,7 +26833,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "DesertMap_j2",
+			"name": "🟨 Desert map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -28582,7 +28582,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "FlameMap_j6",
+			"name": "🟥 Fire map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -30350,7 +30350,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "ForestMap_j7",
+			"name": "🟩 Forest map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -30396,7 +30396,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "EmptyMap_j1",
+			"name": "🔲 Blank map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -32152,7 +32152,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "MagicMap_j4",
+			"name": "🟪 Magic map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -33936,7 +33936,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "SwampMap_j5",
+			"name": "🟫 Swamp map",
 			"mapWidth": 12,
 			"mapHeight": 16,
 			"tileSize": 32,
@@ -36224,7 +36224,7 @@
 					"opacity": 1
 				}
 			],
-			"name": "BigForest_j8",
+			"name": "🟩 House map",
 			"mapWidth": 15,
 			"mapHeight": 18,
 			"tileSize": 32,
