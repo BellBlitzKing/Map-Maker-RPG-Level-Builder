@@ -411,7 +411,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
-<img id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
+<img style="z-index: 1;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
 
     <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
 
@@ -2318,6 +2318,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							// Show image when mouse enters the element
 							target.addEventListener('mouseenter', () => {
 							  image.style.display = 'fixed';
+								image.style.zIndex = 10;
 							});
 							
 							// Update the image position continuously as the mouse moves
@@ -2329,6 +2330,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							// Hide image when mouse leaves the element
 							target.addEventListener('mouseleave', () => {
 							  image.style.display = 'none';
+								image.style.zIndex = 1;
 							});
 		
     };
