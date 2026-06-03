@@ -310,10 +310,9 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 </div>
 		
-				  <img style="z-index: 10; display: relative;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" />
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
-          <canvas class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
+          <canvas style="cursor: url('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png'), auto;" class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -2307,32 +2306,6 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
             requestAnimationFrame(animateTiles);
         }
         requestAnimationFrame(animateTiles);
-
-							const target = document.getElementById('canvas_wrapper');
-							const image = document.getElementById('hover-image');
-							
-							// Adjust these values to position the image relative to your cursor tip
-							const offsetX = 15; 
-							const offsetY = 15;
-							
-							// Show image when mouse enters the element
-							target.addEventListener('mouseenter', () => {
-							  image.style.display = 'relative';
-								image.style.zIndex = 10;
-							});
-							
-							// Update the image position continuously as the mouse moves
-							target.addEventListener('mousemove', (e) => {
-							  image.style.left = (e.clientX + offsetX) + 'px';
-							  image.style.top = (e.clientY + offsetY) + 'px';
-								image.style.display = 'relative';
-							});
-							
-							// Hide image when mouse leaves the element
-							target.addEventListener('mouseleave', () => {
-							  image.style.display = 'relative';
-								image.style.zIndex = 10;
-							});
 		
     };
     
