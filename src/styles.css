@@ -672,8 +672,8 @@ a:active {
     opacity: 1;
   }
   to {
-    width: 300px; /* Big enough to cover the button */
-    height: 300px;
+    width: 32px; /* Big enough to cover the button */
+    height: 32px;
     opacity: 0;
   }
 
