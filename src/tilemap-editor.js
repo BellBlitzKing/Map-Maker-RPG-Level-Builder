@@ -411,7 +411,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
-<img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" class="follow-image" id="cursorImage" alt="Follower">
+<img id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
+
     <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
 
 	<label style="font-size: small !important;">&hairsp;</label>
@@ -2307,20 +2308,28 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         requestAnimationFrame(animateTiles);
 
-						    const hoverZone = document.getElementById('mapCanvas');
-						    const img = document.getElementById('cursorImage');
-
-						    // Show image and move it with the mouse
-						    hoverZone.addEventListener('mousemove', (e) => {
-						      img.style.display = 'block';
-						      img.style.left = (e.clientX + 15) + 'px'; // 15px offset to the right
-						      img.style.top = (e.clientY + 15) + 'px';  // 15px offset downwards
-						    });
-						
-						    // Hide image when mouse leaves the zone
-						    hoverZone.addEventListener('mouseleave', () => {
-						      img.style.display = 'none';
-						    });
+							const target = document.querySelector('.canvas_wrapper');
+							const image = document.getElementById('hover-image');
+							
+							// Adjust these values to position the image relative to your cursor tip
+							const offsetX = 15; 
+							const offsetY = 15;
+							
+							// Show image when mouse enters the element
+							target.addEventListener('mouseenter', () => {
+							  image.style.display = 'block';
+							});
+							
+							// Update the image position continuously as the mouse moves
+							target.addEventListener('mousemove', (e) => {
+							  image.style.left = (e.clientX + offsetX) + 'px';
+							  image.style.top = (e.clientY + offsetY) + 'px';
+							});
+							
+							// Hide image when mouse leaves the element
+							target.addEventListener('mouseleave', () => {
+							  image.style.display = 'none';
+							});
 		
     };
     
