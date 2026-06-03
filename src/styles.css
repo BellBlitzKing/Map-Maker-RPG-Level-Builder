@@ -646,15 +646,9 @@ a:active {
 
         /* The ripple element */
 .ripple-btn {
-  position: relative; /* Crucial for absolute placement of the child ripple */
+  /* position: relative;  Crucial for absolute placement of the child ripple */
   overflow: hidden;   /* Prevents the ripple from leaking outside the button */
-  padding: 12px 24px;
-  font-size: 16px;
-  background-color: #6200ee;
-  color: white;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .btn-ripple {
