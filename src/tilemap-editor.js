@@ -310,11 +310,10 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 </div>
 		
-		
+				  <img style="z-index: 10; display: relative;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" />
         <div class="card_right-column" style="position:relative" id="canvas_drag_area">
         <div style="cursor: default;" class="canvas_wrapper" id="canvas_wrapper">
           <canvas class="mapCanvas" onclick="new Audio('https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/sounds/SFX_FastUiClickDoubleClick02_Fade.wav').play()" id="mapCanvas" width="${width}" height="${height}"></canvas>
-		  <img style="z-index: 10;" id="hover-image" src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" alt="Preview Image" />
           <div style="display: none; visibility: hidden;" class="canvas_resizer" resizerdir="y"><input style="display: none; visibility: hidden;" value="1" type="number" min="1" resizerdir="y"></input>
           </div>
           <div style="display: none; visibility: hidden;" class="canvas_resizer vertical" resizerdir="x"><input style="display: none; visibility: hidden;" value="${mapTileWidth}" type="number" min="1" resizerdir="x"></input>
@@ -2318,7 +2317,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							
 							// Show image when mouse enters the element
 							target.addEventListener('mouseenter', () => {
-							  image.style.display = 'fixed';
+							  image.style.display = 'relative';
 								image.style.zIndex = 10;
 							});
 							
@@ -2326,12 +2325,12 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							target.addEventListener('mousemove', (e) => {
 							  image.style.left = (e.clientX + offsetX) + 'px';
 							  image.style.top = (e.clientY + offsetY) + 'px';
-								image.style.display = 'fixed';
+								image.style.display = 'relative';
 							});
 							
 							// Hide image when mouse leaves the element
 							target.addEventListener('mouseleave', () => {
-							  image.style.display = 'fixed';
+							  image.style.display = 'relative';
 								image.style.zIndex = 10;
 							});
 		
