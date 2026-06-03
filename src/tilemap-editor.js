@@ -2325,6 +2325,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							target.addEventListener('mousemove', (e) => {
 							  image.style.left = (e.clientX + offsetX) + 'px';
 							  image.style.top = (e.clientY + offsetY) + 'px';
+								image.style.display = 'fixed';
 							});
 							
 							// Hide image when mouse leaves the element
