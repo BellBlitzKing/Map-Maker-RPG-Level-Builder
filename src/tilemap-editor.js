@@ -1649,7 +1649,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
             if (idx === Object.keys(maps).length - 1) lastMap = key;
         });
         mapsDataSel.value = lastMap;
-        mapsDataSel.title = key.title;
+        mapsDataSel.title = "Pick a Map from the list";
         setActiveMap(lastMap);
         document.getElementById("removeMapBtn").disabled = Object.keys(maps).length === 1;
     }
