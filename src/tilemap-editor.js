@@ -2323,7 +2323,7 @@ btn.addEventListener('click', function(e) {
   const y = e.clientY;
   
   const ripple = document.createElement('span');
-  ripple.classList.add('btn-ripple');
+  ripple.classList.add('mapCanvas');
   ripple.style.left = `${x}px`;
   ripple.style.top = `${y}px`;
   
