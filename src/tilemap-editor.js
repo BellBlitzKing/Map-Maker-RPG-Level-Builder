@@ -411,7 +411,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       </div>
       
 <div style="text-align: center; justify-items: center !important;">
-
+<img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" class="follow-image" id="cursorImage" alt="Follower">
     <a title="Give a Review & Rating! Share ideas & feedback" style="color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate" target="_blank">Rate It! 🤩</a>
 
 	<label style="font-size: small !important;">&hairsp;</label>
@@ -435,7 +435,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 	                                                            	<div>Draw maps, import and export to keep editing, upload your own tileset & more.</div>
 	                                                            	<div>The Free Tileset is a huge expansion of the original <a class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Fantasy tiles by KMH Kevin's / AnalogStudios</a> </div>
 	                                                            	<div>The original source code can be found on <a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Blury Mind's Tile Editor GitHub Project page</a></div> 
-	                                                            	<img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" class="follow-image" id="cursorImage" alt="Follower">
+	                                                            	
 	                                                            	<div>________________________________</div>
 	                                                        </div>
 	                                        </div>
@@ -2307,7 +2307,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         requestAnimationFrame(animateTiles);
 
-						    const hoverZone = document.querySelector('.mapCanvas');
+						    const hoverZone = document.getElementById('mapCanvas');
 						    const img = document.getElementById('cursorImage');
 
 						    // Show image and move it with the mouse
