@@ -428,25 +428,22 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 																	<div>
 																	<a title="Give a Review" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Give a Review 🤩</a>
 																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
-																	<a title="Donate to keep it free for everyone!" style="color: powderblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/donate" target="_blank">Donate to help 🎁</a>
+																	<a title="Donate to keep it free for everyone!" style="color: mediumaquamarine;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/donate" target="_blank">Donate to help 🎁</a>
 																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
 																	<a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/purchase" target="_blank">Download Tileset! ⭐</a>
-																	
 																	</div>
-	                                                            	<div></div>
-	                                                            	<div></div>
-																	<div><a class="button-as-link" href="https://ko-fi.com/blurymind">Donate page (ko-fi)</a></div>
 	                                                            <br/>
-<div>🗺️ TOP FEATURES ⭐</div>
-<div>1️⃣ Make Maps online! In an easy web editor</div>
-<div>2️⃣ Over 1000 Tiles, all royalty Free</div>
-<div>3️⃣ Build towns, dungeons, arenas & more</div>
-<div>4️⃣ Save levels as Images or Json to share</div>
-<div>5️⃣ Upload your maps & tile edits too</div>
+<div style="text-align:left;">🗺️ TOP FEATURES ⭐</div>
+<div style="text-align:left;">1️⃣ Make Maps online! In an easy web editor</div>
+<div style="text-align:left;">2️⃣ Over 1000 Tiles, all royalty Free</div>
+<div style="text-align:left;">3️⃣ Build towns, dungeons, arenas & more</div>
+<div style="text-align:left;">4️⃣ Save levels as Images or Json to share</div>
+<div style="text-align:left;">5️⃣ Upload your maps & tile edits too</div>
 	                                                            	<br>
-																	<div>Rate this tool to help it grow! (Email: BellBlitzKing@gmail.com)</div>
-	                                                            	<div>Credit to KMH Kevin's Mom's House on itch for the art style.</div>
-	                                                            	<div>Credit to BluryMind for source code to build & expand on. </div> 
+																	<div style="text-align:left;">Rate this tool to help it grow! (Email: BellBlitzKing@gmail.com)</div>
+	                                                            	<div style="text-align:left;">Credit to KMH Kevin's Mom's House on itch for the art style.</div>
+	                                                            	<div style="text-align:left;">Credit to BluryMind for source code to build & expand on. </div>
+																	<br><br>
 	                                                        </div>
 	                                        </div>
 	                            </div>
