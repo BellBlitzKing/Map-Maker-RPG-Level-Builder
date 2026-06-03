@@ -2308,7 +2308,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         requestAnimationFrame(animateTiles);
 
-							const target = document.querySelector('.canvas_wrapper');
+							const target = document.getElementById('canvas_wrapper');
 							const image = document.getElementById('hover-image');
 							
 							// Adjust these values to position the image relative to your cursor tip
