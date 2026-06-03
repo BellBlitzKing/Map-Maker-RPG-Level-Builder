@@ -435,7 +435,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 	                                                            	<div>Draw maps, import and export to keep editing, upload your own tileset & more.</div>
 	                                                            	<div>The Free Tileset is a huge expansion of the original <a class="button-as-link" href="https://kingbell.itch.io/pixel-sprite-mixer/rate">Fantasy tiles by KMH Kevin's / AnalogStudios</a> </div>
 	                                                            	<div>The original source code can be found on <a class="button-as-link" href="https://github.com/blurymind/tilemap-editor">Blury Mind's Tile Editor GitHub Project page</a></div> 
-	                                                            	<div>________________________________</div>
+	                                                            	<img src="https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/mouse_air.png" class="follow-image" id="cursorImage" alt="Follower">
 	                                                            	<div>________________________________</div>
 	                                                        </div>
 	                                        </div>
@@ -2307,7 +2307,20 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         requestAnimationFrame(animateTiles);
 
-		
+						    const hoverZone = document.querySelector('.mapCanvas');
+						    const img = document.getElementById('cursorImage');
+
+						    // Show image and move it with the mouse
+						    hoverZone.addEventListener('mousemove', (e) => {
+						      img.style.display = 'block';
+						      img.style.left = (e.clientX + 15) + 'px'; // 15px offset to the right
+						      img.style.top = (e.clientY + 15) + 'px';  // 15px offset downwards
+						    });
+						
+						    // Hide image when mouse leaves the zone
+						    hoverZone.addEventListener('mouseleave', () => {
+						      img.style.display = 'none';
+						    });
 		
     };
     
