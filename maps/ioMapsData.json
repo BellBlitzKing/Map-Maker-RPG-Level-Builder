@@ -1,7 +1,7 @@
 {
 	"tileSets": {
 		"0": {
-			"src":"https://bellblitzking.github.io/RPG-Tile-Map-Level-Editor-by-KingBell/tilesets/Fantasy_Mythril2D_Tileset.png",
+			"src":"https://bellblitzking.github.io/Map-Maker-RPG-Level-Builder/tilesets/Fantasy_Mythril2D_Tileset.png",
 			"name": "tileset 0",
 			"gridWidth": 10,
 			"gridHeight": 385,
