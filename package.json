@@ -1,7 +1,7 @@
 {
   "name": "tilemap-editor",
   "version": "0.7.8",
-  "description": "A fat-free tilemap editor with zero dependencies and a scalable, mobile-friendly interface!",
+  "description": "RPG Tile Level Builder to make maps with Fantasy tiles & sprites!",
   "main": "src/tilemap-editor.js",
   "scripts": {
     "start": "serve",
@@ -10,22 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blurymind/tilemap-editor.git"
+    "url": "git+https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/tilemap-editor.git"
   },
   "keywords": [
     "tilemap",
     "level",
     "editor",
     "gamedev",
-    "editor",
-    "kaboomjs"
+    "builder",
+    "pixel",
+    "tilset"
   ],
-  "author": "Todor Imreorov",
-  "license": "MIT",
+  "author": "KingBell on Itch.io",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/blurymind/tilemap-editor/issues"
+    "url": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/issues"
   },
-  "homepage": "https://github.com/blurymind/tilemap-editor#readme",
+  "homepage": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder#readme",
   "devDependencies": {
     "gh-pages": "^3.2.2",
     "serve": "^12.0.0"
