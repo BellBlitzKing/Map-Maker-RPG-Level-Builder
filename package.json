@@ -1,7 +1,7 @@
 {
   "name": "tilemap-editor",
   "version": "0.7.8",
-  "description": "RPG Tile Level Builder to make maps with Fantasy tiles & sprites!",
+  "description": "RPG Tile Map Level Builder to make maps with Fantasy tiles & sprites!",
   "main": "src/tilemap-editor.js",
   "scripts": {
     "start": "serve",
