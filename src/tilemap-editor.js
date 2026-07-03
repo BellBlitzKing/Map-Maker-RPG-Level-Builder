@@ -123,7 +123,7 @@
 								
 								            </div>
 
-						       <div style="display: inline !important; cursor: default;" class="menu file">
+						       <div style="display: none; cursor: default;" class="menu file">
 						            
 						            <div>
 									
