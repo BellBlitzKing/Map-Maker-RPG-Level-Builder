@@ -80,7 +80,7 @@
         
 		       <div class="tileset_opt_field header">
 		     
-								            <div style="margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+								            <div style="display: inline; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 								
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
 								                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
@@ -123,13 +123,11 @@
 								
 								            </div>
 
-						       <div style="cursor: default;" class="menu file">
+						       <div style="display: inline; cursor: default;" class="menu file">
 						            
 						            <div>
 									
-				                <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
-				
-				                </div>
+				                <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;"></div>
 								
 		
 		            </div>
