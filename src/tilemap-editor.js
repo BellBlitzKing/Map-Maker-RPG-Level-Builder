@@ -78,16 +78,62 @@
         return `
        <div id="tilemapjs_root" class="card tilemapjs_root">
         
-       <div style="display: none; visibility: hidden;" class="tileset_opt_field header">
-     
-       <div style="display: none; visibility: hidden; cursor: default;" class="menu file">
-            
-            <div>
-                <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
+		       <div style="" class="tileset_opt_field header">
+		     
+						       <div style="display: none; visibility: hidden; cursor: default;" class="menu file">
+						            
+						            <div>
+									
+				                <div style="font-size: small; margin-top: 10px; margin-bottom: 10px;">
+				
+				                </div>
 
-                </div>
-
-            </div>
+								            <div style="margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
+								
+								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
+								                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
+								                              <div id="flipBrushIndicator">✏️ Draw</div>
+								                              
+								                              <div style="display: none; visibility: hidden;" class="dropdown">
+								                                <div style="display: none; visibility: hidden;" class="item nohover">Pencil draw tool options</div>
+								                                <div style="display: none; visibility: hidden;" class="item">
+								                                    <label style="display: none; visibility: hidden;" for="toggleFlipX" class="">Flip tile 🔄 | reverse ↳↰</label>
+								                                    <input style="display: none; visibility: hidden;" type="checkbox" id="toggleFlipX"> 
+								                                    <label style="display: none; visibility: hidden;" class="toggleFlipX"></label>
+								                                    
+								                                </div>
+								                              </div>
+								                          </label>
+								
+								
+								                      <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
+								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
+								
+								                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
+								                      
+								
+								                      <input style="display: none; visibility: hidden;" id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
+								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
+								
+								                      <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
+								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+								
+								                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
+								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+								
+								                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
+								                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
+								
+								
+								            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+								            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
+								            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
+								
+								            </div>
+								
+		
+		            </div>
+			
         </div>
         
         <div>
@@ -330,51 +376,9 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
 
-            <div style="margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
-
 <button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 20px; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
-                    
-                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: block; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
-                              <div id="flipBrushIndicator">✏️ Draw</div>
-                              
-                              <div style="display: none; visibility: hidden;" class="dropdown">
-                                <div style="display: none; visibility: hidden;" class="item nohover">Pencil draw tool options</div>
-                                <div style="display: none; visibility: hidden;" class="item">
-                                    <label style="display: none; visibility: hidden;" for="toggleFlipX" class="">Flip tile 🔄 | reverse ↳↰</label>
-                                    <input style="display: none; visibility: hidden;" type="checkbox" id="toggleFlipX"> 
-                                    <label style="display: none; visibility: hidden;" class="toggleFlipX"></label>
-                                    
-                                </div>
-                              </div>
-                          </label>
 
-
-                      <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
-
-                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
-                      
-
-                      <input style="display: none; visibility: hidden;" id="tool3" type="radio" value="3" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
-
-                      <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
-
-                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: block; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
-
-                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
-                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
-
-    <br><br>
-            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
-            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
-            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
-
-            </div>
 
     
       
