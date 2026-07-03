@@ -79,7 +79,12 @@
        <div id="tilemapjs_root" class="card tilemapjs_root">
         
 		       <div class="tileset_opt_field header">
-		     
+
+
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+
+			 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 								
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
@@ -370,9 +375,6 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 15px; text-align: center;">
-
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="font-size: small; color: gold;">h   </label><input style="height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="font-size: small; color: gold;">  w    </label><input style="height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
 
 <button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 20px; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
