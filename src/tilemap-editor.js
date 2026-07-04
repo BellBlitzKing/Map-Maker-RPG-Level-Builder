@@ -345,7 +345,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 						  
                           <div class="tab-content" id="about">
-
+<br>
     <a title="Give a Review & Rating! Share ideas & feedback" style="margin-top: 15px; color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Rate This Tool! 🤩</a>
 
 	<label style="font-size: small !important;">&hairsp;</label>
