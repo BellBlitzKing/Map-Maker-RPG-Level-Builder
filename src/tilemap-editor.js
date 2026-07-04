@@ -199,7 +199,7 @@
 
 					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image">upload tiles</button>
 
-					<button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>⚠︎ 🗑 map</small></button>
+					<button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>🗑️</small>map</button>
 					
             </div>
 <br>
@@ -1721,7 +1721,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<text style="font-weight:bold; color: gold;">save map</text>`,
+            name: `<text style="font-weight:bold; color: gold;">save map<small>🖼️</small></text>`,
             description: "save map as an image 🖼️ png (download)",
             transformer: exportImage
         }
