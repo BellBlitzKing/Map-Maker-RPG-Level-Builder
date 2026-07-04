@@ -84,12 +84,12 @@
 
          <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
-				<label style="padding-left: 10px; background-color: transparent;">TOOLS:</label>
+				<label style="padding-left: 10px; background-color: transparent;">Tools:</label>
 			
 
 
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-								                          <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
+								                          <label style="padding-left: 5px; padding-right: 10px; margin-right: 15px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
 								                              <div style="display: inline !important;" id="flipBrushIndicator">✏️ Draw</div>
 								                              
 								                              <div style="display: none; visibility: hidden;" class="dropdown">
@@ -105,7 +105,7 @@
 								
 								
 								                      <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
+								                      <label style="padding-left: 5px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
 								
 								                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
 								                      
@@ -114,13 +114,13 @@
 								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 								
 								                      <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+								                      <label style="padding-left: 5px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 								
 								                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-								                      <label style="padding-left: 10px; padding-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+								                      <label style="padding-left: 5px; padding-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 								
-								                        <label style="margin-left: 15px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
-								                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
+								                        <label style="margin-left: 15px; color: white; font-size: small" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
+								                        <label style="color: white; font-size: small;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
 								
 								
 								            <label style="color: white;   margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
@@ -194,13 +194,13 @@
 </div>
             <div style="margin-top: 6px; margin-bottom: 6px; align-items: center; display: inline-flex;">
 
-					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 90px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new map<small> 🌐</small></button>
+					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new map<small> 🌐</small></button>
 
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋">clone map</button>
 
 					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image">upload tiles</button>
 
-					<button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>🗑️</small>map</button>
+					<button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>🗑️ </small>map</button>
 					
             </div>
 <br>
@@ -1722,7 +1722,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<text style="font-weight:bold; color: gold;">save map<small>🖼️</small></text>`,
+            name: `<text style="height: 22px; font-weight:bold; color: gold;">save map<small> 🖼️</small></text>`,
             description: "save map as an image 🖼️ png (download)",
             transformer: exportImage
         }
