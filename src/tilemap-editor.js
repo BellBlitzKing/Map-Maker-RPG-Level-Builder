@@ -82,7 +82,12 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-
+         <select title="Pick a Map from the list ☰" style="margin-bottom: 15px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
+			
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+			
 
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
 								                          <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
@@ -168,12 +173,7 @@
 
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
-         <select title="Pick a Map from the list ☰" style="margin-bottom: 15px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
-			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
-			
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
-			
+
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
 
                 <span title="Change Grid ⊞ Tile Size" style="display: none; visibility: hidden; cursor: default;" >⊞</span>
@@ -199,9 +199,9 @@
 
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋">clone map</button>
 
-					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 85px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image">upload tiles</button>
+					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image">upload tiles</button>
 
-					
+					<button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>⚠︎ 🗑 map</small></button>
 					
             </div>
 <br>
@@ -460,14 +460,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div style="text-align: center; justify-items: center !important;">
 
-
-
-
-
-      
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ Erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
-      
-      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="removeMapBtn" title="⚠️ Delete this Map ⚠️"><small>⚠︎ 🗑   Delete this map</small></button>
+
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
