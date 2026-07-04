@@ -82,9 +82,9 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-         <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+         <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 145px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
-				<label style="padding-left: 10px; background-color: transparent;">Tools:</label>
+				<label style="margin-left: 15px; background-color: transparent;">Tools:</label>
 			
 
 
@@ -119,11 +119,11 @@
 								                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
 								                      <label style="padding-left: 5px; padding-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 								
-								                        <label style="margin-left: 15px; color: white; font-size: small" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
+								                        <label style="margin-left: 20px; color: white; font-size: small" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
 								                        <label style="color: white; font-size: small;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
 								
 								
-								            <label style="color: white;   margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+								            <label style="color: white;   margin-left: 10px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
 								            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
 								            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
 								
@@ -1722,7 +1722,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         }
         apiTileMapExporters = tileMapExporters;
         apiTileMapExporters.exportAsImage = {
-            name: `<text style="height: 22px; font-weight:bold; color: gold;">save map<small> 🖼️</small></text>`,
+            name: `<text style="height: 23px; font-weight:bold; color: gold;">save map<small> 🖼️</small></text>`,
             description: "save map as an image 🖼️ png (download)",
             transformer: exportImage
         }
