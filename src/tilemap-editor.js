@@ -84,6 +84,7 @@
 
          <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
+				<label style="padding-left: 10px; padding-right: 5px; margin-right: 10px;">TOOLS:</label>
 			
 
 
@@ -104,7 +105,7 @@
 								
 								
 								                      <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
 								
 								                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
 								                      
@@ -113,10 +114,10 @@
 								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 								
 								                      <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 								
 								                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 								
 								                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
 								                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
@@ -415,11 +416,11 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
-
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
 <br>
-<button style="margin-top: 10px; margin-bottom: 3px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map ⊞<small>  ▶</small></label></button>
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h   </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">  w    </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+<br>
+<button style="margin-top: 10px; margin-bottom: 7px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map ⊞<small>  ▶</small></label></button>
 
 
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
