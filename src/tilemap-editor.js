@@ -413,7 +413,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 16px; margin-top: 290px; min-height: 303px; max-height: 303px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 <br>
