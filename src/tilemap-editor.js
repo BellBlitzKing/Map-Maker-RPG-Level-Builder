@@ -169,7 +169,7 @@
 
         <div style="min-width: 322px; width: fit-content; height: fit-content; text-align: center; display: block; padding-top: 7px; background: #28423af0;"  class="select_container layer sticky_top sticky_left"  id="mapSelectContainer" style="margin-bottom: 5px">
 
-         <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+         <select title="Pick a Map from the list ☰" style="margin-bottom: 15px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
 			
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
@@ -191,14 +191,13 @@
 
 <div style="justify-content: center; display: flex;" id="fileMenuDropDown">
 </div>
-<br>
-            <div style="margin-top: 5px; margin-bottom: 10px; align-items: center; display: inline-flex;">
+            <div style="margin-top: 6px; margin-bottom: 6px; align-items: center; display: inline-flex;">
 
 					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px; width: 90px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new map<small> 🌐</small></button>
 
-                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋"><small>⧉ </small>clone map</button>
+                    <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋">clone map</button>
 
-					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 120px; margin-top: 15px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b></small>upload tileset</button>
+					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 85px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b></small>upload tiles</button>
 
 					
 					
