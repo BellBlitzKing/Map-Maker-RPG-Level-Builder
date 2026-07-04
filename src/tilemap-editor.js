@@ -350,7 +350,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 	<label style="font-size: small !important;">&hairsp;</label>
 
-	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
+	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">See Credits 😎</a>	
 	                            <div id="popup2" class="overlay">
 	                                        <div class="popup">
 	                                        <h4>RPG Tile Map Level Editor by KingBell on Itchio 🏗️🌍</h4>
