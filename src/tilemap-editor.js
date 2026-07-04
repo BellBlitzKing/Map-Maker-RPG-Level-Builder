@@ -82,11 +82,10 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+
 
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-								                          <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
+								                          <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
 								                              <div style="display: inline !important;" id="flipBrushIndicator">✏️ Draw</div>
 								                              
 								                              <div style="display: none; visibility: hidden;" class="dropdown">
@@ -171,6 +170,9 @@
 
          <select title="Pick a Map from the list ☰" style="margin-bottom: 15px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
+			
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
 			
             <select title="Pick Tilesets from the dropdown list" style="display: none; visibility: hidden; max-width: 122px; min-width: 122px; cursor: pointer; margin-left: 3px;" name="tileSetSelectData" id="tilesetDataSel" class="limited_select"></select>
 
