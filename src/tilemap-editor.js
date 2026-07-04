@@ -84,12 +84,12 @@
 
          <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
-				<label style="padding-left: 10px; padding-right: 5px; margin-right: 10px;">TOOLS:</label>
+				<label style="padding-left: 10px; background-color: transparent;">TOOLS:</label>
 			
 
 
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
-								                          <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
+								                          <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
 								                              <div style="display: inline !important;" id="flipBrushIndicator">✏️ Draw</div>
 								                              
 								                              <div style="display: none; visibility: hidden;" class="dropdown">
@@ -105,7 +105,7 @@
 								
 								
 								                      <input id="tool1" type="radio" value="1" name="tool" class="hidden"/>
-								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool1" title="❌ Erase tiles you select on the map" data-value="1">❌ Erase</label>
 								
 								                      <input id="tool2" type="radio" value="2" name="tool" class="hidden"/> 
 								                      
@@ -114,16 +114,16 @@
 								                      <label style="outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: none; visibility: hidden; width: 125px; font-size: 14px;" for="tool3" title="pick tile to copy" data-value="3"> 👆 Sample tile</label>
 								
 								                      <input id="tool4" type="radio" value="4" name="tool" class="hidden"/> 
-								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 10px;outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool4" title="📚 Draw/Pick random tile from multiple selected tiles" data-value="4"> 📚 Random tile</label>
 								
 								                      <input id="tool5" type="radio" value="5" name="tool" class="hidden"/> 
-								                      <label style="padding-left: 10px; padding-right: 10px; margin-right: 15px;outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
+								                      <label style="padding-left: 10px; padding-right: 10px; outline: 2px solid dodgerblue; margin-bottom: 15px; color: white; height: 22px; border-radius: 4px; display: inline !important; width: 125px; font-size: 14px;" for="tool5" title="🔃 Replace and swap selected tile in all places in layer" data-value="5"> 🔃 Replace tile</label>
 								
-								                        <label style="margin-left: 19px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
+								                        <label style="margin-left: 15px; color: white; font-size: 14px;" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ Undo</label>
 								                        <label style="color: white; font-size: 14px;" id="redoBtn" title="↪️ Redo last action">↪️ Redo</label>
 								
 								
-								            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+								            <label style="color: white;   margin-left: 5px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
 								            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
 								            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
 								
