@@ -127,6 +127,8 @@
 								            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
 								            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
 								            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
+
+<button style="margin-top: 10px; margin-bottom: 3px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 								
 								            </div>
 
@@ -418,12 +420,6 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
-<button style="margin-top: 10px; margin-bottom: 3px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
-
-
-
-    
-      
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
