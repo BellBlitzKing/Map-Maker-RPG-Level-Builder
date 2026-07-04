@@ -82,7 +82,7 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-         <select title="Pick a Map from the list ☰" style="margin-bottom: 15px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+         <select title="Pick a Map from the list ☰" style="border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
 			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
 			
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h</label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
@@ -127,8 +127,6 @@
 								            <label style="color: white;   margin-left: 18px; font-size: 14px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
 								            <label style="color: white;   margin-left: 5px;  font-size: 14px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
 								            <label style="color: lightskyblue; font-weight: bold; margin-left: 5px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
-
-<button style="margin-top: 10px; margin-bottom: 3px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 								
 								            </div>
 
@@ -420,6 +418,9 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
+<button style="margin-top: 10px; margin-bottom: 3px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map ⊞<small>  ▶</small></label></button>
+
+
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
 
                         <a style="display: none; visibility: hidden; cursor: help; text-decoration: none;" title="Settings and grid options" class="button" href="#popup1">⚙️</a>
@@ -449,6 +450,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         </label>
 
 <div style="max-width: 165px; justify-items: center !important;">
+
+
         <button style="color: gold; border-radius: 6px; text-align: center; margin-bottom: 12px; font-size: 14px; cursor: cell; width: 125px;" id="addLayerBtn" title="✚ Add New Layer ☰ to Map">✚ New Layer</button>
 </div>
         <div style="margin-bottom: 15px; max-width: 165px; max-height: 120px; overflow: auto; font-size: small; min-height: 120px;" class="layers" id="layers">
