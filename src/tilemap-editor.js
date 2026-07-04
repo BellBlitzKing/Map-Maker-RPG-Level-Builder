@@ -197,7 +197,7 @@
 
                     <button style="border-radius: 3px; font-size: small; cursor: cell; height: 21px;" id="duplicateMapBtn" title="⧉ Clone Copy Map & layers 📋">clone map</button>
 
-					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 85px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image"><small><b>🗎 ⇄</b></small>upload tiles</button>
+					      <button style="font-size: small; height: 20px; border-radius: 6px; cursor: cell;    text-align: center; width: 85px;" id="replaceTilesetBtn" title="🗎 ⇄ Upload & replace this tileset with your own custom image">upload tiles</button>
 
 					
 					
@@ -346,7 +346,42 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 						  
                           <div class="tab-content" id="about">
 
-    <a title="Give a Review & Rating! Share ideas & feedback" style="margin-bottom: 15px; color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Rate This Tool! 🤩</a>
+    <a title="Give a Review & Rating! Share ideas & feedback" style="margin-top: 15px; color: palegoldenrod; font-size: small; display:inline;" class="button item button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Rate This Tool! 🤩</a>
+
+	<label style="font-size: small !important;">&hairsp;</label>
+
+	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
+	                            <div id="popup2" class="overlay">
+	                                        <div class="popup">
+	                                        <h4>RPG Tile Map Level Editor by KingBell on Itchio 🏗️🌍</h4>
+	                                        <a class="close" href="#">&times;</a>
+	                                                        <div class="content"> 
+	                                                            	<div>Made to help everyone build maps online with a free & fast tileset!</div>
+																	<div>No installs needed. Great for game jams, level design & prototypes.</div>
+	                                                            <br/>
+																	<div>
+																	<a title="Give a Review" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Give a Review 🤩</a>
+																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
+																	<a title="Donate to keep it free for everyone!" style="color: mediumaquamarine;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/donate" target="_blank">Donate to help 🎁</a>
+																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
+																	<a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/purchase" target="_blank">Download Tileset! ⭐</a>
+																	</div>
+	                                                            <br/>
+<div style="text-align:left;">🗺️ TOP FEATURES ⭐</div>
+<div style="text-align:left;">1️⃣ Make Maps online! In an easy web editor</div>
+<div style="text-align:left;">2️⃣ Over 1000 Tiles, all royalty Free</div>
+<div style="text-align:left;">3️⃣ Build towns, dungeons, arenas & more</div>
+<div style="text-align:left;">4️⃣ Save levels as Images or Json to share</div>
+<div style="text-align:left;">5️⃣ Upload your maps & tile edits too</div>
+	                                                            	<br>
+																	<div style="text-align:left;">Rate this tool to help it grow! (Email: BellBlitzKing@gmail.com)</div>
+	                                                            	<div style="text-align:left;">Credit to KMH Kevin's Mom's House on itch for the art style.</div>
+	                                                            	<div style="text-align:left;">Credit to BluryMind for source code to build & expand on. </div>
+																	<br><br>
+	                                                        </div>
+	                                        </div>
+	                            </div>
+<br>
 	
                             <br><button style="margin-bottom: 15px; border-radius: 3px; font-size: small; cursor: cell;  width: 288px; height: 64px; background-image: url('https://bellblitzking.github.io/RPG-Tile-Map-Level-Editor-by-KingBell/maps/preview_1_forest.png');"  title="🟩 Forest Map" onclick="document.getElementById('mapsDataSel').value='11'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
                             <br><button style="margin-bottom: 15px; border-radius: 3px; font-size: small; cursor: cell;  width: 288px; height: 64px; background-image: url('https://bellblitzking.github.io/RPG-Tile-Map-Level-Editor-by-KingBell/maps/preview_2_desert.png');"  title="🟨 Desert Map" onclick="document.getElementById('mapsDataSel').value='10'; document.getElementById('mapsDataSel').dispatchEvent(new Event('change'))"></button>
@@ -424,40 +459,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 <div style="text-align: center; justify-items: center !important;">
 
 
-	<label style="font-size: small !important;">&hairsp;</label>
 
-	<a style="color: powderblue; font-size: small !important;" class="button item button-as-link" href="#popup2" title="View Creator Credits and Help Info">Credits 😎</a>	
-	                            <div id="popup2" class="overlay">
-	                                        <div class="popup">
-	                                        <h4>RPG Tile Map Level Editor by KingBell on Itchio 🏗️🌍</h4>
-	                                        <a class="close" href="#">&times;</a>
-	                                                        <div class="content"> 
-	                                                            	<div>Made to help everyone build maps online with a free & fast tileset!</div>
-																	<div>No installs needed. Great for game jams, level design & prototypes.</div>
-	                                                            <br/>
-																	<div>
-																	<a title="Give a Review" style="color: palegoldenrod;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/rate" target="_blank">Give a Review 🤩</a>
-																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
-																	<a title="Donate to keep it free for everyone!" style="color: mediumaquamarine;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/donate" target="_blank">Donate to help 🎁</a>
-																	<text> &hairsp;&hairsp; &hairsp;&hairsp; &hairsp;&hairsp;</text>
-																	<a title="Download Tileset of over 500 Tiles with seasons, biomes, items and more" style="color: skyblue;" class="button-as-link" href="https://kingbell.itch.io/rpg-tile-map-level-editor/purchase" target="_blank">Download Tileset! ⭐</a>
-																	</div>
-	                                                            <br/>
-<div style="text-align:left;">🗺️ TOP FEATURES ⭐</div>
-<div style="text-align:left;">1️⃣ Make Maps online! In an easy web editor</div>
-<div style="text-align:left;">2️⃣ Over 1000 Tiles, all royalty Free</div>
-<div style="text-align:left;">3️⃣ Build towns, dungeons, arenas & more</div>
-<div style="text-align:left;">4️⃣ Save levels as Images or Json to share</div>
-<div style="text-align:left;">5️⃣ Upload your maps & tile edits too</div>
-	                                                            	<br>
-																	<div style="text-align:left;">Rate this tool to help it grow! (Email: BellBlitzKing@gmail.com)</div>
-	                                                            	<div style="text-align:left;">Credit to KMH Kevin's Mom's House on itch for the art style.</div>
-	                                                            	<div style="text-align:left;">Credit to BluryMind for source code to build & expand on. </div>
-																	<br><br>
-	                                                        </div>
-	                                        </div>
-	                            </div>
-<br>
 
 
       
