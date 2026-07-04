@@ -372,9 +372,9 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         
       <div style="max-width: 170px; margin-right: 16px; min-height: 84px; max-height: 612px;" class="card_right-column layers">
       
-<div title="" style="color: gold !important; padding-top: 15px; padding-bottom: 15px; text-align: center;">
+<div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
-<button style="text-align: center; cursor: pointer; margin-top: 10px; margin-bottom: 20px; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
+<button style="margin-top: 10px; margin-bottom: 10px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
 
 
