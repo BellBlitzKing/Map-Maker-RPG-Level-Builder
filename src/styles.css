@@ -280,7 +280,7 @@ cursor: pointer;
   font-size: 0.9em;
   display:flex;
   flex-direction: row;
-  height:30px;
+  height:40px;
   gap: 3px;
   align-items: center;
   padding: 0 2px;
@@ -306,6 +306,7 @@ cursor: pointer;
   overflow-y: scroll;
   overflow-x: auto;
   padding-top: 0px !important;
+  margin-top: -15px;
 }
 
 .layers {
