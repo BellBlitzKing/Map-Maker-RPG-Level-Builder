@@ -178,6 +178,9 @@
   /*Added color to header*/
   margin-bottom: 15px;
   background-color: #283442;
+    /*Change sizing for new layout*/
+    width: 800px;
+    margin-left: 350px;
 }
 .canvas_r.vertical{
   position: absolute;
@@ -305,7 +308,7 @@ cursor: pointer;
   overflow-y: scroll;
   overflow-x: auto;
   padding-top: 0px !important;
-  margin-top: -15px;
+  margin-top: -55px;
 }
 
 .layers {
