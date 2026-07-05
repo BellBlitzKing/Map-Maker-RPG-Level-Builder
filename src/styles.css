@@ -138,8 +138,7 @@
   right: 0;
   background: #ffffffb0;
   /*height: 50;*/
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-radius: 12px;
   user-select: none;
   padding-right: 0;
 }
