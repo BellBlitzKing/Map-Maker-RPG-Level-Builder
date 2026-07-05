@@ -82,8 +82,7 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-         <select title="Pick a Map from the list ☰" style="margin-top: 5px; margin-left: 5px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 145px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
-			<button style="width: 32px; height: 21px; margin: 2px; border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✍️">✍️</button>
+
 				<label style="color: gold; margin-left: 15px; background-color: transparent;">Tools:</label>
 			
 
@@ -187,6 +186,12 @@
             
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
+         <select title="Pick a Map from the list ☰" style="margin-top: 5px; margin-left: 5px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 115px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
+			<button style="width: 32px; height: 21px; margin: 2px; border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✍️">✍️</button>
+
+                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h  </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
+                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w   </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
+<br>
 
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
@@ -416,10 +421,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       <div style="max-width: 170px; margin-right: 16px; margin-top: 270px; min-height: 303px; max-height: 303px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
-<br>
-                    <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h   </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
-                    <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">  w    </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
-<br>
+
 <button style="margin-top: 10px; margin-bottom: 7px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map ⊞<small>  ▶</small></label></button>
 
 
