@@ -83,8 +83,8 @@
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
          <select title="Pick a Map from the list ☰" style="margin-top: 5px; margin-left: 5px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 145px; cursor: pointer; font-size: medium;" name="mapsData" id="mapsDataSel"></select>
-			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✏️">🖉</button>
-				<label style="margin-left: 15px; background-color: transparent;">Tools:</label>
+			<button style="border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✍️">✍️</button>
+				<label style="color: gold; margin-left: 15px; background-color: transparent;">Tools:</label>
 			
 
 
@@ -413,7 +413,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 16px; margin-top: 290px; min-height: 303px; max-height: 303px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 16px; margin-top: 270px; min-height: 303px; max-height: 303px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 <br>
