@@ -82,11 +82,6 @@
 
 								            <div style="display: inline !important; margin-bottom: 10px; margin-top: 5px; justify-items: center; text-align: left; font-size: medium;" id="toolButtonsWrapper" class="tool_wrapper"> 
 
-
-				<label style="color: gold; margin-left: 15px; background-color: transparent;">Tools:</label>
-			
-
-
 								                      <input id="tool0" type="radio" value="0" name="tool" checked class="hidden"/>
 								                          <label style="padding-left: 5px; padding-right: 8px; margin-right: 12px; outline: 2px solid dodgerblue; margin-bottom: 10px; color: white; height: 22px; display: inline !important; border-radius: 4px; width: 125px; font-size: 14px; margin-left: 10px;" for="tool0" title="✏️ Draw tiles you select" data-value="0" class="menu">
 								                              <div style="display: inline !important;" id="flipBrushIndicator">✏️ Draw</div>
@@ -122,10 +117,7 @@
 								                        <label style="color: white; font-size: small;" id="redoBtn" title="↪️ Redo last action">↪️ redo</label>
 								
 								
-								            <label style="color: white;   margin-left: 10px; font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
-								            <label style="color: white;   margin-left: 2px;  font-size: 13px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
-								            <label style="color: lightskyblue; font-weight: bold; margin-left: 2px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
-								
+
 								            </div>
 
 						       <div style="display: none; cursor: default;" class="menu file">
@@ -418,11 +410,11 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 16px; margin-top: 270px; min-height: 303px; max-height: 303px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 16px; margin-top: 320px; min-height: 240px; max-height: 240px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
-<button style="margin-top: 10px; margin-bottom: 7px; margin-left:20px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 128px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map ⊞<small>  ▶</small></label></button>
+<button style="margin-left:5px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 106px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
 
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
@@ -463,6 +455,10 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div style="text-align: center; justify-items: center !important;">
 
+								            <label style="color: white;   margin-left: 5px; font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+								            <label style="color: white;   margin-left: 2px;  font-size: 13px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
+								            <label style="color: lightskyblue; font-weight: bold; margin-left: 2px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
+<br>
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ Erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
 
 </div>
