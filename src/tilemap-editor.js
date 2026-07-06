@@ -116,7 +116,7 @@
 								                        <label style="margin-left: 10px; color: white; font-size: small" id="undoBtn" title="↩️️ Undo last action or undo deletion">↩️️ undo</label>
 								                        <label style="color: white; font-size: small;" id="redoBtn" title="↪️ Redo last action">↪️ redo</label>
 								
-								
+								<button style="margin-left:5px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 106px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
 
 								            </div>
 
@@ -178,8 +178,8 @@
             
             <input id="tilesetReplaceInput" type="file" style="display: none; visibility: hidden; "></input>
 
-         <select title="Pick a Map from the list ☰" style="margin-top: 5px; margin-left: 5px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 130px; cursor: pointer; font-size: medium; margin-bottom: 12px;" name="mapsData" id="mapsDataSel"></select>
-			<button style="width: 32px; height: 21px; margin: 2px; border-radius: 3px; font-size: small; cursor: pointer;" id="renameMapBtn" title="📝 Rename this Map ✍️">✍️</button>
+         <select title="Pick a Map from the list ☰" style="margin-top: 5px; border-radius: 4px; outline: 2px solid dodgerblue; background-color: LightGoldenrodYellow; height: 22px; width: 135px; cursor: pointer; font-size: medium; margin-bottom: 12px;" name="mapsData" id="mapsDataSel"></select>
+			<button style="width: 32px; height: 21px; margin: 2px; border-radius: 3px; font-size: small; cursor: pointer; margin-right: 5px; margin-left: 5px; " id="renameMapBtn" title="📝 Rename this Map ✍️">✍️</button>
 
                     <label title="⬆ h ⬇ How Tall / Change Height of Map ⊞" style="display: inline; font-size: small; color: gold;">h  </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬆ h ⬇ How Tall / Change Height of Map ⊞" id="canvasHeightInp" value="1" type="number" min="1">
                     <label title="⬅ w ➡ How Wide / Change Width of Map ⊞" style="display: inline; font-size: small; color: gold;">w   </label><input style="display: inline; height: 20px; width: 46px;" type="number" title="⬅ w ➡ How Wide / Change Width of Map ⊞" id="canvasWidthInp" value="1" type="number" min="1">
@@ -414,7 +414,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
-<button style="margin-left:5px; text-align: center; cursor: pointer; color: gold; height: 26px; border-radius: 6px; width: 106px; font-size: 14px;"><label style="cursor: pointer;" for="tool2" title="↔️ move and scroll around the map ⊞" data-value="2"><small>◀  </small>Move Map<small>  ▶</small></label></button>
+
 
 
       <div style="display: flow !important; width: 180px; background-color: transparent;" id="mapSelectContainer" class="tilemaps_selector">
