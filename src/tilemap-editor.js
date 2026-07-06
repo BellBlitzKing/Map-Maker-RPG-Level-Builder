@@ -410,7 +410,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
         </div>
     </div>
         
-      <div style="max-width: 170px; margin-right: 16px; margin-top: 320px; min-height: 240px; max-height: 240px;" class="card_right-column layers">
+      <div style="max-width: 170px; margin-right: 16px; margin-top: 300px; min-height: 220px; max-height: 220px;" class="card_right-column layers">
       
 <div title="" style="color: gold !important; padding-bottom: 10px; text-align: center;">
 
@@ -455,12 +455,11 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
       
 <div style="text-align: center; justify-items: center !important;">
 
-								            <label style="color: white;   margin-left: 5px; font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
-								            <label style="color: white;   margin-left: 2px;  font-size: 13px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
-								            <label style="color: lightskyblue; font-weight: bold; margin-left: 2px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
-<br>
       <button style="font-size: small; height: 20px; border-radius: 6px; cursor: pointer; text-align: center; width: 120px;" id="clearCanvasBtn" title="⚠️ Erase tiles on all layers (clear) ⚠️"><small>⚠︎ ✖   Erase all layers</small></button>
 
+								            <label style="display: none; visibility: hidden;color: white;   margin-left: 5px; font-size: 13px; cursor: zoom-out;" id="zoomOut" title="Zoom out 🔍 to half size view 0.5 (min)">🔍 out</label>
+								            <label style="display: none; visibility: hidden;color: white;   margin-left: 2px;  font-size: 13px; cursor: zoom-in;" id="zoomIn"   title="Zoom in 🔍 to full normal view 1.0 (max)">🔍 in</label>
+								            <label style="display: none; visibility: hidden;color: lightskyblue; font-weight: bold; margin-left: 2px;  font-size: 13px; background-color: transparent;" title="Use 🔍 to Zoom in or Zoom out the view" id="zoomLabel">️</label>
 </div>
 
              <label id="activeLayerOpacity" style="display: none; visibility: hidden;"></label>
