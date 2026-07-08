@@ -224,7 +224,7 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 							
                           </div>
 
-                <div style="cursor: default; margin-top: 8px; margin-bottom: -2px; padding-bottom: 25px;" id="tileGroupButtons">
+                <div style="cursor: default; margin-top: 8px; margin-bottom: -2px; padding-bottom: 20px;" id="tileGroupButtons">
 						  
                   <button title="🌳 Tree Tiles 🌲" style="padding: 2px; font-size: large; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 0, behavior: 'smooth'});">🌳</button>
                   <button title="⛰️ Rock Tiles 🗿" style="padding: 2px; font-size: large; cursor: pointer; border-color: transparent; border-radius: 3px;" onclick="document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: 288, behavior: 'smooth'});">⛰️</button>
