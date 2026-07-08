@@ -583,7 +583,7 @@ input[name='tool']:checked+label{
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   text-align: center;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .tabs {
