@@ -181,6 +181,7 @@
     /*Change sizing for new layout*/
     width: 800px;
     margin-left: 350px;
+  padding-top: 10px;
 }
 .canvas_r.vertical{
   position: absolute;
@@ -592,7 +593,7 @@ input[name='tool']:checked+label{
   /* gap: 0.5rem; */
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .tab {
