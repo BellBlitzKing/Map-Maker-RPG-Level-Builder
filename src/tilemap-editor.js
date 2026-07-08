@@ -1737,8 +1737,8 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
            // transformer: drawAnaliticsReport
        // }
        apiTileMapExporters.exportTilesFromMap = {
-            name: "save tiles",
-		    description: "📚 save used tiles as image from this map",
+            name: "save tile",
+		    description: "📚 save only used tiles as image from this map",
             transformer: exportUniqueTiles
         }
         apiTileMapImporters = tileMapImporters;
