@@ -571,7 +571,8 @@ input[name='tool']:checked+label{
 /* Style the buttons that are used to open the tab content */
 
 .tab-container {
-  width: 322px;
+  margin-left: -2px;
+  width: 320px;
   max-width: 350px;
   /* background: #fff; */
   /* padding: 1rem; */
