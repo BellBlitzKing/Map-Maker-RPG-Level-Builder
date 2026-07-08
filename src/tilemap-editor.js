@@ -189,7 +189,7 @@
 
 <div style="margin-top: 5px; justify-content: center; display: flex;" id="fileMenuDropDown">
 </div>
-            <div style="margin-top: 6px; margin-bottom: 6px; align-items: center; display: inline-flex;">
+            <div style="margin-top: 6px; align-items: center; display: inline-flex;">
 
 					<button style="font-weight:bold; color: gold; border-radius: 4px; font-size: small; cursor: cell; height: 21px;" id="addMapBtn" title="🌐 Add New Map 🗺️">new map<small> 🌐</small></button>
 
