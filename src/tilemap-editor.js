@@ -337,9 +337,9 @@ Grid <input style="font-size: small;" title="⊞ Grid On or Off ⌗" value="true
 
 </div> <!-- Stick section above ends here with this left div -->
 
-      <div style="border-radius: 6px;" id="mapholder" class="tileset-container">
+      <div id="mapholder" class="tileset-container">
         <div id="selectholder" style="border-radius: 6px;" class="tileset-container-selection"></div>
-        <canvas onclick="new Audio('https://bellblitzking.github.io/RPG-Tile-Map-Level-Editor-by-KingBell/sounds/GenericClick_2.wav').play()" style="border-radius: 6px;" id="tilesetCanvas">
+        <canvas onclick="new Audio('https://bellblitzking.github.io/RPG-Tile-Map-Level-Editor-by-KingBell/sounds/GenericClick_2.wav').play()" id="tilesetCanvas">
 
 			<!--        <div id="tilesetGridContainer" class="tileset_grid_container"></div>-->
         
