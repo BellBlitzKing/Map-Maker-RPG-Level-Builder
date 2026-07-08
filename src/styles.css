@@ -202,6 +202,7 @@ margin-left: 1px;
 user-select: none;
 /* background: linear-gradient(360deg, rgb(111, 166, 165) 1%, rgb(0, 128, 153) 45%, rgb(111, 166, 165) 98%, white 100%); blue sea gradient */
 background: linear-gradient(360deg, #a2794f 0%, #a68b6f 1%, white 20%, #a68b6f 98%, white 100%);
+border-top: solid;
 }
 
 .tileset-container-selection {
