@@ -187,7 +187,7 @@
 
 <a title="Keep with fileMenuDropDown. Allows Download json feature." id="downloadAnchorElem" style="display:none"></a>
 
-<div style="margin-top: 5px; justify-content: center; display: flex;" id="fileMenuDropDown">
+<div style="margin-top: 8px; justify-content: center; display: flex;" id="fileMenuDropDown">
 </div>
             <div style="margin-top: 6px; align-items: center; display: inline-flex;">
 
